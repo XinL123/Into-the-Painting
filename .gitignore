@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+
+# The untouched master (19 MB) and the lossless crop (15 MB) stay local.
+# Source URL + checksum are in assets/paintings/qingming/SOURCE.md;
+# `npm run assets` regenerates every derived file from the master.
+assets/paintings/*/master/*
+assets/paintings/*/scene-*/crop/*.png
+.venv/

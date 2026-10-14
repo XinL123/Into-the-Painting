@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Into the Painting</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <div class="world">
+      <!-- the exploration canvas: a stretch of the scroll, under everything until entered -->
+      <section class="explore" aria-label="Along the River During the Qingming Festival, a stretch of the scroll">
+        <canvas class="explore-canvas"></canvas>
+        <div class="explore-marks"></div>
+
+        <aside class="story" aria-live="polite">
+          <button class="story-close" type="button" aria-label="Close">×</button>
+          <p class="story-eyebrow">Did you know?</p>
+          <h2 class="story-title"></h2>
+          <div class="story-body"></div>
+          <footer class="story-foot">
+            <span class="story-count"></span>
+            <button class="story-next" type="button">Next discovery <span aria-hidden="true">→</span></button>
+          </footer>
+        </aside>
+
+        <nav class="progress" aria-label="Discoveries"></nav>
+        <p class="explore-hint">
+          <span>Drag to unroll the scroll</span><span>Look for the small red marks</span>
+        </p>
+      </section>
+
+      <!-- the gallery: paintings seen through brushed openings -->
+      <main class="gallery">
+        <div class="sheet">
+          <header class="mark-head">
+            <h1 class="mark-zh">入画</h1>
+            <p class="mark-en">Into the Painting</p>
+          </header>
+          <p class="credits">
+            <span>Images: Wikimedia Commons (public domain) · The Cleveland Museum of Art (CC0)</span>
+            <span class="credits-rights">Design, code and texts © 2026 Christus Luo. All rights reserved. Not to be copied or reused.</span>
+          </p>
+          <!-- openings are added here by src/gallery/gallery.js -->
+        </div>
+      </main>
+
+      <button class="leave" type="button" aria-label="Leave the painting">
+        <span class="leave-en">Leave</span><span class="leave-zh">出画</span>
+      </button>
+      <p class="inside-note">
+        <i>Along the River During the Qingming Festival</i> · Zhang Zeduan, Northern Song · Palace Museum, Beijing
+      </p>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

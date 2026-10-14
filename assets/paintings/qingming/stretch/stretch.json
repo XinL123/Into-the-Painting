@@ -1,0 +1,147 @@
+{
+  "master": {
+    "file": "master/Alongtheriver_QingMing.jpg",
+    "width": 38414,
+    "height": 1800,
+    "sha256": "ad9ccd836874141c985c8db89589d7f6960719eda8281966646eb41a6ed02950"
+  },
+  "rect": {
+    "left": 7500,
+    "top": 24,
+    "right": 25600,
+    "bottom": 1772
+  },
+  "width": 18100,
+  "height": 1748,
+  "web": [
+    {
+      "file": "web/qingming-stretch-9000.webp",
+      "width": 9000,
+      "height": 869
+    },
+    {
+      "file": "web/qingming-stretch-4500.webp",
+      "width": 4500,
+      "height": 435
+    }
+  ],
+  "details": {
+    "taxi": {
+      "file": "details/taxi.webp",
+      "rect": [
+        7575,
+        955,
+        9445,
+        1414
+      ]
+    },
+    "relay": {
+      "file": "details/relay.webp",
+      "rect": [
+        11102,
+        153,
+        12207,
+        867
+      ]
+    },
+    "farewell": {
+      "file": "details/farewell.webp",
+      "rect": [
+        13079,
+        739,
+        13810,
+        1130
+      ]
+    },
+    "ten-thousand": {
+      "file": "details/ten-thousand.webp",
+      "rect": [
+        16892,
+        1306,
+        17317,
+        1772
+      ]
+    },
+    "delivery": {
+      "file": "details/delivery.webp",
+      "rect": [
+        17317,
+        1468,
+        17623,
+        1772
+      ]
+    },
+    "right-of-way": {
+      "file": "details/right-of-way.webp",
+      "rect": [
+        18399,
+        24,
+        19470,
+        740
+      ]
+    },
+    "poles": {
+      "file": "details/poles.webp",
+      "rect": [
+        18928,
+        484,
+        19081,
+        1096
+      ]
+    },
+    "close-call": {
+      "file": "details/close-call.webp",
+      "rect": [
+        19205,
+        181,
+        20735,
+        759
+      ]
+    },
+    "towpath": {
+      "file": "details/towpath.webp",
+      "rect": [
+        21557,
+        24,
+        22492,
+        447
+      ]
+    },
+    "oar": {
+      "file": "details/oar.webp",
+      "rect": [
+        21809,
+        725,
+        22591,
+        1039
+      ]
+    },
+    "rudder": {
+      "file": "details/rudder.webp",
+      "rect": [
+        22195,
+        387,
+        22654,
+        693
+      ]
+    },
+    "table": {
+      "file": "details/table.webp",
+      "rect": [
+        22595,
+        114,
+        23785,
+        726
+      ]
+    },
+    "life-aboard": {
+      "file": "details/life-aboard.webp",
+      "rect": [
+        23500,
+        699,
+        24860,
+        1141
+      ]
+    }
+  }
+}
