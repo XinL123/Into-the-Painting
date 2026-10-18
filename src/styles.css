@@ -721,6 +721,54 @@ h1 {
 
 .inside-note i { color: var(--ink); }
 
+/* sound on/off, a small ink glyph in the quiet corner */
+.sound-toggle {
+  position: absolute;
+  right: clamp(18px, 2.4vw, 40px);
+  top: clamp(16px, 2.4vw, 36px);
+  z-index: 6;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 0;
+  border-radius: 2px;
+  background: rgba(239, 232, 216, 0.85);
+  color: var(--ink);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.8s ease, visibility 0s linear 0.8s;
+}
+
+.sound-toggle svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.sound-toggle .sound-body { fill: currentColor; stroke: none; }
+.sound-toggle .sound-slash { display: none; stroke: var(--cinnabar); }
+.sound-toggle .sound-wave { transition: opacity 0.3s ease; }
+.sound-toggle.is-muted .sound-wave { opacity: 0; }
+.sound-toggle.is-muted .sound-slash { display: block; }
+
+.is-awake .sound-toggle {
+  opacity: 0.55;
+  visibility: visible;
+  transition: opacity 1.2s ease 1.6s, visibility 0s;
+}
+
+.is-awake .sound-toggle:hover,
+.is-awake .sound-toggle:focus-visible {
+  opacity: 1;
+  outline: none;
+  transition-delay: 0s;
+}
+
 .is-inside .inside-note {
   animation: note 9s ease 1.4s both;
 }

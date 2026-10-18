@@ -19,6 +19,16 @@ const brushes = import.meta.glob('../../assets/ui/brush/*.webp', {
 });
 const brushUrl = (name) => brushes[`../../assets/ui/brush/${name}.webp`];
 
+// the moments' sounds, each as m4a + ogg: { donkey: { m4a, ogg }, ... }
+const soundFiles = import.meta.glob('../../assets/sound/*.{m4a,ogg}', {
+  eager: true, query: '?url', import: 'default',
+});
+const sounds = {};
+for (const [path, url] of Object.entries(soundFiles)) {
+  const [, name, ext] = path.match(/\/([^/]+)\.(m4a|ogg)$/);
+  (sounds[name] ??= {})[ext] = url;
+}
+
 const CMA = 'The Cleveland Museum of Art';
 const bridgeX = 19875;   // master x of the Rainbow Bridge's crown
 
@@ -67,6 +77,7 @@ export const paintings = [
         Object.entries(stretch.details).map(([id, d]) => [id, { url: stretchUrl(d.file), rect: d.rect }]),
       ),
       stories,
+      sounds,
     },
   },
   {

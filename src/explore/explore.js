@@ -6,6 +6,7 @@
 // The picture is drawn onto a viewport-sized canvas, only the part in view, so
 // the browser never has to hold a 16,000-pixel-wide layer.
 import gsap from 'gsap';
+import { createSound } from './sound.js';
 
 const BAND = 0.86;            // the scroll's height as a share of the window at rest
 const START_AT = 0.6;         // the bridge sits this far across the window at rest
@@ -36,6 +37,7 @@ export function createExplore(root, scene, stories, { onStoryChange } = {}) {
   const marksRoot = root.querySelector('.explore-marks');
   const card = root.querySelector('.story');
   const progress = root.querySelector('.progress');
+  const soundToggle = root.querySelector('.sound-toggle');
 
   const t = { x: 0, y: 0, s: 1 };          // picture -> screen: sx = x + px * s
   let rest = { x: 0, y: 0, s: 1 };
@@ -49,6 +51,17 @@ export function createExplore(root, scene, stories, { onStoryChange } = {}) {
   // the spotlight: where it is (picture px) and how far it has come up
   const look = { amt: 0, detail: 0, cx: 0, cy: 0, rx: 1, ry: 1, angle: 0, id: null };
   let raf = 0;
+
+  // ---- sound ----
+  const sound = createSound(scene.sounds ?? {}, {
+    onMuteChange(muted) {
+      soundToggle.classList.toggle('is-muted', muted);
+      soundToggle.setAttribute('aria-pressed', String(!muted));
+      soundToggle.setAttribute('aria-label', muted ? 'Sound off' : 'Sound on');
+    },
+  });
+  sound.setMuted(sound.muted);               // reflect the remembered choice
+  soundToggle.addEventListener('click', (e) => { e.stopPropagation(); sound.toggle(); });
 
   const toPic = (v) => v - rect.left;      // master x -> picture x
   const toPicY = (v) => v - rect.top;
@@ -231,6 +244,8 @@ export function createExplore(root, scene, stories, { onStoryChange } = {}) {
     gsap.to(look, { amt: 1, duration: reducedMotion ? 0.01 : 1.2, ease: 'power1.inOut', onUpdate: schedule });
     look.detail = 0;
     gsap.to(look, { detail: 1, duration: reducedMotion ? 0.01 : 0.9, delay: 0.5, ease: 'power1.inOut', onUpdate: schedule });
+    // the moment's sound arrives with its detail; a story without one quiets the last
+    sound.play(story.sound, 0.5);
 
     card.querySelector('.story-title').textContent = story.title;
     card.querySelector('.story-body').replaceChildren(...story.text.map((p) => el('p', null, p)));
@@ -246,6 +261,7 @@ export function createExplore(root, scene, stories, { onStoryChange } = {}) {
     view.classList.remove('is-looking');
     card.classList.remove('is-shown');
     marks.forEach((m) => { m.el.classList.remove('is-open'); m.dot.classList.remove('is-open'); });
+    sound.stop();
     gsap.killTweensOf(look);
     gsap.to(look, { amt: 0, detail: 0, duration: reducedMotion ? 0.01 : 0.8, ease: 'power1.inOut', onUpdate: schedule });
     tween?.kill();
@@ -261,7 +277,7 @@ export function createExplore(root, scene, stories, { onStoryChange } = {}) {
 
   // ---- unrolling ----
   function onPointerDown(e) {
-    if (!active || e.button !== 0 || e.target.closest('.mark, .story, .progress')) return;
+    if (!active || e.button !== 0 || e.target.closest('.mark, .story, .progress, .sound-toggle')) return;
     drag = { x: e.clientX, y: e.clientY, tx: t.x, ty: t.y, moved: false };
     view.setPointerCapture(e.pointerId);
     tween?.kill();
@@ -279,7 +295,7 @@ export function createExplore(root, scene, stories, { onStoryChange } = {}) {
     const moved = drag.moved;
     drag = null;
     view.classList.remove('is-dragging');
-    if (!moved && open != null && !e.target.closest('.story, .mark, .progress')) hide();
+    if (!moved && open != null && !e.target.closest('.story, .mark, .progress, .sound-toggle')) hide();
   }
   function onWheel(e) {
     if (!active) return;
@@ -323,6 +339,8 @@ export function createExplore(root, scene, stories, { onStoryChange } = {}) {
   const ready = loadImage(file.url).then((img) => { picture = img; measure(); });
   ready.then(() => Promise.all(Object.entries(scene.details).map(([id, d]) =>
     loadImage(d.url).then((img) => { details[id] = { img, rect: d.rect }; if (look.id === id) schedule(); }))));
+  // and the sounds' bytes, so the first click plays without a wait
+  ready.then(() => stories.forEach((s) => s.sound && sound.preload(s.sound.file)));
 
   measure();
 
@@ -341,7 +359,7 @@ export function createExplore(root, scene, stories, { onStoryChange } = {}) {
       return tween;
     },
     stop() { active = false; Object.assign(t, rest); draw(); },
-    show, hide,
+    show, hide, sound,
     // dev: jump every tween to its end and paint now (for screenshots in a hidden pane)
     settle() { gsap.getTweensOf([t, look]).forEach((tw) => tw.progress(1)); draw(); },
   };

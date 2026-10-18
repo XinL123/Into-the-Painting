@@ -7,4 +7,6 @@ dist/
 # `npm run assets` regenerates every derived file from the master.
 assets/paintings/*/master/*
 assets/paintings/*/scene-*/crop/*.png
+# Downloaded recordings stay local; assets/sound/SOURCE.md records where each came from.
+assets/sound/raw/
 .venv/
