@@ -53,6 +53,53 @@
         </div>
       </main>
 
+      <!-- the gallery's two quiet corners: a note about the work (top left) and sound (top right) -->
+      <button class="about-open" type="button" aria-haspopup="dialog" aria-controls="about">About</button>
+      <button class="sound-toggle sound-toggle--gallery is-muted" type="button" aria-pressed="false" aria-label="Music off">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path class="sound-body" d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" />
+          <path class="sound-wave" d="M15.5 8.5c1.8 2 1.8 5 0 7" />
+          <path class="sound-wave sound-wave-far" d="M18.5 6c3 3.4 3 8.6 0 12" />
+          <path class="sound-slash" d="M3 21L21 3" />
+        </svg>
+      </button>
+
+      <!-- a hanging scroll that unrolls over the gallery with a note about the work -->
+      <div class="about" id="about" role="dialog" aria-modal="true" aria-labelledby="about-title" hidden>
+        <div class="about-veil"></div>
+        <article class="scroll">
+          <span class="scroll-rod scroll-rod--top" aria-hidden="true"></span>
+          <div class="scroll-body">
+            <div class="scroll-paper">
+              <button class="about-close" type="button" aria-label="Close">×</button>
+              <header class="scroll-head">
+                <h2 class="scroll-title" id="about-title">About</h2>
+              </header>
+
+              <section class="scroll-section">
+                <h3>Why</h3>
+                <p>Chinese paintings are full of small details that are easy to miss, and the notes that explain them usually sit far away in a catalogue. I wanted a simpler way in: an interactive one, where you unroll the scroll yourself, find a mark, and the explanation comes to you right there. The hope is that more people can read these paintings, and enjoy them, a little more closely.</p>
+              </section>
+
+              <section class="scroll-section">
+                <h3>Sources</h3>
+                <ul class="scroll-list">
+                  <li><i>Along the River During the Qingming Festival</i>, Zhang Zeduan. Wikimedia Commons, public domain.</li>
+                  <li>Companion paintings: The Cleveland Museum of Art, CC0.</li>
+                  <li>Sounds: Freesound, CC0.</li>
+                </ul>
+              </section>
+
+              <section class="scroll-section">
+                <h3>Rights</h3>
+                <p>The paintings belong to everyone. The design, the interaction, the code, the choice and framing of each moment, and the texts are © 2026 Christus Luo. All rights reserved. Please do not copy, reuse or republish them without permission.</p>
+              </section>
+            </div>
+          </div>
+          <span class="scroll-rod scroll-rod--bottom" aria-hidden="true"></span>
+        </article>
+      </div>
+
       <button class="leave" type="button" aria-label="Leave the painting">
         <span class="leave-en">Leave</span><span class="leave-zh">出画</span>
       </button>

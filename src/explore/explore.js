@@ -37,7 +37,7 @@ export function createExplore(root, scene, stories, { onStoryChange } = {}) {
   const marksRoot = root.querySelector('.explore-marks');
   const card = root.querySelector('.story');
   const progress = root.querySelector('.progress');
-  const soundToggle = root.querySelector('.sound-toggle');
+  const soundToggles = [root.querySelector('.explore .sound-toggle')];   // the gallery's speaker is music, not this
 
   const t = { x: 0, y: 0, s: 1 };          // picture -> screen: sx = x + px * s
   let rest = { x: 0, y: 0, s: 1 };
@@ -55,13 +55,15 @@ export function createExplore(root, scene, stories, { onStoryChange } = {}) {
   // ---- sound ----
   const sound = createSound(scene.sounds ?? {}, {
     onMuteChange(muted) {
-      soundToggle.classList.toggle('is-muted', muted);
-      soundToggle.setAttribute('aria-pressed', String(!muted));
-      soundToggle.setAttribute('aria-label', muted ? 'Sound off' : 'Sound on');
+      for (const t of soundToggles) {
+        t.classList.toggle('is-muted', muted);
+        t.setAttribute('aria-pressed', String(!muted));
+        t.setAttribute('aria-label', muted ? 'Sound off' : 'Sound on');
+      }
     },
   });
   sound.setMuted(sound.muted);               // reflect the remembered choice
-  soundToggle.addEventListener('click', (e) => { e.stopPropagation(); sound.toggle(); });
+  for (const t of soundToggles) t.addEventListener('click', (e) => { e.stopPropagation(); sound.toggle(); });
 
   const toPic = (v) => v - rect.left;      // master x -> picture x
   const toPicY = (v) => v - rect.top;

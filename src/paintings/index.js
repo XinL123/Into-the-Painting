@@ -19,6 +19,12 @@ const brushes = import.meta.glob('../../assets/ui/brush/*.webp', {
 });
 const brushUrl = (name) => brushes[`../../assets/ui/brush/${name}.webp`];
 
+// music for the gallery, in playing order (m4a only, as Mercury's playlist ships)
+const musicFiles = import.meta.glob('../../assets/music/*.m4a', { eager: true, import: 'default', query: '?url' });
+const MUSIC_ORDER = ['pipa-yu', 'shuangmian-yanxun', 'suzhou-tingyu'];
+export const music = MUSIC_ORDER.map((name) =>
+  Object.entries(musicFiles).find(([path]) => path.endsWith(`/${name}.m4a`))?.[1]).filter(Boolean);
+
 // the moments' sounds, each as m4a + ogg: { donkey: { m4a, ogg }, ... }
 const soundFiles = import.meta.glob('../../assets/sound/*.{m4a,ogg}', {
   eager: true, query: '?url', import: 'default',
