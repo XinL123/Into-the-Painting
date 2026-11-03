@@ -15,7 +15,7 @@ export function pickFile(files, cssWidth) {
 
 export function createGallery(root, paintings, { onEnter }) {
   const sheet = root.querySelector('.sheet');
-  let live;
+  const lives = new Map();
 
   paintings.forEach((p, i) => {
     const opening = el(p.live ? 'button' : 'div', `opening ${p.live ? 'opening--live' : 'opening--locked'}`);
@@ -35,7 +35,7 @@ export function createGallery(root, paintings, { onEnter }) {
     img.draggable = false;
     img.decoding = 'async';
     if (p.live) {
-      img.src = pickFile(p.scene.flat, innerWidth * 1.2).url; // also serves the expand
+      img.src = p.scene.entrance?.url ?? pickFile(p.scene.flat, innerWidth * 1.2).url;
     } else {
       img.src = p.image;
       img.style.objectPosition = p.position ?? '50% 50%';
@@ -57,32 +57,39 @@ export function createGallery(root, paintings, { onEnter }) {
       opening.append(lock);
     }
     sheet.append(opening);
-    if (p.live) live = { opening, ink, img, painting: p };
+    if (p.live) {
+      const live = { opening, ink, img, painting: p };
+      lives.set(p.id, live);
+      opening.addEventListener('click', () => onEnter(live));
+    }
   });
 
   // The live opening shows the scene itself, framed on the bridge. Its image is
   // laid out here (not with object-fit) so the enter transition can carry the
   // very same element from this frame to the full view.
   function layoutLive() {
-    const { ink, img, painting } = live;
-    const { width: W, height: H, focus } = painting.scene;
-    const bw = ink.clientWidth;
-    const bh = ink.clientHeight;
-    const s = Math.max(bw / W, bh / H) * 1.04;
-    const w = W * s;
-    const h = H * s;
-    const left = Math.min(0, Math.max(bw - w, bw / 2 - focus.x * w));
-    const top = Math.min(0, Math.max(bh - h, (bh - h) / 2));
-    Object.assign(img.style, { left: `${left}px`, top: `${top}px`, width: `${w}px`, height: `${h}px` });
+    for (const { ink, img, painting } of lives.values()) {
+      const scene = painting.scene;
+      const r = scene.entrance?.rect ?? [0, 0, scene.width, scene.height];
+      const W = r[2] - r[0], H = r[3] - r[1];
+      const focus = { x: (scene.focus.x * scene.width - r[0]) / W };
+      const bw = ink.clientWidth;
+      const bh = ink.clientHeight;
+      const s = Math.max(bw / W, bh / H) * 1.04;
+      const w = W * s;
+      const h = H * s;
+      const left = Math.min(0, Math.max(bw - w, bw / 2 - focus.x * w));
+      const top = Math.min(0, Math.max(bh - h, (bh - h) / 2));
+      Object.assign(img.style, { left: `${left}px`, top: `${top}px`, width: `${w}px`, height: `${h}px` });
+    }
   }
 
-  live.opening.addEventListener('click', () => onEnter(live));
   addEventListener('resize', () => {
-    if (!root.classList.contains('is-inside')) layoutLive();
+    if (!root.classList.contains('is-inside') && !root.classList.contains('is-entering')) layoutLive();
   });
 
   layoutLive();
   requestAnimationFrame(() => root.classList.add('is-ready'));
 
-  return { live, layoutLive };
+  return { lives, live: lives.get('qingming'), layoutLive };
 }

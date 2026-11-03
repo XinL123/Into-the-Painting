@@ -65,7 +65,8 @@ contrast or sharpening changes.
 | `stretch/details/<story>.webp` | Full-resolution crops around each story's box, with a 35 % margin |
 | `stretch/stretch.json` | Rectangle, sizes, detail rectangles, master checksum |
 
-Story boxes (master pixels) live in `src/paintings/qingming/stories.js`.
+Story boxes (master pixels) live in `src/paintings/qingming/stories.js`. The earlier diorama
+pipeline and its outlines are kept in `scripts/archive/`.
 
 ## Credit line
 

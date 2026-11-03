@@ -1,0 +1,5 @@
+Completed locally: six frame/spot refinements; versioned focus-v3 faithful native crops; no original artwork/copy/audio modifications. Tea/granary permit1.45x maximum camera enlargement only, with consistent wheel/pinch limit while those cards are open. Other limits remain unchanged.
+
+Gallery music remains suspended inside projects. Its enabled/off/blocked state never determines project mute; only explicit project-speaker input changes the per-visit project mute preference. Manual project mute remains across scene/controller changes, until restored. Gallery music preference is unaffected.
+
+740 browser checks passed across1440/390/320px, including all22 scenes, both paintings, gallery enabled/disabled x2 projects, real scene playback/master gain, explicit project mute/unmute, exit restoration and controller cleanup. Twelve desktop1280x720/mobile390x844 screenshots inspected. Fifteen Node core/order/audio tests passed; Vite build802ms; diff check clean. Physical-device testing is separate.

@@ -1,0 +1,21 @@
+{
+  "native_crops_pixel_identical": 18,
+  "new_candidates": 9,
+  "existing_preserved": 13,
+  "route_count": 22,
+  "word_counts": {
+    "A": 44,
+    "B": 43,
+    "C": 45,
+    "D": 46,
+    "E": 47,
+    "F": 47,
+    "G": 47,
+    "H": 45,
+    "J": 47
+  },
+  "new_scene_box_overlaps": 0,
+  "framing_geometry_estimates": 27,
+  "app_files_unchanged": 168,
+  "runtime_integration_tested": false
+}

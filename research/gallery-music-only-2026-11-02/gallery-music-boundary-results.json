@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Prosperous Suzhou pauses gallery music",
+    "pass": true
+  },
+  {
+    "name": "Prosperous Suzhou still starts scene sound",
+    "pass": true
+  },
+  {
+    "name": "Prosperous Suzhou unmuting scene cannot restart background music",
+    "pass": true
+  },
+  {
+    "name": "Prosperous Suzhou resumes music only after gallery returns",
+    "pass": true
+  },
+  {
+    "name": "Along the River During the Qingming Festival pauses gallery music",
+    "pass": true
+  },
+  {
+    "name": "Along the River During the Qingming Festival still starts scene sound",
+    "pass": true
+  },
+  {
+    "name": "Along the River During the Qingming Festival unmuting scene cannot restart background music",
+    "pass": true
+  },
+  {
+    "name": "Along the River During the Qingming Festival resumes music only after gallery returns",
+    "pass": true
+  },
+  {
+    "name": "Manual mute survives entry",
+    "pass": true
+  },
+  {
+    "name": "Exit respects manual mute",
+    "pass": true
+  },
+  {
+    "name": "ALL CHECKS PASSED",
+    "pass": true
+  }
+]

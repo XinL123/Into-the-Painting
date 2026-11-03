@@ -1,0 +1,2 @@
+Final requested interaction: three always-visible gallery buttons at upper right, no volume opener/popover/surface/track UI. Default paused; explicit play switches to pause; previous/next retain paused/playing preference. Background remains suspended inside projects, with project foley independent.
+Responsive controls align with About, thin17px glyphs,32–38px desktop controls and44px touch targets. Desktop1280x720 and phone390x844 inspected; native UI Play/Pause/Next/Previous exercised. Twelve audio/controller tests pass; build677ms; diff check clean. Local only.

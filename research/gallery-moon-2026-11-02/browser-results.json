@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Four tracks, initially paused",
+    "pass": true
+  },
+  {
+    "name": "Fourth track is the new audio",
+    "pass": true
+  },
+  {
+    "name": "New AAC stream actually plays",
+    "pass": true
+  },
+  {
+    "name": "Full length is about 159 seconds",
+    "pass": true
+  },
+  {
+    "name": "Next wraps to first",
+    "pass": true
+  },
+  {
+    "name": "Previous wraps to new fourth track and plays",
+    "pass": true
+  },
+  {
+    "name": "Pause still works",
+    "pass": true
+  },
+  {
+    "name": "ALL CHECKS PASSED",
+    "pass": true
+  }
+]

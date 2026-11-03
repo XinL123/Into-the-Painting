@@ -1,0 +1,1055 @@
+{
+  "review_date": "2026-10-27",
+  "master": "/Users/Xin.L/Desktop/portfolio/playground/painting/research/gusu-proposal/master-research.jpg",
+  "master_sha256": "1e56d64df733839ed8f05cb7d067ced84be6ee5b2a489d0440f6c26ef8546a80",
+  "width": 35311,
+  "height": 1010,
+  "coordinate_convention": "Top-left origin; half-open [x0,y0,x1,y1] original pixels. Story order descending anchor x. box=scene, detail=tight evidence, context=surroundings; none is a final camera instruction.",
+  "existing_13_unchanged": [
+    {
+      "id": "school",
+      "packageId": "02",
+      "title": "School, Scroll-Style",
+      "box": [
+        33590,
+        790,
+        33900,
+        935
+      ],
+      "label": "01",
+      "kind": "existing",
+      "anchor": [
+        33745.0,
+        862.5
+      ],
+      "provisional_route_order": 1
+    },
+    {
+      "id": "cloth",
+      "packageId": "03",
+      "title": "Cloth Starts at Home",
+      "box": [
+        32540,
+        610,
+        33100,
+        980
+      ],
+      "label": "02",
+      "kind": "existing",
+      "anchor": [
+        32820.0,
+        795.0
+      ],
+      "provisional_route_order": 2
+    },
+    {
+      "id": "outing",
+      "packageId": "01",
+      "title": "A Mountain Day Out",
+      "box": [
+        30990,
+        750,
+        31620,
+        990
+      ],
+      "label": "03",
+      "kind": "existing",
+      "anchor": [
+        31305.0,
+        870.0
+      ],
+      "provisional_route_order": 3
+    },
+    {
+      "id": "wedding",
+      "packageId": "04",
+      "title": "Wedding Traffic, On Water?",
+      "box": [
+        26980,
+        600,
+        27570,
+        810
+      ],
+      "label": "04",
+      "kind": "existing",
+      "anchor": [
+        27275.0,
+        705.0
+      ],
+      "provisional_route_order": 6
+    },
+    {
+      "id": "garden",
+      "packageId": "05",
+      "title": "A Garden Party, Qing-Style",
+      "box": [
+        24730,
+        650,
+        25080,
+        850
+      ],
+      "label": "05",
+      "kind": "existing",
+      "anchor": [
+        24905.0,
+        750.0
+      ],
+      "provisional_route_order": 8
+    },
+    {
+      "id": "bridge",
+      "packageId": "06",
+      "title": "A Bridge with Nine Arches",
+      "box": [
+        21740,
+        235,
+        22060,
+        390
+      ],
+      "label": "06",
+      "kind": "existing",
+      "anchor": [
+        21900.0,
+        312.5
+      ],
+      "provisional_route_order": 9
+    },
+    {
+      "id": "theatre",
+      "packageId": "10",
+      "title": "Showtime in Old Suzhou",
+      "box": [
+        18950,
+        560,
+        19570,
+        880
+      ],
+      "label": "07",
+      "kind": "existing",
+      "anchor": [
+        19260.0,
+        720.0
+      ],
+      "provisional_route_order": 11
+    },
+    {
+      "id": "dye",
+      "packageId": "07",
+      "title": "A City in Full Color",
+      "box": [
+        17550,
+        710,
+        17820,
+        960
+      ],
+      "label": "08",
+      "kind": "existing",
+      "anchor": [
+        17685.0,
+        835.0
+      ],
+      "provisional_route_order": 12
+    },
+    {
+      "id": "tea",
+      "packageId": "09",
+      "title": "Tea with a Name",
+      "box": [
+        11180,
+        835,
+        11600,
+        1010
+      ],
+      "label": "09",
+      "kind": "existing",
+      "anchor": [
+        11390.0,
+        922.5
+      ],
+      "provisional_route_order": 16
+    },
+    {
+      "id": "signs",
+      "packageId": "12",
+      "title": "Signs, Signs Everywhere!",
+      "box": [
+        7500,
+        300,
+        8000,
+        475
+      ],
+      "label": "10",
+      "kind": "existing",
+      "anchor": [
+        7750.0,
+        387.5
+      ],
+      "provisional_route_order": 18
+    },
+    {
+      "id": "gate",
+      "packageId": "08",
+      "title": "A City Gate with a Crowd",
+      "box": [
+        6900,
+        600,
+        7650,
+        990
+      ],
+      "label": "11",
+      "kind": "existing",
+      "anchor": [
+        7275.0,
+        795.0
+      ],
+      "provisional_route_order": 19
+    },
+    {
+      "id": "canal",
+      "packageId": "11",
+      "title": "A City with Two Kinds of Streets",
+      "box": [
+        4850,
+        420,
+        5600,
+        800
+      ],
+      "label": "12",
+      "kind": "existing",
+      "anchor": [
+        5225.0,
+        610.0
+      ],
+      "provisional_route_order": 20
+    },
+    {
+      "id": "pagoda",
+      "packageId": "13",
+      "title": "A Tower at the Finish Line",
+      "box": [
+        500,
+        0,
+        950,
+        390
+      ],
+      "label": "13",
+      "kind": "existing",
+      "anchor": [
+        725.0,
+        195.0
+      ],
+      "provisional_route_order": 22
+    }
+  ],
+  "new_candidates": [
+    {
+      "id": "A",
+      "title": "A Bridge into Business",
+      "decision": "revised",
+      "box": [
+        29120,
+        540,
+        29870,
+        1000
+      ],
+      "context": [
+        28500,
+        120,
+        30300,
+        1010
+      ],
+      "anchor": [
+        29540,
+        610
+      ],
+      "visual": "High",
+      "historical": "Medium",
+      "text": "A bridge, a river, and shops almost at your feet. Researchers describe this part of Mudu as a busy commercial district. With shopfronts opening toward the waterfront, crossing the river could bring you straight into the market. A handy place to combine two errands!",
+      "observed": "High arched bridge beside a continuous waterfront shop row; steps, pedestrians, boats and open shopfronts are visible.",
+      "evidence": "Study: Mudu paragraph beginning 作者以木渎镇. The same market sequence contains the distinctive pavilion behind the shops and the wedding boats farther left. The commercial district is supported; the precise named bridge is not established independently.",
+      "guard": "Removed the specific oblique-bridge identity. No shop trades, ownership, or actual errands assigned to individuals.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "zoom": "750 x 460 scene; bridge remains readable at native scale. Bottom margin only 10 px: retain full source height in context and do not force vertical centering.",
+      "detail": [
+        29120,
+        540,
+        29870,
+        1000
+      ],
+      "box_normalized_xywh": [
+        0.8246722,
+        0.53465347,
+        0.02123984,
+        0.45544554
+      ],
+      "detail_normalized_xywh": [
+        0.8246722,
+        0.53465347,
+        0.02123984,
+        0.45544554
+      ],
+      "context_normalized_xywh": [
+        0.80711393,
+        0.11881188,
+        0.05097562,
+        0.88118812
+      ],
+      "anchor_normalized": [
+        0.83656651,
+        0.6039604
+      ],
+      "word_count": 44,
+      "status": "recommended_for_user_review_not_approved_for_implementation",
+      "provisional_route_order": 4
+    },
+    {
+      "id": "B",
+      "title": "A Temple Behind the Shops?",
+      "decision": "revised",
+      "box": [
+        28970,
+        320,
+        29240,
+        510
+      ],
+      "context": [
+        28680,
+        220,
+        29600,
+        740
+      ],
+      "anchor": [
+        29090,
+        435
+      ],
+      "visual": "High",
+      "historical": "Medium",
+      "text": "Shopping in front, something quieter behind. See the small, many-sided tower tucked among the roofs? Researchers identify this compound as a temple behind Mudu's waterfront shops. Its pavilion rises above an enclosed courtyard. The busy riverfront has more than one layer to explore.",
+      "observed": "Distinct red two-level polygonal pavilion, enclosed court and aligned halls behind the commercial frontage.",
+      "evidence": "Study: same Mudu paragraph describes a temple behind shops with a two-storey hexagonal pavilion and axial halls. Spatial configuration matches; the six sides and interior statue cannot all be independently resolved here.",
+      "guard": "Do not name temple or deity, count six visible sides, identify monks, or claim the courtyard is actually quiet. Quiet is an editorial contrast, not an observed sound.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "zoom": "270 x 190 detail; use 920 x 520 context for camera. Pavilion remains small (~100 native px high); do not enlarge to fill a card-sized viewport.",
+      "detail": [
+        28970,
+        320,
+        29240,
+        510
+      ],
+      "box_normalized_xywh": [
+        0.82042423,
+        0.31683168,
+        0.00764634,
+        0.18811881
+      ],
+      "detail_normalized_xywh": [
+        0.82042423,
+        0.31683168,
+        0.00764634,
+        0.18811881
+      ],
+      "context_normalized_xywh": [
+        0.81221149,
+        0.21782178,
+        0.0260542,
+        0.51485149
+      ],
+      "anchor_normalized": [
+        0.8238226,
+        0.43069307
+      ],
+      "word_count": 43,
+      "status": "recommended_for_user_review_not_approved_for_implementation",
+      "provisional_route_order": 5
+    },
+    {
+      "id": "C",
+      "title": "A Granary with a Backup Plan",
+      "decision": "revised",
+      "box": [
+        24650,
+        40,
+        25650,
+        460
+      ],
+      "context": [
+        24300,
+        0,
+        25900,
+        800
+      ],
+      "anchor": [
+        25200,
+        280
+      ],
+      "visual": "High",
+      "historical": "Medium",
+      "text": "Those long roofs had a practical purpose. Researchers identify this waterside compound as a shecang, or community granary. Such granaries held grain to help communities withstand shortages. The rows of storehouses make a useful counterpoint to all those shops: prosperity needed a backup plan, too.",
+      "observed": "Rectangular stone platform surrounded by water, four repeated roof rows, enclosed yard and long rear buildings.",
+      "evidence": "Study: paragraph beginning 在湖对岸 describes the square community granary, stone base and four warehouse rows. Grain Economics Society research supports the general relief function, not documented transactions at this building.",
+      "guard": "Actual compound lies beyond the pack C band. Place BEFORE existing garden #05, not between #05 and #06. No wall-warning transcription, loans, precise management system, or contents claimed visible.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html",
+        "https://www.chinagrain.org.cn/luntan/ff808081978ec6f90197ed4d669c0b30.html"
+      ],
+      "zoom": "1000 x 420 scene. Garden #05 is below and left; marker chosen on upper storehouse block. Green reproduction seam remains intact. Context touches top boundary; avoid cropping warehouse roofs.",
+      "detail": [
+        24650,
+        40,
+        25650,
+        460
+      ],
+      "box_normalized_xywh": [
+        0.69808275,
+        0.03960396,
+        0.02831979,
+        0.41584158
+      ],
+      "detail_normalized_xywh": [
+        0.69808275,
+        0.03960396,
+        0.02831979,
+        0.41584158
+      ],
+      "context_normalized_xywh": [
+        0.68817082,
+        0.0,
+        0.04531166,
+        0.79207921
+      ],
+      "anchor_normalized": [
+        0.71365863,
+        0.27722772
+      ],
+      "word_count": 45,
+      "status": "recommended_for_user_review_not_approved_for_implementation",
+      "provisional_route_order": 7
+    },
+    {
+      "id": "D",
+      "title": "Farming at the Water's Edge",
+      "decision": "revised",
+      "box": [
+        20200,
+        350,
+        20980,
+        710
+      ],
+      "context": [
+        19800,
+        180,
+        21500,
+        850
+      ],
+      "anchor": [
+        20700,
+        590
+      ],
+      "visual": "High",
+      "historical": "Medium",
+      "text": "Not quite an empty lake! Low banks divide this waterside landscape into plots. Researchers describe fields and fishponds around Stone Lake, where people adapted the watery surroundings for food production. The shoreline was a working landscape as well as a scenic one. Look between the banks.",
+      "observed": "Repeated low embankments enclose small plots and water areas; cultivated-looking strips differ from open lake beyond.",
+      "evidence": "Study Stone Lake paragraph explicitly identifies fields opened in water and enclosed fishponds. The crop shows the bank-divided landscape in that same lake sequence; it does not establish which individual enclosure held fish.",
+      "guard": "No fish species, exact plot use, technique, acreage or invented worker activity. Revised away from the draft assertion someone is hard at work in this crop.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "zoom": "780 x 360 detail; relief is subtle. Context needed to distinguish plots from open lake. No extra sharpness processing or claim to see fish.",
+      "detail": [
+        20200,
+        350,
+        20980,
+        710
+      ],
+      "box_normalized_xywh": [
+        0.5720597,
+        0.34653465,
+        0.02208943,
+        0.35643564
+      ],
+      "detail_normalized_xywh": [
+        0.5720597,
+        0.34653465,
+        0.02208943,
+        0.35643564
+      ],
+      "context_normalized_xywh": [
+        0.56073178,
+        0.17821782,
+        0.04814364,
+        0.66336634
+      ],
+      "anchor_normalized": [
+        0.58621959,
+        0.58415842
+      ],
+      "word_count": 46,
+      "status": "recommended_for_user_review_not_approved_for_implementation",
+      "provisional_route_order": 10
+    },
+    {
+      "id": "E",
+      "title": "A Street for Almost Everything",
+      "decision": "revised",
+      "box": [
+        16200,
+        750,
+        16750,
+        1010
+      ],
+      "context": [
+        15900,
+        500,
+        17400,
+        1010
+      ],
+      "anchor": [
+        16430,
+        915
+      ],
+      "visual": "High",
+      "historical": "Medium",
+      "text": "Silk wasn't the whole shopping list. Researchers describe rice merchants, shoe shops, wine sellers, and other businesses near Huai-Xu Bridge. This waterfront row belongs to that bustling market area. We're not decoding every tiny sign here, but the takeaway is clear: everyday shopping had plenty of variety.",
+      "observed": "Open two-storey shopfront row, pedestrians and hanging signs on the left approach to the large stone bridge.",
+      "evidence": "Study city paragraph beginning 第一段远景 lists the trades around Huai-Xu Bridge. The bridge, wall and market row establish the area; trade names are regional context rather than labels for each selected facade.",
+      "guard": "No literal sign reading or individual shop-to-trade assignment. Distinct from existing dye shop #08 (x17550..17820) and existing general advertising story #10.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "zoom": "550 x 260 detail reaches native bottom edge. Use upper street facades as marker target; responsive frame must bias upward. Context includes bridge approach without replacing artwork.",
+      "detail": [
+        16200,
+        750,
+        16750,
+        1010
+      ],
+      "box_normalized_xywh": [
+        0.45878055,
+        0.74257426,
+        0.01557588,
+        0.25742574
+      ],
+      "detail_normalized_xywh": [
+        0.45878055,
+        0.74257426,
+        0.01557588,
+        0.25742574
+      ],
+      "context_normalized_xywh": [
+        0.45028461,
+        0.4950495,
+        0.04247968,
+        0.5049505
+      ],
+      "anchor_normalized": [
+        0.4652941,
+        0.90594059
+      ],
+      "word_count": 47,
+      "status": "recommended_for_user_review_not_approved_for_implementation",
+      "provisional_route_order": 14
+    },
+    {
+      "id": "F",
+      "title": "A Pagoda Above the Rooftops",
+      "decision": "accepted",
+      "box": [
+        15700,
+        15,
+        16780,
+        340
+      ],
+      "detail": [
+        16480,
+        20,
+        16680,
+        190
+      ],
+      "context": [
+        15500,
+        0,
+        17000,
+        600
+      ],
+      "anchor": [
+        16590,
+        100
+      ],
+      "visual": "High",
+      "historical": "Medium",
+      "text": "A tower makes a useful landmark in a sea of rooftops. Researchers identify this distant pairing as Panmen's city gate and Ruiguang Pagoda. Follow the wall to see how the tower sits behind it. They share the skyline, but the pagoda isn't part of the defensive wall.",
+      "observed": "Narrow tiered tower behind crenellated city wall, with gate precinct visible to its left in wider context.",
+      "evidence": "Study first city paragraph identifies the distant gate and tower as Panmen and Ruiguang. Relative order before Xumen matches the painting route; no coordinates copied from another scan.",
+      "guard": "Neither Tiger Hill nor Baoen tower. No construction age, floor count, original survival claim, or pagoda-as-defensive-structure claim.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "zoom": "Tower detail is only 200 x 170. Wide 1080 x 325 scene is needed for landmark pairing; tower alone must not be zoomed to fill screen. Anchor y100 requires upper-edge framing.",
+      "box_normalized_xywh": [
+        0.44462066,
+        0.01485149,
+        0.03058537,
+        0.32178218
+      ],
+      "detail_normalized_xywh": [
+        0.46671009,
+        0.01980198,
+        0.00566396,
+        0.16831683
+      ],
+      "context_normalized_xywh": [
+        0.4389567,
+        0.0,
+        0.04247968,
+        0.59405941
+      ],
+      "anchor_normalized": [
+        0.46982527,
+        0.0990099
+      ],
+      "word_count": 47,
+      "status": "recommended_for_user_review_not_approved_for_implementation",
+      "provisional_route_order": 13
+    },
+    {
+      "id": "G",
+      "title": "Where the Boats Met the Street",
+      "decision": "revised",
+      "box": [
+        14600,
+        360,
+        15370,
+        780
+      ],
+      "context": [
+        14000,
+        180,
+        15500,
+        1010
+      ],
+      "anchor": [
+        15200,
+        600
+      ],
+      "visual": "High",
+      "historical": "Medium",
+      "text": "A river journey still needed a way ashore. Researchers identify this busy landing beside the city wall as Xumen wharf. Stone embankments and steps connect the water to the crowded shore, with boats gathered alongside. Here, Suzhou's water traffic met its streets. Quite a change of pace!",
+      "observed": "Stone quay, descending stairs, densely gathered figures and moored boats under the wall; gate context visible to left.",
+      "evidence": "Study second city paragraph identifies Xumen wharf through the open landing outside the gate, raised stone embankment and steps, with warehouses and boat businesses nearby.",
+      "guard": "No ceremony/event identification, cargo, occupational identities, loading action or specific warehouse use inferred for an individual roof.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "zoom": "770 x 420 focus; crowded detail is readable as a group. Context is 1500 px wide and should be shown smaller; steps at marker remain principal visual target.",
+      "detail": [
+        14600,
+        360,
+        15370,
+        780
+      ],
+      "box_normalized_xywh": [
+        0.41346889,
+        0.35643564,
+        0.02180624,
+        0.41584158
+      ],
+      "detail_normalized_xywh": [
+        0.41346889,
+        0.35643564,
+        0.02180624,
+        0.41584158
+      ],
+      "context_normalized_xywh": [
+        0.39647702,
+        0.17821782,
+        0.04247968,
+        0.82178218
+      ],
+      "anchor_normalized": [
+        0.43046076,
+        0.59405941
+      ],
+      "word_count": 47,
+      "status": "recommended_for_user_review_not_approved_for_implementation",
+      "provisional_route_order": 15
+    },
+    {
+      "id": "H",
+      "title": "Flags Mean Official Business",
+      "decision": "revised",
+      "box": [
+        10480,
+        370,
+        10980,
+        790
+      ],
+      "context": [
+        10100,
+        100,
+        11200,
+        900
+      ],
+      "anchor": [
+        10700,
+        600
+      ],
+      "visual": "High",
+      "historical": "Medium",
+      "text": "Two tall flagpoles, a screened entrance, and gates arranged in sequence. Researchers identify this as the provincial administration compound. Its fenced forecourt separates official space from the surrounding streets. Same city, different kind of business: the architecture itself tells you this is no ordinary shop.",
+      "observed": "Paired poles and yellow flags above fenced forecourt, screen, gatehouse and sequence of halls behind.",
+      "evidence": "Study third city paragraph identifies Jiangsu provincial administration (布政使司) through paired poles, wooden fences, screen and axial halls opposite the temple precinct. Distinct from the Xumen examination precinct farther right.",
+      "guard": "Use attributed provincial administration label. Do not read tiny flag text or name officials, ceremonies, examination activity or actual government functions taking place.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "zoom": "500 x 420 scene; paired poles and fence remain visible at native scale. Wider context necessary for axial compound; avoid selecting crowded street to right as focus.",
+      "detail": [
+        10480,
+        370,
+        10980,
+        790
+      ],
+      "box_normalized_xywh": [
+        0.29679137,
+        0.36633663,
+        0.01415989,
+        0.41584158
+      ],
+      "detail_normalized_xywh": [
+        0.29679137,
+        0.36633663,
+        0.01415989,
+        0.41584158
+      ],
+      "context_normalized_xywh": [
+        0.28602985,
+        0.0990099,
+        0.03115177,
+        0.79207921
+      ],
+      "anchor_normalized": [
+        0.30302172,
+        0.59405941
+      ],
+      "word_count": 45,
+      "status": "recommended_for_user_review_not_approved_for_implementation",
+      "provisional_route_order": 17
+    },
+    {
+      "id": "J",
+      "title": "Room for Boats, Too",
+      "decision": "revised",
+      "box": [
+        3780,
+        410,
+        4160,
+        850
+      ],
+      "context": [
+        3500,
+        200,
+        4500,
+        1010
+      ],
+      "anchor": [
+        3970,
+        570
+      ],
+      "visual": "High",
+      "historical": "High",
+      "text": "Up and over for people; room underneath for boats. This arched bridge belongs to the Shantang stretch of the scroll. Research on the painting explains how raised bridge openings accommodated water traffic while linking the banks. Two routes crossing in one small space. Nicely done, bridge builders.",
+      "observed": "Large single arched bridge crossing the canal with people on steps and a boat adjacent to the opening.",
+      "evidence": "Bridge study p50 on raised arches and navigation, p51 on Shantang bridges; museum route places Shantang between Changmen and Tiger Hill. Exact individual bridge name left unresolved.",
+      "guard": "Replaced Three Bridges, One Canal title; no claim that three bridges appear in this crop or this one has a proven historical name. Does not reuse bridge inside existing #12 box.",
+      "sources": [
+        "https://xuebaosk.ahut.edu.cn/cn/article/pdf/preview/10.3969/j.issn.1671-9247.2021.02.013.pdf",
+        "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/CI00005093"
+      ],
+      "zoom": "380 x 440 detail. At native scale the arched opening is clear; retain the boat and banks in context. 1255 native px from existing #12 center; story covers arch function rather than parallel streets.",
+      "detail": [
+        3780,
+        410,
+        4160,
+        850
+      ],
+      "box_normalized_xywh": [
+        0.10704879,
+        0.40594059,
+        0.01076152,
+        0.43564356
+      ],
+      "detail_normalized_xywh": [
+        0.10704879,
+        0.40594059,
+        0.01076152,
+        0.43564356
+      ],
+      "context_normalized_xywh": [
+        0.09911925,
+        0.1980198,
+        0.02831979,
+        0.8019802
+      ],
+      "anchor_normalized": [
+        0.11242955,
+        0.56435644
+      ],
+      "word_count": 47,
+      "status": "recommended_for_user_review_not_approved_for_implementation",
+      "provisional_route_order": 21
+    }
+  ],
+  "rejected": [
+    {
+      "id": "I",
+      "title": "A School with a Purpose",
+      "decision": "rejected_pending_unique_match",
+      "visual": "Low",
+      "historical": "Medium",
+      "anchor": null,
+      "context": [
+        3500,
+        200,
+        6100,
+        1010
+      ],
+      "detail": [
+        4130,
+        620,
+        4900,
+        1010
+      ],
+      "reason": "A Shantang charitable school is documented, but multiple three-bay rooms/courtyards fit loosely. The native master does not permit a unique room/sign match to the description. Do not attach the school story to a generic house.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html",
+        "https://yangtze.silkroadinfo.org.cn/2016/8/8/200810271747829.pdf"
+      ]
+    }
+  ],
+  "route": [
+    {
+      "label": "01",
+      "kind": "existing",
+      "title": "School, Scroll-Style",
+      "anchor": [
+        33745.0,
+        862.5
+      ],
+      "provisional_route_order": 1
+    },
+    {
+      "label": "02",
+      "kind": "existing",
+      "title": "Cloth Starts at Home",
+      "anchor": [
+        32820.0,
+        795.0
+      ],
+      "provisional_route_order": 2
+    },
+    {
+      "label": "03",
+      "kind": "existing",
+      "title": "A Mountain Day Out",
+      "anchor": [
+        31305.0,
+        870.0
+      ],
+      "provisional_route_order": 3
+    },
+    {
+      "label": "A",
+      "kind": "new",
+      "title": "A Bridge into Business",
+      "anchor": [
+        29540,
+        610
+      ],
+      "provisional_route_order": 4
+    },
+    {
+      "label": "B",
+      "kind": "new",
+      "title": "A Temple Behind the Shops?",
+      "anchor": [
+        29090,
+        435
+      ],
+      "provisional_route_order": 5
+    },
+    {
+      "label": "04",
+      "kind": "existing",
+      "title": "Wedding Traffic, On Water?",
+      "anchor": [
+        27275.0,
+        705.0
+      ],
+      "provisional_route_order": 6
+    },
+    {
+      "label": "C",
+      "kind": "new",
+      "title": "A Granary with a Backup Plan",
+      "anchor": [
+        25200,
+        280
+      ],
+      "provisional_route_order": 7
+    },
+    {
+      "label": "05",
+      "kind": "existing",
+      "title": "A Garden Party, Qing-Style",
+      "anchor": [
+        24905.0,
+        750.0
+      ],
+      "provisional_route_order": 8
+    },
+    {
+      "label": "06",
+      "kind": "existing",
+      "title": "A Bridge with Nine Arches",
+      "anchor": [
+        21900.0,
+        312.5
+      ],
+      "provisional_route_order": 9
+    },
+    {
+      "label": "D",
+      "kind": "new",
+      "title": "Farming at the Water's Edge",
+      "anchor": [
+        20700,
+        590
+      ],
+      "provisional_route_order": 10
+    },
+    {
+      "label": "07",
+      "kind": "existing",
+      "title": "Showtime in Old Suzhou",
+      "anchor": [
+        19260.0,
+        720.0
+      ],
+      "provisional_route_order": 11
+    },
+    {
+      "label": "08",
+      "kind": "existing",
+      "title": "A City in Full Color",
+      "anchor": [
+        17685.0,
+        835.0
+      ],
+      "provisional_route_order": 12
+    },
+    {
+      "label": "F",
+      "kind": "new",
+      "title": "A Pagoda Above the Rooftops",
+      "anchor": [
+        16590,
+        100
+      ],
+      "provisional_route_order": 13
+    },
+    {
+      "label": "E",
+      "kind": "new",
+      "title": "A Street for Almost Everything",
+      "anchor": [
+        16430,
+        915
+      ],
+      "provisional_route_order": 14
+    },
+    {
+      "label": "G",
+      "kind": "new",
+      "title": "Where the Boats Met the Street",
+      "anchor": [
+        15200,
+        600
+      ],
+      "provisional_route_order": 15
+    },
+    {
+      "label": "09",
+      "kind": "existing",
+      "title": "Tea with a Name",
+      "anchor": [
+        11390.0,
+        922.5
+      ],
+      "provisional_route_order": 16
+    },
+    {
+      "label": "H",
+      "kind": "new",
+      "title": "Flags Mean Official Business",
+      "anchor": [
+        10700,
+        600
+      ],
+      "provisional_route_order": 17
+    },
+    {
+      "label": "10",
+      "kind": "existing",
+      "title": "Signs, Signs Everywhere!",
+      "anchor": [
+        7750.0,
+        387.5
+      ],
+      "provisional_route_order": 18
+    },
+    {
+      "label": "11",
+      "kind": "existing",
+      "title": "A City Gate with a Crowd",
+      "anchor": [
+        7275.0,
+        795.0
+      ],
+      "provisional_route_order": 19
+    },
+    {
+      "label": "12",
+      "kind": "existing",
+      "title": "A City with Two Kinds of Streets",
+      "anchor": [
+        5225.0,
+        610.0
+      ],
+      "provisional_route_order": 20
+    },
+    {
+      "label": "J",
+      "kind": "new",
+      "title": "Room for Boats, Too",
+      "anchor": [
+        3970,
+        570
+      ],
+      "provisional_route_order": 21
+    },
+    {
+      "label": "13",
+      "kind": "existing",
+      "title": "A Tower at the Finish Line",
+      "anchor": [
+        725.0,
+        195.0
+      ],
+      "provisional_route_order": 22
+    }
+  ]
+}

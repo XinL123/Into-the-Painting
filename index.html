@@ -46,7 +46,6 @@
             <p class="mark-en">Into the Painting</p>
           </header>
           <p class="credits">
-            <span>Images: Wikimedia Commons (public domain) · The Cleveland Museum of Art (CC0) · Sounds: Freesound recordists (CC0)</span>
             <span class="credits-rights">Design, code and texts © 2026 Christus Luo. All rights reserved. Not to be copied or reused.</span>
           </p>
           <!-- openings are added here by src/gallery/gallery.js -->
@@ -55,14 +54,13 @@
 
       <!-- the gallery's two quiet corners: a note about the work (top left) and sound (top right) -->
       <button class="about-open" type="button" aria-haspopup="dialog" aria-controls="about">About</button>
-      <button class="sound-toggle sound-toggle--gallery is-muted" type="button" aria-pressed="false" aria-label="Music off">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path class="sound-body" d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" />
-          <path class="sound-wave" d="M15.5 8.5c1.8 2 1.8 5 0 7" />
-          <path class="sound-wave sound-wave-far" d="M18.5 6c3 3.4 3 8.6 0 12" />
-          <path class="sound-slash" d="M3 21L21 3" />
-        </svg>
-      </button>
+      <section class="music-player" id="gallery-music-player" role="group" aria-label="Gallery music controls">
+        <div class="music-transport">
+          <button type="button" class="music-previous" aria-label="Previous track"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5v14M19 5l-11 7 11 7z"/></svg></button>
+          <button type="button" class="music-play" aria-label="Play music"><svg class="music-play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7z"/></svg><svg class="music-pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5v14M16 5v14"/></svg></button>
+          <button type="button" class="music-next" aria-label="Next track"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 5v14M5 5l11 7-11 7z"/></svg></button>
+        </div>
+      </section>
 
       <!-- a hanging scroll that unrolls over the gallery with a note about the work -->
       <div class="about" id="about" role="dialog" aria-modal="true" aria-labelledby="about-title" hidden>
@@ -84,9 +82,15 @@
               <section class="scroll-section">
                 <h3>Sources</h3>
                 <ul class="scroll-list">
-                  <li><i>Along the River During the Qingming Festival</i>, Zhang Zeduan. Wikimedia Commons, public domain.</li>
+                  <li><i>Along the River During the Qingming Festival</i>, Zhang Zeduan, Northern Song. Palace Museum, Beijing; image via Wikimedia Commons, public domain.</li>
+                  <li>Scene notes: <a href="https://www.dpm.org.cn/collection/paint/228226.html" target="_blank" rel="noopener noreferrer">Palace Museum</a>, <a href="https://www.dpm.org.cn/forum_detail/99722.html" target="_blank" rel="noopener noreferrer">Yu Hui’s interpretations</a>, and Meng Yuanlao’s <a href="https://www.shidianguji.com/book/SK1074/chapter/1lxuit9vubj8y" target="_blank" rel="noopener noreferrer"><i>Dongjing Meng Hua Lu</i></a>. Disputed readings are identified in the notes.</li>
+                  <li><i>Prosperous Suzhou</i>, Xu Yang, 1759. Liaoning Provincial Museum; <a href="https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/CI00005093" target="_blank" rel="noopener noreferrer">museum catalogue</a> and <a href="https://commons.wikimedia.org/wiki/File:Prosperous_Suzhou.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons image</a>, public-domain reproduction.</li>
+                  <li>Suzhou scene notes: <a href="https://www.zgwypl.com/content/details78_48430.html" target="_blank" rel="noopener noreferrer">Xu Hao, Zhao Jin and Cui Jing’s landscape study</a>, <a href="https://www.suzhou.gov.cn/szsrmzf/szyw/202607/7fac602898bd4b60a664eba6b46ffb76.shtml" target="_blank" rel="noopener noreferrer">Suzhou Museum exhibition reporting</a>, and its <a href="https://m.jstv.com/news/2026/7/11/1525560875541487616.html" target="_blank" rel="noopener noreferrer">Songluo Tea Room detail</a>. <a href="https://www.huangshan.gov.cn/zwgk/public/6615714/11213401.html" target="_blank" rel="noopener noreferrer">Songluo tea background</a>. Interpretations are attributed; small signs are not reconstructed.</li>
+                  <li>Additional Suzhou discoveries: <a href="https://xuebaosk.ahut.edu.cn/cn/article/pdf/preview/10.3969/j.issn.1671-9247.2021.02.013.pdf" target="_blank" rel="noopener noreferrer">Zhu Xinxin’s bridge study</a>, <a href="https://www.chinagrain.org.cn/luntan/ff808081978ec6f90197ed4d669c0b30.html" target="_blank" rel="noopener noreferrer">community granary research</a>, and the <a href="https://www.chnmuseum.cn/zp/zpml/201812/t20181218_24755.shtml" target="_blank" rel="noopener noreferrer">National Museum’s provincial commissioner edict</a>. <a href="https://english.suzhou.gov.cn/szsenglish/szcmyz/202512/da66785a602b4e6fafd5df357a4c25e3.shtml" target="_blank" rel="noopener noreferrer">Wannian Bridge</a> and <a href="https://www.panmen.com.cn/About/1.html" target="_blank" rel="noopener noreferrer">Ruiguang Pagoda</a> background. Building identifications are attributed to research; general institutional history is distinguished from visible details.</li>
+                  <li>Shop-sign figure: <a href="https://paper.people.com.cn/rmrbhwb/pc/content/202608/28/content_30177716.html" target="_blank" rel="noopener noreferrer">2026 exhibition reporting (more than 200 across the scroll)</a>. Ambient sounds are modern illustrations, not historical recordings.</li>
                   <li>Companion paintings: The Cleveland Museum of Art, CC0.</li>
-                  <li>Sounds: Freesound, CC0.</li>
+                  <li>Sounds: Freesound recordists, CC0, except the credited CC BY excerpts below.</li>
+                  <li>Guqin: <a href="https://freesound.org/people/xserra/sounds/161905/" target="_blank" rel="noopener noreferrer">Guqin-4.wav</a>; ensemble: <a href="https://freesound.org/people/xserra/sounds/162035/" target="_blank" rel="noopener noreferrer">beijing-opera-7.wav</a>, by <a href="https://freesound.org/people/xserra/" target="_blank" rel="noopener noreferrer">xserra</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>. Excerpts trimmed, faded and mixed. Recordings retain their respective licences.</li>
                 </ul>
               </section>
 

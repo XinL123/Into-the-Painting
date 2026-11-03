@@ -287,6 +287,17 @@ h1 {
 
 /* ---------- entering ---------- */
 
+/* Other gallery paintings must disappear immediately, including on a repeat
+   visit. Their normal arrival fade otherwise bleeds into the expanding art. */
+.is-entering .opening:not(.is-travelling),
+.is-inside .opening:not(.is-travelling) {
+  visibility: hidden;
+}
+
+.opening.is-visited .opening-ink {
+  animation: none;
+}
+
 .is-entering .opening:not(.is-travelling),
 .is-inside .opening:not(.is-travelling),
 .is-entering .mark-head,
@@ -326,6 +337,10 @@ h1 {
 /* leaving: the gallery is back underneath while the scroll fades */
 .is-leaving .gallery {
   visibility: visible;
+}
+
+.is-leaving .opening {
+  transition-delay: 0s;
 }
 
 .is-leaving .explore {
@@ -387,8 +402,8 @@ h1 {
   cursor: pointer;
   pointer-events: auto;
   opacity: 0;
-  transition: opacity 1.2s ease;
-  transition-delay: calc(var(--i) * 0.12s);
+  transition: opacity 0.35s ease;
+  transition-delay: min(calc(var(--i) * 0.025s), 0.15s);
   outline: none;
 }
 
@@ -545,7 +560,7 @@ h1 {
   gap: 14px;
   transform: translateX(-50%);
   opacity: 0;
-  transition: opacity 1s ease 1s;
+  transition: opacity 0.35s ease;
 }
 
 .is-awake .progress { opacity: 1; }
@@ -629,6 +644,12 @@ h1 {
   transition: opacity 0.3s ease, transform 0.3s ease, visibility 0s;
 }
 
+.world[data-painting='gusu'] .is-looking .progress-thumb {
+  opacity: 0;
+  visibility: hidden;
+  transition: none;
+}
+
 .explore-hint {
   position: absolute;
   right: clamp(18px, 2.4vw, 40px);
@@ -695,7 +716,7 @@ h1 {
 .is-inside .leave {
   opacity: 0.8;
   visibility: visible;
-  transition: opacity 1.2s ease 1.6s, visibility 0s;
+  transition: opacity 0.3s ease, visibility 0s;
 }
 
 .is-inside .leave:hover,
@@ -759,7 +780,7 @@ h1 {
 .is-awake .sound-toggle {
   opacity: 0.55;
   visibility: visible;
-  transition: opacity 1.2s ease 1.6s, visibility 0s;
+  transition: opacity 0.3s ease, visibility 0s;
 }
 
 .is-awake .sound-toggle:hover,
@@ -832,7 +853,7 @@ h1 {
 .is-ready .sound-toggle--gallery {
   opacity: 0.8;
   visibility: visible;
-  transition: opacity 1.2s ease 0.6s, visibility 0s;
+  transition: opacity 0.3s ease, visibility 0s;
 }
 
 .is-ready .sound-toggle--gallery {
@@ -1045,3 +1066,141 @@ h1 {
   .scroll-body { transition-duration: 0.3s; }
   .scroll { transition-duration: 0.2s; }
 }
+
+/* The same paper and cinnabar, slightly quieter against Xu Yang's blue greens. */
+.world[data-painting='gusu'] {
+  --paper: #eee9dc;
+  --paper-deep: #e1ddcc;
+  --ink-soft: #63685d;
+}
+
+.image-status {
+  position: absolute;
+  left: 50%;
+  top: 66px;
+  z-index: 7;
+  transform: translateX(-50%);
+  max-width: calc(100% - 40px);
+  padding: 8px 12px;
+  background: var(--paper);
+  color: var(--ink-soft);
+  font: 13px/1.4 var(--serif-en);
+  box-shadow: 0 3px 12px #2b272320;
+}
+.image-status[hidden] { display: none; }
+.image-status button { margin-left: 10px; padding: 0; border: 0; background: none; color: var(--cinnabar); font: inherit; text-decoration: underline; cursor: pointer; }
+
+@media (max-width: 600px) {
+  /* Keep the established progress row reachable on narrow touch screens. */
+  .progress { gap: clamp(2px, 1.5vw, 9px); }
+  .progress-dot { width: 20px; height: 28px; }
+  .progress-thumb { display: none; }
+  .explore-hint { display: none; }
+}
+@media (max-width: 800px) {
+  .world[data-painting='gusu'] .story[data-side='bottom'] {
+    top: auto; bottom: 64px; left: 24px; right: 24px;
+    width: auto; max-height: 45vh; overflow-y: auto;
+    padding: 22px 24px 18px;
+    transform: translateY(10px);
+  }
+  .world[data-painting='gusu'] .story[data-side='bottom'].is-shown { transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mark-dot::after { animation: none; }
+  .story, .opening, .opening-image, .opening-name, .mark, .progress, .sound-toggle, .leave { transition-duration: 0.01s; transition-delay: 0s; }
+  .is-awake .explore-hint, .is-inside .inside-note { animation: none; }
+}
+
+.is-reduced-motion .opening-ink, .is-reduced-motion .mark-dot::after,
+.is-reduced-motion .explore-hint, .is-reduced-motion .inside-note { animation: none !important; }
+.is-reduced-motion .story, .is-reduced-motion .opening, .is-reduced-motion .opening-image,
+.is-reduced-motion .opening-name, .is-reduced-motion .mark, .is-reduced-motion .progress,
+.is-reduced-motion .sound-toggle, .is-reduced-motion .leave { transition-duration: 0.01s; transition-delay: 0s; }
+
+/* Let long cards scroll without dragging the artwork; gestures on the image
+   retain the original custom pan/pinch behavior. */
+.explore { touch-action: pan-y; }
+.explore-canvas, .mark { touch-action: none; }
+.story { max-height: calc(100vh - 120px); overflow-y: auto; touch-action: pan-y; }
+
+/* Approved Gusu discovery color; Qingming retains its original cinnabar. */
+.world[data-painting='gusu'] .mark-dot {
+  left: -6px;
+  top: -6px;
+  width: 12px;
+  height: 12px;
+  background: #e7b93e;
+  box-shadow: 0 0 0 2px #f5f0e3, 0 0 0 3px rgba(43, 39, 35, 0.28);
+}
+.world[data-painting='gusu'] .mark-dot::after {
+  border-color: rgba(231, 185, 62, 0.55);
+}
+
+.world[data-painting='gusu'] .progress-dot.is-open::after {
+  background: #e7b93e;
+  border-color: #e7b93e;
+}
+
+/* Keep all 22 discoveries reachable without shrinking the existing markers. */
+@media (max-width: 1000px) {
+  .world[data-painting='gusu'] .progress {
+    display: grid;
+    grid-template-columns: repeat(11, 22px);
+    grid-template-rows: repeat(2, 28px);
+    grid-auto-flow: column;
+    gap: 0 clamp(3px, 1vw, 10px);
+  }
+  .world[data-painting='gusu'] .progress-dot { width: 22px; height: 28px; }
+}
+@media (max-width: 800px) {
+  .world[data-painting='gusu'] .story[data-side='bottom'] { bottom: 88px; }
+}
+
+/* Direct gallery music controls: the same quiet corner scale as About. */
+.music-player {
+  position: absolute;
+  z-index: 6;
+  top: clamp(16px, 2.4vw, 36px);
+  right: clamp(18px, 2.4vw, 40px);
+  color: var(--ink);
+  background: rgba(239, 232, 216, 0.85);
+  border-radius: 2px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s ease, visibility .3s;
+}
+.is-ready .music-player { opacity: .8; visibility: visible; }
+.music-transport { display: flex; align-items: center; gap: 2px; }
+.music-transport button {
+  display: grid; place-items: center;
+  width: clamp(32px, 2.7vw, 38px);
+  height: clamp(32px, 2.7vw, 38px);
+  padding: 7px;
+  cursor: pointer; transition: color .2s ease;
+}
+.music-transport svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; }
+.music-play-icon { transform: translateX(-2px); }
+.music-play .music-pause-icon, .music-play.is-playing .music-play-icon { display: none; }
+.music-play.is-playing .music-pause-icon { display: block; }
+.music-player button:hover { color: var(--cinnabar); }
+.music-player :focus-visible { outline: 1px solid var(--cinnabar); outline-offset: 1px; }
+.is-entering .music-player, .is-inside .music-player, .is-leaving .music-player { opacity: 0; visibility: hidden; pointer-events: none; }
+
+@media (prefers-reduced-motion: reduce) { .music-player { transition: none; } }
+.is-reduced-motion .music-player { transition: none; }
+
+/* Typography follows About; the music group owns one continuous surface. */
+.about-open, .music-transport button {
+  border: 0;
+  border-radius: 2px;
+  font: inherit;
+  font-size: 13.5px;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+}
+.music-transport button:hover, .music-transport button:focus-visible { color: var(--cinnabar); }
+.is-ready .music-player:has(button:hover), .is-ready .music-player:focus-within { opacity: 1; }
+
+.music-transport button { background: transparent; border-radius: 0; }
+@media (pointer: coarse) { .music-transport button { width: 44px; height: 44px; } }

@@ -1,0 +1,13 @@
+{
+  "cardVisible": "visible",
+  "dots": 13,
+  "noticeHidden": true,
+  "soundVisible": "visible",
+  "title": "Showtime in Old Suzhou",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "entryMs": 2570,
+  "artworkResponseDelayMs": 1800
+}

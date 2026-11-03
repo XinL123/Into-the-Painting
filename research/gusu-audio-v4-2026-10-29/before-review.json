@@ -1,0 +1,209 @@
+[
+  {
+    "number": 1,
+    "id": "school",
+    "title": "School, Scroll-Style",
+    "label": "学堂 · 轻柔翻页与静院",
+    "file": "gusu-school-study-v2",
+    "mode": "once",
+    "gain": 0.65,
+    "revision": "2026-10-29-v2"
+  },
+  {
+    "number": 2,
+    "id": "cloth",
+    "title": "Cloth Starts at Home",
+    "label": "织布 · 木织机",
+    "file": "gusu-cloth-loom",
+    "mode": "once",
+    "gain": 0.6
+  },
+  {
+    "number": 3,
+    "id": "outing",
+    "title": "A Mountain Day Out",
+    "label": "郊游 · 鸟鸣",
+    "file": "gusu-birds",
+    "mode": "once",
+    "gain": 0.65
+  },
+  {
+    "number": 4,
+    "id": "mudu-market",
+    "title": "A Bridge into Business",
+    "label": "木渎市集 · 轻脚步",
+    "file": "gusu-market-steps",
+    "mode": "once",
+    "gain": 0.7
+  },
+  {
+    "number": 5,
+    "id": "temple",
+    "title": "A Temple Behind the Shops?",
+    "label": "寺院 · 木鱼与远钟",
+    "file": "gusu-temple-courtyard-v3",
+    "mode": "once",
+    "gain": 0.55,
+    "revision": "2026-10-29-v3"
+  },
+  {
+    "number": 6,
+    "id": "wedding",
+    "title": "Wedding Traffic, On Water?",
+    "label": "水上婚礼 · 轻快喜庆锣鼓",
+    "file": "gusu-wedding-festive-v3",
+    "mode": "once",
+    "gain": 0.55,
+    "revision": "2026-10-29-v3"
+  },
+  {
+    "number": 7,
+    "id": "granary",
+    "title": "A Granary with a Backup Plan",
+    "label": "社仓 · 分次倾倒干米",
+    "file": "gusu-granary-dry-rice-v3",
+    "mode": "once",
+    "gain": 0.65,
+    "revision": "2026-10-29-v3"
+  },
+  {
+    "number": 8,
+    "id": "garden",
+    "title": "A Garden Party, Qing-Style",
+    "label": "园中聚会 · 轻古筝与茶具",
+    "file": "gusu-garden-guzheng-v3",
+    "mode": "once",
+    "gain": 0.6,
+    "revision": "2026-10-29-v3"
+  },
+  {
+    "number": 9,
+    "id": "bridge",
+    "title": "A Bridge with Nine Arches",
+    "label": "石湖桥 · 湖岸水声",
+    "file": "gusu-water",
+    "mode": "once",
+    "gain": 0.55
+  },
+  {
+    "number": 10,
+    "id": "lake-plots",
+    "title": "Farming at the Water's Edge",
+    "label": "田塘 · 远处蛙鸣",
+    "file": "gusu-pond-frogs",
+    "mode": "once",
+    "gain": 0.5
+  },
+  {
+    "number": 11,
+    "id": "theatre",
+    "title": "Showtime in Old Suzhou",
+    "label": "戏台 · 紧鼓、鼓边与小钹",
+    "file": "gusu-theatre-short-v3",
+    "mode": "once",
+    "gain": 0.55,
+    "revision": "2026-10-29-v3"
+  },
+  {
+    "number": 12,
+    "id": "dye",
+    "title": "A City in Full Color",
+    "label": "染坊 · 布料翻动",
+    "file": "gusu-dye-fabric",
+    "mode": "once",
+    "gain": 0.6
+  },
+  {
+    "number": 13,
+    "id": "ruiguang",
+    "title": "A Pagoda Above the Rooftops",
+    "label": "瑞光塔 · 悠长钟声",
+    "file": "gusu-ruiguang-bell",
+    "mode": "once",
+    "gain": 0.55
+  },
+  {
+    "number": 14,
+    "id": "wharf",
+    "title": "Where the Boats Met the Street",
+    "label": "码头 · 人声、船靠岸与水",
+    "file": "gusu-wharf-crowd-v3",
+    "mode": "once",
+    "gain": 0.65,
+    "revision": "2026-10-29-v3"
+  },
+  {
+    "number": 15,
+    "id": "wannian",
+    "title": "A Bridge in Two Colors",
+    "label": "万年桥 · 石面脚步与水",
+    "file": "gusu-bridge-water-v2",
+    "mode": "once",
+    "gain": 0.6,
+    "revision": "2026-10-29-v2"
+  },
+  {
+    "number": 16,
+    "id": "tea",
+    "title": "Tea with a Name",
+    "label": "茶室 · 倒茶",
+    "file": "gusu-tea-pour",
+    "mode": "once",
+    "gain": 0.65
+  },
+  {
+    "number": 17,
+    "id": "administration",
+    "title": "Flags Mean Official Business",
+    "label": "官署 · 旗帜轻拍",
+    "file": "gusu-official-flags",
+    "mode": "once",
+    "gain": 0.55
+  },
+  {
+    "number": 18,
+    "id": "signs",
+    "title": "Signs, Signs Everywhere!",
+    "label": "商街招牌 · 远处人声",
+    "file": "gusu-signs-market",
+    "mode": "once",
+    "gain": 0.55
+  },
+  {
+    "number": 19,
+    "id": "gate",
+    "title": "A City Gate with a Crowd",
+    "label": "阊门 · 马蹄与街市人声",
+    "file": "gusu-city-gate-v3",
+    "mode": "once",
+    "gain": 0.55,
+    "revision": "2026-10-29-v3"
+  },
+  {
+    "number": 20,
+    "id": "canal",
+    "title": "A City with Two Kinds of Streets",
+    "label": "山塘水道 · 划桨",
+    "file": "gusu-paddle",
+    "mode": "once",
+    "gain": 0.6
+  },
+  {
+    "number": 21,
+    "id": "shantang-arch",
+    "title": "Room for Boats, Too",
+    "label": "拱桥下 · 系船绳轻响",
+    "file": "gusu-shantang-rope",
+    "mode": "once",
+    "gain": 0.6
+  },
+  {
+    "number": 22,
+    "id": "pagoda",
+    "title": "A Tower at the Finish Line",
+    "label": "虎丘 · 风中竹响",
+    "file": "gusu-bamboo",
+    "mode": "once",
+    "gain": 0.5
+  }
+]

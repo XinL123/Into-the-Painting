@@ -1,3 +1,4 @@
+import { reducedMotion } from '../motion.js';
 // Entering and leaving the painting, as one continuous move.
 //
 //   enter:  the brushed opening spreads until it is the whole view, carrying the
@@ -14,14 +15,14 @@ const lerpRect = (a, b, t) => ({
   width: lerp(a.width, b.width, t),
   height: lerp(a.height, b.height, t),
 });
-const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
 const T = reducedMotion ? 0.35 : 1;
 
-export function createTransition({ root, live, stage, onLayout, onEnter, onLeave }) {
+export function createTransition({ root, live, stage, onLayout, onEnter, onLeave, onLeaveDone }) {
   const { opening, ink, img } = live;
   let from = null;          // gallery geometry captured at the moment of entering
   let timeline = null;
-  let inside = false;
+  let inside = false, disposed = false;
   const travel = { p: 0 };
 
   function place() {
@@ -56,7 +57,7 @@ export function createTransition({ root, live, stage, onLayout, onEnter, onLeave
   }
 
   function enter() {
-    if (inside || timeline?.isActive()) return;
+    if (disposed || inside || timeline?.isActive()) return;
     inside = true;
     const b = opening.getBoundingClientRect();
     const i = img.getBoundingClientRect();
@@ -65,6 +66,9 @@ export function createTransition({ root, live, stage, onLayout, onEnter, onLeave
       img: { left: i.left, top: i.top, width: i.width, height: i.height },
     };
     root.classList.add('is-entering');
+    // Once a cover has opened, returning to the gallery must not restart its
+    // initial brush-reveal animation (which would erase and redraw it).
+    opening.classList.add('is-visited');
     opening.classList.add('is-travelling');
     stage.measure();
     travel.p = 0;
@@ -77,10 +81,12 @@ export function createTransition({ root, live, stage, onLayout, onEnter, onLeave
       .add(() => {
         timeline.pause();
         stage.ready.then(() => {
+          if (disposed || !inside) return;
           stage.measure();
           place();
           root.classList.add('is-on');
           stage.start();
+          stage.wake();
           timeline.resume();
         });
       })
@@ -88,9 +94,7 @@ export function createTransition({ root, live, stage, onLayout, onEnter, onLeave
       .add(() => {
         root.classList.remove('is-entering');
         root.classList.add('is-inside');
-      })
-      // a beat of looking at the painting itself, then the marks come up
-      .add(() => stage.wake(), '+=0.9');
+      });
   }
 
   // Leaving is a quiet return, not the entrance played backwards: the scroll
@@ -106,7 +110,10 @@ export function createTransition({ root, live, stage, onLayout, onEnter, onLeave
     opening.classList.remove('is-travelling');
     for (const k of ['left', 'top', 'width', 'height']) opening.style[k] = '';
     const { x, y, w, h } = live.painting.place;
-    Object.assign(opening.style, { left: `${x}%`, top: `${y}%`, width: `${w}%`, height: `${h}%`, opacity: 1 });
+    Object.assign(opening.style, { left: `${x}%`, top: `${y}%`, width: `${w}%`, height: `${h}%` });
+    // Let gallery/state CSS own visibility again. An inline 1 overrides the
+    // inactive-opening rule on the next visit to the other painting.
+    gsap.set(opening, { clearProps: 'opacity' });
     ink.style.maskSize = ink.style.webkitMaskSize = '';
     ink.style.maskPosition = ink.style.webkitMaskPosition = '';
     onLayout();
@@ -117,12 +124,12 @@ export function createTransition({ root, live, stage, onLayout, onEnter, onLeave
         stage.stop();
         root.classList.remove('is-on', 'is-leaving');
         gsap.set(root.querySelector('.explore'), { clearProps: 'opacity' });
+        onLeaveDone?.();
       });
   }
 
-  addEventListener('resize', () => {
-    if (inside && travel.p === 1) place();
-  });
+  const onResize = () => { if (inside && travel.p === 1) place(); };
+  addEventListener('resize', onResize);
 
   // dev: freeze the travel at p (0 gallery .. 1 full view)
   function pose(p) {
@@ -139,5 +146,5 @@ export function createTransition({ root, live, stage, onLayout, onEnter, onLeave
     place();
   }
 
-  return { enter, leave, pose, get inside() { return inside; } };
+  return { enter, leave, pose, adopt() { inside = true; }, destroy() { disposed=true; timeline?.kill(); removeEventListener('resize', onResize); }, get inside() { return inside; } };
 }

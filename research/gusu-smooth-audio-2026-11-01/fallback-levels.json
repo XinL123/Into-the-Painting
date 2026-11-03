@@ -1,0 +1,222 @@
+[
+  {
+    "id": "pagoda",
+    "ogg_lufs": -24.74,
+    "wav": {
+      "lufs": -24.74,
+      "peak": -11.45,
+      "rms": -26.61,
+      "duration": 6.0
+    }
+  },
+  {
+    "id": "shantang-arch",
+    "ogg_lufs": -24.77,
+    "wav": {
+      "lufs": -24.77,
+      "peak": -8.37,
+      "rms": -27.3,
+      "duration": 7.8
+    }
+  },
+  {
+    "id": "canal",
+    "ogg_lufs": -24.6,
+    "wav": {
+      "lufs": -24.6,
+      "peak": -5.47,
+      "rms": -26.67,
+      "duration": 7.8
+    }
+  },
+  {
+    "id": "gate",
+    "ogg_lufs": -24.64,
+    "wav": {
+      "lufs": -24.64,
+      "peak": -6.84,
+      "rms": -25.73,
+      "duration": 7.8
+    }
+  },
+  {
+    "id": "signs",
+    "ogg_lufs": -24.59,
+    "wav": {
+      "lufs": -24.59,
+      "peak": -11.97,
+      "rms": -24.91,
+      "duration": 6.0
+    }
+  },
+  {
+    "id": "administration",
+    "ogg_lufs": -24.71,
+    "wav": {
+      "lufs": -24.71,
+      "peak": -11.11,
+      "rms": -26.16,
+      "duration": 7.8
+    }
+  },
+  {
+    "id": "tea",
+    "ogg_lufs": -24.93,
+    "wav": {
+      "lufs": -24.92,
+      "peak": -5.58,
+      "rms": -28.55,
+      "duration": 4.8
+    }
+  },
+  {
+    "id": "wannian",
+    "ogg_lufs": -24.78,
+    "wav": {
+      "lufs": -24.78,
+      "peak": -9.91,
+      "rms": -27.31,
+      "duration": 8.0
+    }
+  },
+  {
+    "id": "wharf",
+    "ogg_lufs": -24.58,
+    "wav": {
+      "lufs": -24.58,
+      "peak": -8.02,
+      "rms": -24.76,
+      "duration": 7.8
+    }
+  },
+  {
+    "id": "ruiguang",
+    "ogg_lufs": -24.44,
+    "wav": {
+      "lufs": -24.44,
+      "peak": -14.01,
+      "rms": -24.84,
+      "duration": 7.0
+    }
+  },
+  {
+    "id": "dye",
+    "ogg_lufs": -24.98,
+    "wav": {
+      "lufs": -24.98,
+      "peak": -10.7,
+      "rms": -28.68,
+      "duration": 6.0
+    }
+  },
+  {
+    "id": "theatre",
+    "ogg_lufs": -24.55,
+    "wav": {
+      "lufs": -24.55,
+      "peak": -9.11,
+      "rms": -24.66,
+      "duration": 7.8
+    }
+  },
+  {
+    "id": "lake-plots",
+    "ogg_lufs": -24.9,
+    "wav": {
+      "lufs": -24.9,
+      "peak": -11.25,
+      "rms": -28.32,
+      "duration": 6.0
+    }
+  },
+  {
+    "id": "bridge",
+    "ogg_lufs": -24.82,
+    "wav": {
+      "lufs": -24.82,
+      "peak": -8.67,
+      "rms": -27.88,
+      "duration": 6.0
+    }
+  },
+  {
+    "id": "garden",
+    "ogg_lufs": -24.55,
+    "wav": {
+      "lufs": -24.55,
+      "peak": -10.27,
+      "rms": -25.76,
+      "duration": 7.8
+    }
+  },
+  {
+    "id": "granary",
+    "ogg_lufs": -24.87,
+    "wav": {
+      "lufs": -24.87,
+      "peak": -8.21,
+      "rms": -29.89,
+      "duration": 7.5
+    }
+  },
+  {
+    "id": "wedding",
+    "ogg_lufs": -24.83,
+    "wav": {
+      "lufs": -24.83,
+      "peak": -8.49,
+      "rms": -28.06,
+      "duration": 7.8
+    }
+  },
+  {
+    "id": "temple",
+    "ogg_lufs": -24.47,
+    "wav": {
+      "lufs": -24.47,
+      "peak": -7.99,
+      "rms": -25.26,
+      "duration": 7.8
+    }
+  },
+  {
+    "id": "mudu-market",
+    "ogg_lufs": -24.79,
+    "wav": {
+      "lufs": -24.79,
+      "peak": -6.57,
+      "rms": -27.09,
+      "duration": 5.0
+    }
+  },
+  {
+    "id": "outing",
+    "ogg_lufs": -24.8,
+    "wav": {
+      "lufs": -24.8,
+      "peak": -8.84,
+      "rms": -29.99,
+      "duration": 6.0
+    }
+  },
+  {
+    "id": "cloth",
+    "ogg_lufs": -24.92,
+    "wav": {
+      "lufs": -24.92,
+      "peak": -9.24,
+      "rms": -28.01,
+      "duration": 6.0
+    }
+  },
+  {
+    "id": "school",
+    "ogg_lufs": -24.52,
+    "wav": {
+      "lufs": -24.52,
+      "peak": -7.17,
+      "rms": -25.66,
+      "duration": 8.0
+    }
+  }
+]

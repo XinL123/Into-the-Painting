@@ -1,0 +1,1 @@
+Granary screenshot figures are at master x25000..25060 y270..310. Tea shop is x11185..11515 y835..1010; it was already at the ordinary1.25x cap, so permit a modest1.45x camera limit only for tea/granary. Gallery pause/mute must not be interpreted as project-speaker mute; preserve only explicit project mute across controllers.

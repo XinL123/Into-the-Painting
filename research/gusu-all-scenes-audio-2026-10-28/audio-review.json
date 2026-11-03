@@ -1,0 +1,222 @@
+[
+  {
+    "number": 1,
+    "id": "pagoda",
+    "title": "A Tower Above the Trees",
+    "label": "虎丘 · 风中竹响",
+    "file": "gusu-balanced-pagoda-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 2,
+    "id": "shantang-arch",
+    "title": "Room for Boats, Too",
+    "label": "拱桥下 · 绳响、轻水与远处人声",
+    "file": "gusu-balanced-shantang-arch-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 3,
+    "id": "canal",
+    "title": "A City with Two Kinds of Streets",
+    "label": "山塘水道 · 清晰划桨",
+    "file": "gusu-balanced-canal-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 4,
+    "id": "gate",
+    "title": "A City Gate with a Crowd",
+    "label": "阊门 · 马蹄与街市人声",
+    "file": "gusu-balanced-gate-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 5,
+    "id": "signs",
+    "title": "Signs, Signs Everywhere!",
+    "label": "商街招牌 · 远处人声",
+    "file": "gusu-balanced-signs-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 6,
+    "id": "administration",
+    "title": "Flags Mean Official Business",
+    "label": "官署 · 院中轻风与远处脚步",
+    "file": "gusu-balanced-administration-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 7,
+    "id": "tea",
+    "title": "Tea with a Name",
+    "label": "茶室 · 倒茶",
+    "file": "gusu-balanced-tea-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 8,
+    "id": "wannian",
+    "title": "A Bridge in Two Colors",
+    "label": "万年桥 · 石面脚步与水",
+    "file": "gusu-balanced-wannian-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 9,
+    "id": "wharf",
+    "title": "Where the Boats Met the Street",
+    "label": "码头 · 人声、船靠岸与水",
+    "file": "gusu-balanced-wharf-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 10,
+    "id": "ruiguang",
+    "title": "A Pagoda Above the Rooftops",
+    "label": "瑞光塔 · 悠长钟声",
+    "file": "gusu-balanced-ruiguang-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 11,
+    "id": "dye",
+    "title": "A City in Full Color",
+    "label": "染坊 · 布料翻动",
+    "file": "gusu-balanced-dye-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 12,
+    "id": "theatre",
+    "title": "Showtime in Old Suzhou",
+    "label": "戏台 · 紧鼓、鼓边与小钹",
+    "file": "gusu-balanced-theatre-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 13,
+    "id": "lake-plots",
+    "title": "Farming at the Water's Edge",
+    "label": "田塘 · 远处蛙鸣",
+    "file": "gusu-balanced-lake-plots-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 14,
+    "id": "bridge",
+    "title": "A Bridge with Nine Arches",
+    "label": "石湖桥 · 湖岸水声",
+    "file": "gusu-balanced-bridge-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 15,
+    "id": "garden",
+    "title": "A Garden Party, Qing-Style",
+    "label": "园中聚会 · 轻古筝与茶具",
+    "file": "gusu-balanced-garden-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 16,
+    "id": "granary",
+    "title": "A Granary with a Backup Plan",
+    "label": "社仓 · 分次倾倒干米",
+    "file": "gusu-balanced-granary-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 17,
+    "id": "wedding",
+    "title": "Wedding Traffic, On Water?",
+    "label": "水上婚礼 · 唢呐与锣鼓",
+    "file": "gusu-balanced-wedding-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 18,
+    "id": "temple",
+    "title": "A Temple Behind the Shops?",
+    "label": "寺院 · 木鱼与远钟",
+    "file": "gusu-balanced-temple-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 19,
+    "id": "mudu-market",
+    "title": "A Bridge into Business",
+    "label": "木渎市集 · 轻脚步",
+    "file": "gusu-balanced-mudu-market-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 20,
+    "id": "outing",
+    "title": "A Mountain Day Out",
+    "label": "郊游 · 鸟鸣",
+    "file": "gusu-balanced-outing-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 21,
+    "id": "cloth",
+    "title": "Cloth Starts at Home",
+    "label": "织布 · 木织机",
+    "file": "gusu-balanced-cloth-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  },
+  {
+    "number": 22,
+    "id": "school",
+    "title": "School, Scroll-Style",
+    "label": "学堂 · 轻翻书与古琴",
+    "file": "gusu-balanced-school-v5",
+    "mode": "once",
+    "gain": 0.8,
+    "revision": "2026-11-01-balanced-v5"
+  }
+]

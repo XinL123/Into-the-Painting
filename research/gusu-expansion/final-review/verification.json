@@ -1,0 +1,21 @@
+{
+  "native_crops_pixel_identical": 18,
+  "master_unchanged": true,
+  "application_files_unchanged": 168,
+  "existing_anchor_boxes_unchanged": 13,
+  "new_candidates": 9,
+  "total_route": 22,
+  "scene_box_collisions": 0,
+  "word_counts": {
+    "A": 44,
+    "B": 46,
+    "C": 45,
+    "D": 46,
+    "F": 44,
+    "G": 47,
+    "E2": 43,
+    "H": 48,
+    "J": 47
+  },
+  "runtime_integration_performed": false
+}

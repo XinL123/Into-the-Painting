@@ -1,0 +1,1 @@
+Qingming scene effects are layered CC0 Freesound recordings via prep-sound.sh. Gallery music separately comes from user videos (pipa-yu etc.), not the scene sound system. User asks festive wedding, discrete grain pours, subtle plucked garden string and7–8second duration for all Gusu sounds. Preserve original assets and all Qingming behaviour.

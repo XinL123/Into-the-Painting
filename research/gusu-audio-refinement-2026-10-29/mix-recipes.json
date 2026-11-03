@@ -1,0 +1,469 @@
+[
+  {
+    "scene": 1,
+    "file": "gusu-school-study-v2",
+    "duration": 8,
+    "peak_dbfs": -19,
+    "layers": [
+      {
+        "label": "study-air",
+        "at": 0,
+        "gain_db": 0
+      },
+      {
+        "label": "soft-page",
+        "at": 0.8,
+        "gain_db": 0
+      },
+      {
+        "label": "soft-page",
+        "at": 3.65,
+        "gain_db": -6
+      },
+      {
+        "label": "soft-page",
+        "at": 6.1,
+        "gain_db": -3
+      }
+    ]
+  },
+  {
+    "scene": 5,
+    "file": "gusu-temple-courtyard-v2",
+    "duration": 8.5,
+    "peak_dbfs": -15,
+    "layers": [
+      {
+        "label": "temple-air",
+        "at": 0,
+        "gain_db": 0
+      },
+      {
+        "label": "distant-temple-bell",
+        "at": 0.2,
+        "gain_db": 0
+      },
+      {
+        "label": "wooden-fish",
+        "at": 1.1,
+        "gain_db": -1
+      },
+      {
+        "label": "wooden-fish",
+        "at": 2.55,
+        "gain_db": -3
+      },
+      {
+        "label": "wooden-fish",
+        "at": 4,
+        "gain_db": -2
+      },
+      {
+        "label": "wooden-fish",
+        "at": 5.5,
+        "gain_db": 0
+      },
+      {
+        "label": "wooden-fish",
+        "at": 6.95,
+        "gain_db": -3
+      }
+    ]
+  },
+  {
+    "scene": 6,
+    "file": "gusu-wedding-procession-v2",
+    "duration": 10,
+    "peak_dbfs": -12,
+    "layers": [
+      {
+        "label": "celebration-gong",
+        "at": 0.4,
+        "gain_db": 0
+      },
+      {
+        "label": "celebration-gong",
+        "at": 2.7,
+        "gain_db": -3
+      },
+      {
+        "label": "celebration-gong",
+        "at": 5.1,
+        "gain_db": -1
+      },
+      {
+        "label": "celebration-gong",
+        "at": 7.35,
+        "gain_db": -4
+      },
+      {
+        "label": "round-drum",
+        "at": 0.4,
+        "gain_db": -8
+      },
+      {
+        "label": "round-drum",
+        "at": 1.05,
+        "gain_db": -12
+      },
+      {
+        "label": "round-drum",
+        "at": 1.55,
+        "gain_db": -10
+      },
+      {
+        "label": "round-drum",
+        "at": 2.7,
+        "gain_db": -9
+      },
+      {
+        "label": "round-drum",
+        "at": 3.35,
+        "gain_db": -13
+      },
+      {
+        "label": "round-drum",
+        "at": 3.85,
+        "gain_db": -10
+      },
+      {
+        "label": "round-drum",
+        "at": 5.1,
+        "gain_db": -8
+      },
+      {
+        "label": "round-drum",
+        "at": 5.75,
+        "gain_db": -12
+      },
+      {
+        "label": "round-drum",
+        "at": 6.25,
+        "gain_db": -10
+      },
+      {
+        "label": "round-drum",
+        "at": 7.35,
+        "gain_db": -9
+      },
+      {
+        "label": "round-drum",
+        "at": 8,
+        "gain_db": -13
+      },
+      {
+        "label": "round-drum",
+        "at": 8.5,
+        "gain_db": -11
+      },
+      {
+        "label": "small-cymbal",
+        "at": 2.7,
+        "gain_db": -11
+      },
+      {
+        "label": "small-cymbal",
+        "at": 7.35,
+        "gain_db": -14
+      }
+    ]
+  },
+  {
+    "scene": 7,
+    "file": "gusu-granary-pour-v2",
+    "duration": 9,
+    "peak_dbfs": -11,
+    "layers": [
+      {
+        "label": "continuous-rice-pour",
+        "at": 0,
+        "gain_db": 0
+      }
+    ]
+  },
+  {
+    "scene": 8,
+    "file": "gusu-garden-gathering-v2",
+    "duration": 8.5,
+    "peak_dbfs": -17,
+    "layers": [
+      {
+        "label": "garden-guests-0",
+        "at": 0,
+        "gain_db": 0
+      },
+      {
+        "label": "garden-guests-1",
+        "at": 0,
+        "gain_db": -3
+      },
+      {
+        "label": "cup-and-saucer",
+        "at": 1.15,
+        "gain_db": -2
+      },
+      {
+        "label": "gentle-teacup",
+        "at": 4.4,
+        "gain_db": -6
+      },
+      {
+        "label": "cup-and-saucer",
+        "at": 6.15,
+        "gain_db": -5
+      }
+    ]
+  },
+  {
+    "scene": 15,
+    "file": "gusu-bridge-water-v2",
+    "duration": 8,
+    "peak_dbfs": -12,
+    "layers": [
+      {
+        "label": "water-under-bridge",
+        "at": 0,
+        "gain_db": 0
+      },
+      {
+        "label": "stone-footsteps",
+        "at": 0.6,
+        "gain_db": 0
+      }
+    ]
+  },
+  {
+    "scene": 14,
+    "file": "gusu-wharf-crowd-v2",
+    "duration": 9,
+    "peak_dbfs": -12,
+    "layers": [
+      {
+        "label": "quayside-crowd-0",
+        "at": 0,
+        "gain_db": 0
+      },
+      {
+        "label": "quayside-crowd-1",
+        "at": 0,
+        "gain_db": -2
+      },
+      {
+        "label": "quayside-crowd-2",
+        "at": 0,
+        "gain_db": -4
+      },
+      {
+        "label": "boat-touching-dock",
+        "at": 1,
+        "gain_db": 0
+      },
+      {
+        "label": "dock-lapping",
+        "at": 0,
+        "gain_db": 0
+      }
+    ]
+  },
+  {
+    "scene": 19,
+    "file": "gusu-city-gate-v2",
+    "duration": 9,
+    "peak_dbfs": -12,
+    "layers": [
+      {
+        "label": "gate-crowd-0",
+        "at": 0,
+        "gain_db": 0
+      },
+      {
+        "label": "gate-crowd-1",
+        "at": 0,
+        "gain_db": -2
+      },
+      {
+        "label": "gate-crowd-2",
+        "at": 0,
+        "gain_db": -4
+      },
+      {
+        "label": "passing-horse",
+        "at": 0.35,
+        "gain_db": 0
+      },
+      {
+        "label": "horse-snort",
+        "at": 4.3,
+        "gain_db": 0
+      }
+    ]
+  },
+  {
+    "scene": 11,
+    "file": "gusu-theatre-ensemble-v2",
+    "duration": 10,
+    "peak_dbfs": -12,
+    "layers": [
+      {
+        "label": "round-drum",
+        "at": 0.4,
+        "gain_db": -1
+      },
+      {
+        "label": "round-drum",
+        "at": 1.15,
+        "gain_db": -4
+      },
+      {
+        "label": "round-drum",
+        "at": 1.9,
+        "gain_db": -2
+      },
+      {
+        "label": "round-drum",
+        "at": 2.4,
+        "gain_db": -1
+      },
+      {
+        "label": "round-drum",
+        "at": 3.4,
+        "gain_db": 0
+      },
+      {
+        "label": "round-drum",
+        "at": 4.15,
+        "gain_db": -3
+      },
+      {
+        "label": "round-drum",
+        "at": 4.9,
+        "gain_db": -1
+      },
+      {
+        "label": "round-drum",
+        "at": 5.4,
+        "gain_db": -3
+      },
+      {
+        "label": "round-drum",
+        "at": 6.1,
+        "gain_db": -4
+      },
+      {
+        "label": "round-drum",
+        "at": 6.4,
+        "gain_db": -6
+      },
+      {
+        "label": "round-drum",
+        "at": 6.7,
+        "gain_db": -3
+      },
+      {
+        "label": "round-drum",
+        "at": 7.3,
+        "gain_db": 0
+      },
+      {
+        "label": "round-drum",
+        "at": 8.05,
+        "gain_db": -3
+      },
+      {
+        "label": "round-drum",
+        "at": 8.8,
+        "gain_db": -1
+      },
+      {
+        "label": "drum-rim",
+        "at": 0.775,
+        "gain_db": -7
+      },
+      {
+        "label": "drum-rim",
+        "at": 1.525,
+        "gain_db": -9
+      },
+      {
+        "label": "drum-rim",
+        "at": 2.15,
+        "gain_db": -7
+      },
+      {
+        "label": "drum-rim",
+        "at": 2.775,
+        "gain_db": -8
+      },
+      {
+        "label": "drum-rim",
+        "at": 3.025,
+        "gain_db": -10
+      },
+      {
+        "label": "drum-rim",
+        "at": 3.775,
+        "gain_db": -7
+      },
+      {
+        "label": "drum-rim",
+        "at": 4.525,
+        "gain_db": -9
+      },
+      {
+        "label": "drum-rim",
+        "at": 5.15,
+        "gain_db": -7
+      },
+      {
+        "label": "drum-rim",
+        "at": 5.775,
+        "gain_db": -8
+      },
+      {
+        "label": "drum-rim",
+        "at": 6.25,
+        "gain_db": -10
+      },
+      {
+        "label": "drum-rim",
+        "at": 6.55,
+        "gain_db": -8
+      },
+      {
+        "label": "drum-rim",
+        "at": 7.675,
+        "gain_db": -7
+      },
+      {
+        "label": "drum-rim",
+        "at": 8.425,
+        "gain_db": -9
+      },
+      {
+        "label": "small-cymbal",
+        "at": 0.4,
+        "gain_db": -7
+      },
+      {
+        "label": "small-cymbal",
+        "at": 2.4,
+        "gain_db": -10
+      },
+      {
+        "label": "small-cymbal",
+        "at": 4.9,
+        "gain_db": -8
+      },
+      {
+        "label": "small-cymbal",
+        "at": 7.3,
+        "gain_db": -6
+      },
+      {
+        "label": "small-cymbal",
+        "at": 8.8,
+        "gain_db": -8
+      }
+    ]
+  }
+]

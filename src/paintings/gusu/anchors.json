@@ -1,0 +1,293 @@
+[
+  {
+    "id": "school",
+    "packageId": "02",
+    "title": "School, Scroll-Style",
+    "box": [
+      33590,
+      790,
+      33900,
+      935
+    ]
+  },
+  {
+    "id": "cloth",
+    "packageId": "03",
+    "title": "Cloth Starts at Home",
+    "box": [
+      32540,
+      610,
+      33100,
+      980
+    ]
+  },
+  {
+    "id": "outing",
+    "packageId": "01",
+    "title": "A Mountain Day Out",
+    "box": [
+      30990,
+      750,
+      31620,
+      990
+    ]
+  },
+  {
+    "id": "mudu-market",
+    "candidateId": "A",
+    "title": "A Bridge into Business",
+    "box": [
+      29120,
+      540,
+      29870,
+      1000
+    ],
+    "anchor": [
+      29540,
+      610
+    ]
+  },
+  {
+    "id": "temple",
+    "candidateId": "B",
+    "title": "A Temple Behind the Shops?",
+    "box": [
+      28850,
+      280,
+      29470,
+      530
+    ],
+    "anchor": [
+      29090,
+      435
+    ]
+  },
+  {
+    "id": "wedding",
+    "packageId": "04",
+    "title": "Wedding Traffic, On Water?",
+    "box": [
+      26980,
+      600,
+      27570,
+      810
+    ]
+  },
+  {
+    "id": "granary",
+    "candidateId": "C",
+    "title": "A Granary with a Backup Plan",
+    "box": [
+      24650,
+      40,
+      25650,
+      460
+    ],
+    "anchor": [
+      25200,
+      280
+    ]
+  },
+  {
+    "id": "garden",
+    "packageId": "05",
+    "title": "A Garden Party, Qing-Style",
+    "box": [
+      24730,
+      650,
+      25080,
+      850
+    ]
+  },
+  {
+    "id": "bridge",
+    "packageId": "06",
+    "title": "A Bridge with Nine Arches",
+    "box": [
+      21740,
+      235,
+      22060,
+      390
+    ]
+  },
+  {
+    "id": "lake-plots",
+    "candidateId": "D",
+    "title": "Farming at the Water's Edge",
+    "box": [
+      20450,
+      405,
+      21000,
+      685
+    ],
+    "anchor": [
+      20700,
+      590
+    ]
+  },
+  {
+    "id": "theatre",
+    "packageId": "10",
+    "title": "Showtime in Old Suzhou",
+    "box": [
+      18950,
+      560,
+      19570,
+      880
+    ]
+  },
+  {
+    "id": "dye",
+    "packageId": "07",
+    "title": "A City in Full Color",
+    "box": [
+      17550,
+      710,
+      17820,
+      960
+    ]
+  },
+  {
+    "id": "ruiguang",
+    "candidateId": "F",
+    "title": "A Pagoda Above the Rooftops",
+    "box": [
+      15700,
+      15,
+      16780,
+      340
+    ],
+    "anchor": [
+      16590,
+      100
+    ],
+    "frameBox": [
+      16340,
+      0,
+      16840,
+      330
+    ]
+  },
+  {
+    "id": "wharf",
+    "candidateId": "G",
+    "title": "Where the Boats Met the Street",
+    "box": [
+      14600,
+      360,
+      15370,
+      780
+    ],
+    "anchor": [
+      15200,
+      600
+    ]
+  },
+  {
+    "id": "wannian",
+    "candidateId": "E2",
+    "title": "A Bridge in Two Colors",
+    "box": [
+      12720,
+      570,
+      13880,
+      1010
+    ],
+    "anchor": [
+      13240,
+      775
+    ],
+    "frameBox": [
+      12900,
+      600,
+      13670,
+      1010
+    ]
+  },
+  {
+    "id": "tea",
+    "packageId": "09",
+    "title": "Tea with a Name",
+    "box": [
+      11180,
+      835,
+      11600,
+      1010
+    ]
+  },
+  {
+    "id": "administration",
+    "candidateId": "H",
+    "title": "Flags Mean Official Business",
+    "box": [
+      10480,
+      370,
+      10980,
+      790
+    ],
+    "anchor": [
+      10700,
+      600
+    ]
+  },
+  {
+    "id": "signs",
+    "packageId": "12",
+    "title": "Signs, Signs Everywhere!",
+    "box": [
+      7500,
+      300,
+      8000,
+      475
+    ]
+  },
+  {
+    "id": "gate",
+    "packageId": "08",
+    "title": "A City Gate with a Crowd",
+    "box": [
+      6900,
+      600,
+      7650,
+      990
+    ]
+  },
+  {
+    "id": "canal",
+    "packageId": "11",
+    "title": "A City with Two Kinds of Streets",
+    "box": [
+      4850,
+      420,
+      5600,
+      800
+    ]
+  },
+  {
+    "id": "shantang-arch",
+    "candidateId": "J",
+    "title": "Room for Boats, Too",
+    "box": [
+      3780,
+      410,
+      4160,
+      850
+    ],
+    "anchor": [
+      3970,
+      570
+    ]
+  },
+  {
+    "id": "pagoda",
+    "packageId": "13",
+    "title": "A Tower at the Finish Line",
+    "box": [
+      500,
+      0,
+      950,
+      390
+    ],
+    "nextLabel": "Restart the Journey"
+  }
+]

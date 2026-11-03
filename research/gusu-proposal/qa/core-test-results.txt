@@ -1,0 +1,20 @@
+✔ 13 approved anchors and order are preserved; copy stays concise (1.671541ms)
+✔ all scenes fit safe image area on desktop, phone and short landscape (0.342791ms)
+✔ slow images cannot exceed concurrency or grow an unbounded cache (3.018792ms)
+Painting detail unavailable new Error: 404
+    at load (file:///Users/Xin.L/Desktop/portfolio/playground/painting/research/gusu-proposal/qa/core.test.mjs:36:192)
+    at pump (file:///Users/Xin.L/Desktop/portfolio/playground/painting/src/explore/images.js:34:7)
+    at Object.request (file:///Users/Xin.L/Desktop/portfolio/playground/painting/src/explore/images.js:53:7)
+    at TestContext.<anonymous> (file:///Users/Xin.L/Desktop/portfolio/playground/painting/research/gusu-proposal/qa/core.test.mjs:38:8)
+    at async Test.run (node:internal/test_runner/test:1113:7)
+    at async Test.processPendingSubtests (node:internal/test_runner/test:788:7)
+✔ stale requests abort, failures retain fallback and explicit retry recovers (0.733167ms)
+✔ sound cancellation while bytes are pending cannot start a stale clip (1.387583ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 76.528958

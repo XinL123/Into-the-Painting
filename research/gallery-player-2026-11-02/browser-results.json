@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Player starts closed",
+    "pass": true
+  },
+  {
+    "name": "Opening the player unlocks enabled music",
+    "pass": true
+  },
+  {
+    "name": "Three authored tracks are selectable",
+    "pass": true
+  },
+  {
+    "name": "Pause updates control and preference",
+    "pass": true
+  },
+  {
+    "name": "Continue preserves track position",
+    "pass": true
+  },
+  {
+    "name": "Previous wraps first to last",
+    "pass": true
+  },
+  {
+    "name": "Next wraps last to first",
+    "pass": true
+  },
+  {
+    "name": "Choosing a title starts that track",
+    "pass": true
+  },
+  {
+    "name": "Volume slider controls actual playback and announces value",
+    "pass": true
+  },
+  {
+    "name": "Skipping preserves volume",
+    "pass": true
+  },
+  {
+    "name": "Skipping while paused stays paused",
+    "pass": true
+  },
+  {
+    "name": "Rapid skipping retains a valid single stream",
+    "pass": true
+  },
+  {
+    "name": "Escape closes and returns focus to opener",
+    "pass": true
+  },
+  {
+    "name": "Outside press dismisses player",
+    "pass": true
+  },
+  {
+    "name": "1280px: panel fits viewport",
+    "pass": true
+  },
+  {
+    "name": "390px: panel fits viewport",
+    "pass": true
+  },
+  {
+    "name": "320px: panel fits viewport",
+    "pass": true
+  },
+  {
+    "name": "Prosperous Suzhou: player closes and music pauses on entry",
+    "pass": true
+  },
+  {
+    "name": "Prosperous Suzhou: scene sound remains independent and on",
+    "pass": true
+  },
+  {
+    "name": "Prosperous Suzhou: scene sound still starts",
+    "pass": true
+  },
+  {
+    "name": "Prosperous Suzhou: exit resumes chosen track and volume",
+    "pass": true
+  },
+  {
+    "name": "Along the River During the Qingming Festival: player closes and music pauses on entry",
+    "pass": true
+  },
+  {
+    "name": "Along the River During the Qingming Festival: scene sound remains independent and on",
+    "pass": true
+  },
+  {
+    "name": "Along the River During the Qingming Festival: scene sound still starts",
+    "pass": true
+  },
+  {
+    "name": "Along the River During the Qingming Festival: exit resumes chosen track and volume",
+    "pass": true
+  },
+  {
+    "name": "Paused gallery does not mute project",
+    "pass": true
+  },
+  {
+    "name": "Manual pause remains after returning",
+    "pass": true
+  },
+  {
+    "name": "ALL PLAYER CHECKS PASSED",
+    "pass": true
+  }
+]

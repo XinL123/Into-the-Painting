@@ -1,0 +1,2 @@
+User explicitly requests sound for every Gusu scene; previous intentional silence is superseded. Preserve prior eight clips, approved copy/coordinates, spatial navigation and Qingming. New recordings must be CC0 with source URL and processing provenance. Sounds remain modern illustrative foley rather than a historical reconstruction.
+Palette: pages, hand loom, birds, steps, wind, gong, grain pour, ceramics, lakeshore, frogs, drum, fabric, bell, dock, stone steps, tea pour, flag, market murmur, hooves, paddle, mooring rope, bamboo.

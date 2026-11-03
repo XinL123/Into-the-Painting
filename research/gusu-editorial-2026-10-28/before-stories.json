@@ -1,0 +1,450 @@
+[
+  {
+    "id": "school",
+    "packageId": "02",
+    "title": "School, Scroll-Style",
+    "box": [
+      33590,
+      790,
+      33900,
+      935
+    ],
+    "text": [
+      "A classroom, before we even reach the city!",
+      "Researchers identify this little room as a village school. The desks and figures give us a glimpse of education beyond Suzhou’s busy streets. Even a scroll about prosperity makes room for homework."
+    ]
+  },
+  {
+    "id": "cloth",
+    "packageId": "03",
+    "title": "Cloth Starts at Home",
+    "box": [
+      32540,
+      610,
+      33100,
+      980
+    ],
+    "text": [
+      "Beautiful cloth had a quieter beginning: somebody had to make it.",
+      "Researchers read this household scene as cotton-cloth production. Look at the workroom and equipment around the courtyard. Behind the shops and colorful fabrics were hours of work much closer to home."
+    ]
+  },
+  {
+    "id": "outing",
+    "packageId": "01",
+    "title": "A Mountain Day Out",
+    "box": [
+      30990,
+      750,
+      31620,
+      990
+    ],
+    "text": [
+      "Pine trees, mountain air, and a little time off.",
+      "This gathering is identified as an outing at Lingyan Mountain, a local sightseeing destination. Visitors rest while food is prepared nearby. The scroll’s busiest city still comes with an escape route into the hills."
+    ],
+    "sound": {
+      "file": "gusu-birds",
+      "mode": "once",
+      "gain": 0.65
+    }
+  },
+  {
+    "id": "mudu-market",
+    "candidateId": "A",
+    "title": "A Bridge into Business",
+    "box": [
+      29120,
+      540,
+      29870,
+      1000
+    ],
+    "anchor": [
+      29540,
+      610
+    ],
+    "text": [
+      "A bridge, a river, and shops almost at your feet.",
+      "Researchers describe this part of Mudu as a busy commercial district. With shopfronts opening toward the waterfront, crossing the river could bring you straight into the market. A handy place to combine two errands!"
+    ],
+    "sound": {
+      "file": "gusu-water",
+      "mode": "once",
+      "gain": 0.5
+    },
+    "sources": [
+      "https://www.zgwypl.com/content/details78_48430.html"
+    ]
+  },
+  {
+    "id": "temple",
+    "candidateId": "B",
+    "title": "A Temple Behind the Shops?",
+    "box": [
+      28850,
+      280,
+      29470,
+      530
+    ],
+    "anchor": [
+      29090,
+      435
+    ],
+    "text": [
+      "Shopfronts in front, a temple tucked behind!",
+      "Researchers identify this enclosed compound by its two-storey, many-sided pavilion and aligned halls. The market street wasn't the whole town: religious buildings shared the same crowded waterfront neighborhood. Look past the first row of roofs for a different story."
+    ],
+    "sources": [
+      "https://www.zgwypl.com/content/details78_48430.html"
+    ]
+  },
+  {
+    "id": "wedding",
+    "packageId": "04",
+    "title": "Wedding Traffic, On Water?",
+    "box": [
+      26980,
+      600,
+      27570,
+      810
+    ],
+    "text": [
+      "That decorated boat seems to have quite a party aboard.",
+      "Researchers interpret the procession near Mudu as a wedding fleet. In this canal town, a celebration could travel by water too. Who’s getting married? The painting leaves us without a guest list."
+    ],
+    "sound": {
+      "file": "gusu-water",
+      "mode": "once",
+      "gain": 0.55
+    }
+  },
+  {
+    "id": "granary",
+    "candidateId": "C",
+    "title": "A Granary with a Backup Plan",
+    "box": [
+      24650,
+      40,
+      25650,
+      460
+    ],
+    "anchor": [
+      25200,
+      280
+    ],
+    "text": [
+      "Those long roofs had a practical purpose.",
+      "Researchers identify this waterside compound as a shecang, or community granary. Such granaries held grain to help communities withstand shortages. The rows of storehouses make a useful counterpoint to all those shops: prosperity needed a backup plan, too."
+    ],
+    "sources": [
+      "https://www.zgwypl.com/content/details78_48430.html",
+      "https://www.chinagrain.org.cn/luntan/ff808081978ec6f90197ed4d669c0b30.html"
+    ]
+  },
+  {
+    "id": "garden",
+    "packageId": "05",
+    "title": "A Garden Party, Qing-Style",
+    "box": [
+      24730,
+      650,
+      25080,
+      850
+    ],
+    "text": [
+      "A garden, a gathering, and some very good party scenery.",
+      "This Mudu residence combines planted courtyards with rooms for entertaining. Researchers have suggested it may be Suichu Garden, though that identification remains uncertain. The guests are visible; the invitation is still missing."
+    ]
+  },
+  {
+    "id": "bridge",
+    "packageId": "06",
+    "title": "A Bridge with Nine Arches",
+    "box": [
+      21740,
+      235,
+      22060,
+      390
+    ],
+    "text": [
+      "Count the small arches on the long bridge behind the big single arch.",
+      "That is Xingchun Bridge, famous for the moon-viewing tradition called *Shihu Chuanyue*. This painting shows a daytime scene, so the moonlit spectacle belongs to the bridge’s story, rather than the sky above it."
+    ],
+    "sound": {
+      "file": "gusu-water",
+      "mode": "once",
+      "gain": 0.5
+    }
+  },
+  {
+    "id": "lake-plots",
+    "candidateId": "D",
+    "title": "Farming at the Water's Edge",
+    "box": [
+      20450,
+      405,
+      21000,
+      685
+    ],
+    "anchor": [
+      20700,
+      590
+    ],
+    "text": [
+      "Not quite an empty lake!",
+      "Low banks divide this waterside landscape into plots. Researchers describe fields and fishponds around Stone Lake, where people adapted the watery surroundings for food production. The shoreline was a working landscape as well as a scenic one. Look between the banks."
+    ],
+    "sound": {
+      "file": "gusu-birds",
+      "mode": "once",
+      "gain": 0.5
+    },
+    "sources": [
+      "https://www.zgwypl.com/content/details78_48430.html"
+    ]
+  },
+  {
+    "id": "theatre",
+    "packageId": "10",
+    "title": "Showtime in Old Suzhou",
+    "box": [
+      18950,
+      560,
+      19570,
+      880
+    ],
+    "text": [
+      "The crowd has found something more entertaining than shopping.",
+      "This outdoor stage is one of the scroll’s glimpses of Suzhou’s performance culture. Look at how spectators gather around the actors. We can spot the show, but identifying the exact play would take more than a colorful costume."
+    ]
+  },
+  {
+    "id": "dye",
+    "packageId": "07",
+    "title": "A City in Full Color",
+    "box": [
+      17550,
+      710,
+      17820,
+      960
+    ],
+    "text": [
+      "Those colorful lengths of cloth have an industry behind them.",
+      "A Suzhou Museum exhibition report identifies four dye works across the entire scroll. This workshop near Huai-Xu Bridge brings that trade into view. The city’s colors did not all come ready-made."
+    ]
+  },
+  {
+    "id": "ruiguang",
+    "candidateId": "F",
+    "title": "A Pagoda Above the Rooftops",
+    "box": [
+      15700,
+      15,
+      16780,
+      340
+    ],
+    "anchor": [
+      16590,
+      100
+    ],
+    "text": [
+      "City walls and a temple tower share this skyline.",
+      "Researchers identify them as Panmen and Ruiguang Pagoda. One marked the fortified city edge; the other belonged to a Buddhist temple. Follow the wall, then look up: Suzhou's religious landscape rises just behind its defenses."
+    ],
+    "sources": [
+      "https://www.zgwypl.com/content/details78_48430.html",
+      "https://www.panmen.com.cn/About/1.html"
+    ]
+  },
+  {
+    "id": "wharf",
+    "candidateId": "G",
+    "title": "Where the Boats Met the Street",
+    "box": [
+      14600,
+      360,
+      15370,
+      780
+    ],
+    "anchor": [
+      15200,
+      600
+    ],
+    "text": [
+      "A river journey still needed a way ashore.",
+      "Researchers identify this busy landing beside the city wall as Xumen wharf. Stone embankments and steps connect the water to the crowded shore, with boats gathered alongside. Here, Suzhou's water traffic met its streets. Quite a change of pace!"
+    ],
+    "sound": {
+      "file": "gusu-water",
+      "mode": "once",
+      "gain": 0.55
+    },
+    "sources": [
+      "https://www.zgwypl.com/content/details78_48430.html"
+    ]
+  },
+  {
+    "id": "wannian",
+    "candidateId": "E2",
+    "title": "A Bridge in Two Colors",
+    "box": [
+      12720,
+      570,
+      13880,
+      1010
+    ],
+    "anchor": [
+      13240,
+      775
+    ],
+    "text": [
+      "Stone here, red-painted wood there.",
+      "Researchers identify this as Wannian Bridge outside Xumen, with alternating stone and red wooden railings. Look along the parapet to spot the changing pattern. In this busy waterfront scene, even a river crossing came dressed for the occasion."
+    ],
+    "sound": {
+      "file": "gusu-water",
+      "mode": "once",
+      "gain": 0.5
+    },
+    "sources": [
+      "https://www.zgwypl.com/content/details78_48430.html",
+      "https://xuebaosk.ahut.edu.cn/cn/article/pdf/preview/10.3969/j.issn.1671-9247.2021.02.013.pdf",
+      "https://english.suzhou.gov.cn/szsenglish/szcmyz/202512/da66785a602b4e6fafd5df357a4c25e3.shtml"
+    ]
+  },
+  {
+    "id": "tea",
+    "packageId": "09",
+    "title": "Tea with a Name",
+    "box": [
+      11180,
+      835,
+      11600,
+      1010
+    ],
+    "text": [
+      "Upstairs, a tiny sign gives this gathering a name.",
+      "A museum-supplied close-up identifies the *Songluo Tea Room* north of Wannian Bridge. Tea rooms were part of Suzhou’s social life. The sign is clearer in that close-up; everyone’s tea order remains safely off the record."
+    ]
+  },
+  {
+    "id": "administration",
+    "candidateId": "H",
+    "title": "Flags Mean Official Business",
+    "box": [
+      10480,
+      370,
+      10980,
+      790
+    ],
+    "anchor": [
+      10700,
+      600
+    ],
+    "text": [
+      "Those flags signal a different kind of business.",
+      "Researchers identify this compound as the provincial administration office. Qing provincial commissioners had to report money and grain accounts as part of their duties. Prosperity came with paperwork, too. The fenced entrance gives official business a space of its own."
+    ],
+    "sources": [
+      "https://www.zgwypl.com/content/details78_48430.html",
+      "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_24755.shtml"
+    ]
+  },
+  {
+    "id": "signs",
+    "packageId": "12",
+    "title": "Signs, Signs Everywhere!",
+    "box": [
+      7500,
+      300,
+      8000,
+      475
+    ],
+    "text": [
+      "Shopkeepers knew how to catch an eye long before neon.",
+      "Look at the signs lining this street near Changmen. A recent museum recount identifies more than 260 business signs across the whole painting. One small stretch of shopping, one very large reading list."
+    ]
+  },
+  {
+    "id": "gate",
+    "packageId": "08",
+    "title": "A City Gate with a Crowd",
+    "box": [
+      6900,
+      600,
+      7650,
+      990
+    ],
+    "text": [
+      "A city entrance with plenty going on around it.",
+      "Changmen is one of the major gateways on Xu Yang’s painted route through Suzhou. Here, walls and a bridge share the scene with boats, shops, and crowds. The gate has some lively company."
+    ]
+  },
+  {
+    "id": "canal",
+    "packageId": "11",
+    "title": "A City with Two Kinds of Streets",
+    "box": [
+      4850,
+      420,
+      5600,
+      800
+    ],
+    "text": [
+      "Why choose between a street and a waterway?",
+      "Suzhou’s roads and canals often ran side by side, a pattern visible here around Shantang. Boats, landing places, and foot traffic connect the shops in different ways. This city had more than one kind of lane."
+    ],
+    "sound": {
+      "file": "gusu-water",
+      "mode": "once",
+      "gain": 0.6
+    }
+  },
+  {
+    "id": "shantang-arch",
+    "candidateId": "J",
+    "title": "Room for Boats, Too",
+    "box": [
+      3780,
+      410,
+      4160,
+      850
+    ],
+    "anchor": [
+      3970,
+      570
+    ],
+    "text": [
+      "Up and over for people; room underneath for boats.",
+      "This arched bridge belongs to the Shantang stretch of the scroll. Research on the painting explains how raised bridge openings accommodated water traffic while linking the banks. Two routes crossing in one small space. Nicely done, bridge builders."
+    ],
+    "sound": {
+      "file": "gusu-water",
+      "mode": "once",
+      "gain": 0.5
+    },
+    "sources": [
+      "https://xuebaosk.ahut.edu.cn/cn/article/pdf/preview/10.3969/j.issn.1671-9247.2021.02.013.pdf"
+    ]
+  },
+  {
+    "id": "pagoda",
+    "packageId": "13",
+    "title": "A Tower at the Finish Line",
+    "box": [
+      500,
+      0,
+      950,
+      390
+    ],
+    "text": [
+      "After all those shops and boats, the journey ends on a hill.",
+      "Xu Yang brings his painted route to Tiger Hill, where the pagoda rises above temple buildings. The scroll travels from countryside through city life to this landmark. Quite a long walk for your eyes."
+    ],
+    "sound": {
+      "file": "gusu-birds",
+      "mode": "once",
+      "gain": 0.55
+    }
+  }
+]

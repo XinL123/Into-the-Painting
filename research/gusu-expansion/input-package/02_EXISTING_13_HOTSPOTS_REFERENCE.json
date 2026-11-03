@@ -1,0 +1,340 @@
+{
+  "master": "master-research.jpg",
+  "width": 35311,
+  "height": 1010,
+  "origin": "top-left; x increases left-to-right",
+  "box_format": "[x0,y0,x1,y1] in original master pixels",
+  "normalized_format": "[x/W,y/H,width/W,height/H]",
+  "notes": "Boxes are research scene bounds, not final click hit areas. Production camera padding and marker position require local viewport QA. All crops use exact master; no alternate scan substituted.",
+  "hotspots": [
+    {
+      "package_id": "02",
+      "route_order": 1,
+      "title": "School, Scroll-Style",
+      "zone": "Opening village",
+      "box": [
+        33590,
+        790,
+        33900,
+        935
+      ],
+      "normalized_xywh": [
+        0.9512616,
+        0.7821782,
+        0.0087791,
+        0.1435644
+      ],
+      "anchor": "Open-front room, desks, seated and standing figures.",
+      "copy_guardrails": "School identification supported; avoid asserting an exact conversation or pupil count.",
+      "verification": "Matched scene; figures small.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Xu_Yang_-_Village_school.jpg",
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    },
+    {
+      "package_id": "03",
+      "route_order": 2,
+      "title": "Cloth Starts at Home",
+      "zone": "Opening village",
+      "box": [
+        32540,
+        610,
+        33100,
+        980
+      ],
+      "normalized_xywh": [
+        0.9215259,
+        0.6039604,
+        0.0158591,
+        0.3663366
+      ],
+      "anchor": "Long workshop room, courtyard equipment and household activity.",
+      "copy_guardrails": "Cotton-production identification supported; no invented tool mechanism.",
+      "verification": "Separate textile scan matches this courtyard.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Xu_Yang_-_Women_of_the_village_working.jpg",
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    },
+    {
+      "package_id": "01",
+      "route_order": 3,
+      "title": "A Mountain Day Out",
+      "zone": "Lingyan foothills",
+      "box": [
+        30990,
+        750,
+        31620,
+        990
+      ],
+      "normalized_xywh": [
+        0.8776302,
+        0.7425743,
+        0.0178415,
+        0.2376238
+      ],
+      "anchor": "Seated groups beneath pines, containers and a resting carrying chair.",
+      "copy_guardrails": "Describe a mountain outing; do not invent names, verses or a menu.",
+      "verification": "Visible gathering and equipment.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    },
+    {
+      "package_id": "04",
+      "route_order": 4,
+      "title": "Wedding Traffic, On Water?",
+      "zone": "Mudu, near the oblique bridge",
+      "box": [
+        26980,
+        600,
+        27570,
+        810
+      ],
+      "normalized_xywh": [
+        0.7640679,
+        0.5940594,
+        0.0167087,
+        0.2079208
+      ],
+      "anchor": "Decorated boat with a crowded party on deck.",
+      "copy_guardrails": "Wedding procession is a scholarly reading; use “Researchers identify…”; couple unknown.",
+      "verification": "Boat real and distinct; event interpretation attributed.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    },
+    {
+      "package_id": "05",
+      "route_order": 5,
+      "title": "A Garden Party, Qing-Style",
+      "zone": "Mudu garden residence",
+      "box": [
+        24730,
+        650,
+        25080,
+        850
+      ],
+      "normalized_xywh": [
+        0.7003483,
+        0.6435644,
+        0.0099119,
+        0.1980198
+      ],
+      "anchor": "Open red-trimmed hall with tables and guests, planted courtyards around it.",
+      "copy_guardrails": "Describe a garden gathering; omit settled Suichu Garden identity.",
+      "verification": "Visible hall and gathering.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    },
+    {
+      "package_id": "06",
+      "route_order": 6,
+      "title": "A Bridge with Nine Arches",
+      "zone": "Stone Lake",
+      "box": [
+        21740,
+        235,
+        22060,
+        390
+      ],
+      "normalized_xywh": [
+        0.6156722,
+        0.2326733,
+        0.0090623,
+        0.1534653
+      ],
+      "anchor": "Small repeated arches of the long bridge behind the large single arch.",
+      "copy_guardrails": "Identify Xingchun Bridge; moon-viewing tradition is background, not visible moonlight.",
+      "verification": "Select rear nine-arch span, not foreground Yuecheng Bridge.",
+      "sources": [
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    },
+    {
+      "package_id": "10",
+      "route_order": 7,
+      "title": "Showtime in Old Suzhou",
+      "zone": "Between Stone Lake and the city",
+      "box": [
+        18950,
+        560,
+        19570,
+        880
+      ],
+      "normalized_xywh": [
+        0.53666,
+        0.5544554,
+        0.0175583,
+        0.3168317
+      ],
+      "anchor": "Bright temporary-looking stage, performers and dense audience.",
+      "copy_guardrails": "A performance; no named play, opera genre or ticket price.",
+      "verification": "Stage and audience unmistakable.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Xu_Yang_-_Theatre_play.jpg"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    },
+    {
+      "package_id": "07",
+      "route_order": 8,
+      "title": "A City in Full Color",
+      "zone": "Near Huai-Xu Bridge",
+      "box": [
+        17550,
+        710,
+        17820,
+        960
+      ],
+      "normalized_xywh": [
+        0.4970123,
+        0.7029703,
+        0.0076463,
+        0.2475248
+      ],
+      "anchor": "Long colored lengths draped over rails outside a shop.",
+      "copy_guardrails": "Dye works contextualized by report; four refers to the whole scroll, never this crop.",
+      "verification": "Colored fabric and shop visible.",
+      "sources": [
+        "https://www.suzhou.gov.cn/szsrmzf/szyw/202607/7fac602898bd4b60a664eba6b46ffb76.shtml",
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    },
+    {
+      "package_id": "09",
+      "route_order": 9,
+      "title": "Tea with a Name",
+      "zone": "North of Wannian Bridge",
+      "box": [
+        11180,
+        835,
+        11600,
+        1010
+      ],
+      "normalized_xywh": [
+        0.3166152,
+        0.8267327,
+        0.0118943,
+        0.1732673
+      ],
+      "anchor": "Upper-floor window groups above a street with a carried dark sedan.",
+      "copy_guardrails": "Songluo Tea Room identified through museum-supplied close-up; no tea order or invented dialogue.",
+      "verification": "Exact facade/window/sedan sequence matched; master lettering too small to read independently.",
+      "sources": [
+        "https://m.jstv.com/news/2026/7/11/1525560875541487616.html"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    },
+    {
+      "package_id": "12",
+      "route_order": 10,
+      "title": "Signs, Signs Everywhere!",
+      "zone": "Street within Changmen",
+      "box": [
+        7500,
+        300,
+        8000,
+        475
+      ],
+      "normalized_xywh": [
+        0.2123984,
+        0.2970297,
+        0.0141599,
+        0.1732673
+      ],
+      "anchor": "Continuous shopfronts with repeated hanging/vertical signs.",
+      "copy_guardrails": "Point to visible signboards; avoid literal transcriptions here; optional total must be whole-scroll attributed.",
+      "verification": "Sign objects visible, individual lettering small.",
+      "sources": [
+        "https://whly.ln.gov.cn/whly/mtjj/2026072413474910348/index.shtml"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    },
+    {
+      "package_id": "08",
+      "route_order": 11,
+      "title": "A City Gate with a Crowd",
+      "zone": "Changmen",
+      "box": [
+        6900,
+        600,
+        7650,
+        990
+      ],
+      "normalized_xywh": [
+        0.1954065,
+        0.5940594,
+        0.0212398,
+        0.3861386
+      ],
+      "anchor": "Labeled gate opening, fortified wall, bridge and crowd.",
+      "copy_guardrails": "Reserve replacement for exam-snack slot; no invented queue rules or crowd identities.",
+      "verification": "Gate and crowd clearly visible; label can be matched.",
+      "sources": [
+        "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/CI00005093"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    },
+    {
+      "package_id": "11",
+      "route_order": 12,
+      "title": "A City with Two Kinds of Streets",
+      "zone": "Shantang",
+      "box": [
+        4850,
+        420,
+        5600,
+        800
+      ],
+      "normalized_xywh": [
+        0.137351,
+        0.4158416,
+        0.0212398,
+        0.3762376
+      ],
+      "anchor": "Canal, vessels, waterside buildings and adjacent street/bridge.",
+      "copy_guardrails": "Describe water and road routes side by side; no claimed precise city map.",
+      "verification": "Both route types visible in one context crop.",
+      "sources": [
+        "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/CI00005093",
+        "https://www.zgwypl.com/content/details78_48430.html"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    },
+    {
+      "package_id": "13",
+      "route_order": 13,
+      "title": "A Tower at the Finish Line",
+      "zone": "Tiger Hill",
+      "box": [
+        500,
+        0,
+        950,
+        390
+      ],
+      "normalized_xywh": [
+        0.0141599,
+        0.0,
+        0.0127439,
+        0.3861386
+      ],
+      "anchor": "Pagoda and hillside temple buildings near the scroll ending.",
+      "copy_guardrails": "Reserve replacement for penjing; no claimed tilt, exact height, age or reconstruction history.",
+      "verification": "Tower conspicuous; top edge is as supplied in master.",
+      "sources": [
+        "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/CI00005093"
+      ],
+      "status": "proposed_verified_anchor_not_implemented"
+    }
+  ]
+}

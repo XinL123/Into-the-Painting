@@ -1,0 +1,34 @@
+[
+  {
+    "file": "gusu-bamboo.wav",
+    "stats": "Samples read:            132300\nLength (seconds):      6.000000\nScaled by:         2147483647.0\nMaximum amplitude:     0.118439\nMinimum amplitude:    -0.122711\nMidline amplitude:    -0.002136\nMean    norm:          0.017446\nMean    amplitude:     0.000000\nRMS     amplitude:     0.023303\nMaximum delta:         0.142609\nMinimum delta:         0.000000\nMean    delta:         0.011780\nRMS     delta:         0.015625\nRough   frequency:         2353\nVolume adjustment:        8.149\n"
+  },
+  {
+    "file": "gusu-birds.wav",
+    "stats": "Samples read:            132300\nLength (seconds):      6.000000\nScaled by:         2147483647.0\nMaximum amplitude:     0.313141\nMinimum amplitude:    -0.305206\nMidline amplitude:     0.003967\nMean    norm:          0.010453\nMean    amplitude:     0.000000\nRMS     amplitude:     0.027728\nMaximum delta:         0.329224\nMinimum delta:         0.000000\nMean    delta:         0.010920\nRMS     delta:         0.029081\nRough   frequency:         3680\nVolume adjustment:        3.193\n"
+  },
+  {
+    "file": "gusu-courtyard-wind.wav",
+    "stats": "Samples read:            132300\nLength (seconds):      6.000000\nScaled by:         2147483647.0\nMaximum amplitude:     0.132996\nMinimum amplitude:    -0.130707\nMidline amplitude:     0.001144\nMean    norm:          0.005478\nMean    amplitude:    -0.000000\nRMS     amplitude:     0.008925\nMaximum delta:         0.020660\nMinimum delta:         0.000000\nMean    delta:         0.001507\nRMS     delta:         0.002157\nRough   frequency:          848\nVolume adjustment:        7.519\n"
+  },
+  {
+    "file": "gusu-dock.wav",
+    "stats": "Samples read:            132300\nLength (seconds):      6.000000\nScaled by:         2147483647.0\nMaximum amplitude:     0.280670\nMinimum amplitude:    -0.316254\nMidline amplitude:    -0.017792\nMean    norm:          0.031570\nMean    amplitude:    -0.000000\nRMS     amplitude:     0.040962\nMaximum delta:         0.032928\nMinimum delta:         0.000000\nMean    delta:         0.001937\nRMS     delta:         0.002873\nRough   frequency:          246\nVolume adjustment:        3.162\n"
+  },
+  {
+    "file": "gusu-market-steps.wav",
+    "stats": "Samples read:            110250\nLength (seconds):      5.000000\nScaled by:         2147483647.0\nMaximum amplitude:     0.303223\nMinimum amplitude:    -0.389191\nMidline amplitude:    -0.042984\nMean    norm:          0.005024\nMean    amplitude:    -0.000000\nRMS     amplitude:     0.012743\nMaximum delta:         0.368835\nMinimum delta:         0.000000\nMean    delta:         0.003386\nRMS     delta:         0.008002\nRough   frequency:         2203\nVolume adjustment:        2.569\n"
+  },
+  {
+    "file": "gusu-paddle.wav",
+    "stats": "Samples read:            132300\nLength (seconds):      6.000000\nScaled by:         2147483647.0\nMaximum amplitude:     0.156433\nMinimum amplitude:    -0.151031\nMidline amplitude:     0.002701\nMean    norm:          0.003658\nMean    amplitude:     0.000000\nRMS     amplitude:     0.008726\nMaximum delta:         0.014648\nMinimum delta:         0.000000\nMean    delta:         0.000610\nRMS     delta:         0.001008\nRough   frequency:          405\nVolume adjustment:        6.393\n"
+  },
+  {
+    "file": "gusu-tea-pour.wav",
+    "stats": "Samples read:            105840\nLength (seconds):      4.800000\nScaled by:         2147483647.0\nMaximum amplitude:     0.286224\nMinimum amplitude:    -0.340668\nMidline amplitude:    -0.027222\nMean    norm:          0.005873\nMean    amplitude:     0.000000\nRMS     amplitude:     0.009995\nMaximum delta:         0.423096\nMinimum delta:         0.000000\nMean    delta:         0.007835\nRMS     delta:         0.013312\nRough   frequency:         4673\nVolume adjustment:        2.935\n"
+  },
+  {
+    "file": "gusu-water.wav",
+    "stats": "Samples read:            132300\nLength (seconds):      6.000000\nScaled by:         2147483647.0\nMaximum amplitude:     0.467346\nMinimum amplitude:    -0.380798\nMidline amplitude:     0.043274\nMean    norm:          0.017977\nMean    amplitude:     0.000002\nRMS     amplitude:     0.030606\nMaximum delta:         0.389191\nMinimum delta:         0.000000\nMean    delta:         0.011144\nRMS     delta:         0.017869\nRough   frequency:         2048\nVolume adjustment:        2.140\n"
+  }
+]

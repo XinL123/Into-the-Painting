@@ -1,0 +1,3412 @@
+[
+  {
+    "name": "gallery has two live entries and three original locked entries",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu has exactly twenty-two marks and progress dots",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "spatial navigation starts at leftmost Tiger Hill and ends at rightmost school",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "mobile columns proceed left-to-right in artwork order",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "reduced motion removes the breathing animation",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "one-finger touch pans the artwork",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "two-finger pinch changes scale",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "wheel pans the artwork",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "ctrl-wheel zoom remains capped at native scan limit",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 1: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 2: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 3: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 4: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 5: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 6: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 7: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 8: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 9: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 10: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 11: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 12: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 13: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 14: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 15: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 16: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 17: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 18: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 19: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 20: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 21: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 22: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "new story resets reading scroll position",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "final station clearly labels its wrap action",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "floating preview stays hidden while reading",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Next wraps last story to first",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "left arrow wraps from01 to22 at the left edge",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 1: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 1: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 1: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 1: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 1: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 1: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 1: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 1: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 1: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 2: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 2: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 2: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 2: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 2: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 2: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 2: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 2: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 2: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 3: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 3: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 3: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 3: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 3: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 3: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 3: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 3: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 3: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 4: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 4: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 4: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 4: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 4: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 4: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 4: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 4: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 4: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 5: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 5: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 5: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 5: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 5: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 5: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 5: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 5: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 5: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 6: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 6: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 6: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 6: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 6: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 6: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 6: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 6: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 6: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 7: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 7: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 7: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 7: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 7: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 7: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 7: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 7: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 7: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 8: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 8: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 8: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 8: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 8: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 8: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 8: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 8: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 8: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 9: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 9: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 9: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 9: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 9: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 9: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 9: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 9: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 9: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 10: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 10: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 10: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 10: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 10: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 10: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 10: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 10: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 10: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 11: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 11: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 11: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 11: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 11: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 11: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 11: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 11: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 11: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 12: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 12: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 12: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 12: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 12: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 12: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 12: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 12: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 12: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 13: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 13: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 13: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 13: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 13: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 13: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 13: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 13: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 13: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 14: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 14: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 14: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 14: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 14: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 14: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 14: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 14: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 14: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 15: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 15: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 15: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 15: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 15: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 15: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 15: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 15: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 15: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 16: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 16: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 16: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 16: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 16: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 16: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 16: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 16: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 16: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 17: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 17: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 17: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 17: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 17: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 17: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 17: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 17: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 17: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 18: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 18: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 18: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 18: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 18: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 18: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 18: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 18: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 18: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 19: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 19: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 19: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 19: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 19: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 19: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 19: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 19: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 19: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 20: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 20: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 20: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 20: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 20: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 20: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 20: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 20: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 20: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 21: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 21: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 21: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 21: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 21: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 21: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 21: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 21: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 21: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 22: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 22: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 22: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 22: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 22: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 22: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 22: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 22: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px 22: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px: all22 dot numbers progress from left to right",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 1: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 1: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 1: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 1: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 1: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 1: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 1: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 1: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 1: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 2: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 2: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 2: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 2: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 2: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 2: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 2: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 2: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 2: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 3: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 3: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 3: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 3: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 3: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 3: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 3: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 3: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 3: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 4: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 4: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 4: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 4: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 4: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 4: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 4: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 4: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 4: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 5: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 5: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 5: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 5: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 5: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 5: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 5: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 5: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 5: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 6: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 6: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 6: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 6: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 6: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 6: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 6: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 6: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 6: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 7: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 7: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 7: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 7: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 7: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 7: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 7: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 7: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 7: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 8: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 8: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 8: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 8: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 8: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 8: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 8: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 8: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 8: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 9: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 9: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 9: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 9: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 9: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 9: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 9: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 9: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 9: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 10: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 10: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 10: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 10: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 10: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 10: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 10: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 10: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 10: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 11: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 11: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 11: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 11: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 11: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 11: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 11: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 11: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 11: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 12: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 12: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 12: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 12: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 12: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 12: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 12: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 12: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 12: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 13: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 13: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 13: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 13: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 13: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 13: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 13: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 13: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 13: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 14: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 14: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 14: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 14: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 14: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 14: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 14: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 14: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 14: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 15: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 15: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 15: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 15: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 15: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 15: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 15: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 15: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 15: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 16: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 16: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 16: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 16: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 16: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 16: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 16: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 16: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 16: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 17: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 17: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 17: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 17: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 17: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 17: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 17: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 17: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 17: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 18: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 18: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 18: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 18: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 18: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 18: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 18: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 18: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 18: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 19: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 19: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 19: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 19: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 19: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 19: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 19: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 19: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 19: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 20: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 20: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 20: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 20: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 20: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 20: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 20: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 20: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 20: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 21: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 21: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 21: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 21: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 21: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 21: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 21: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 21: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 21: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 22: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 22: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 22: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 22: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 22: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 22: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 22: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 22: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px 22: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "390px: all22 dot numbers progress from left to right",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 1: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 1: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 1: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 1: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 1: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 1: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 1: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 1: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 1: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 2: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 2: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 2: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 2: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 2: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 2: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 2: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 2: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 2: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 3: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 3: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 3: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 3: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 3: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 3: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 3: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 3: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 3: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 4: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 4: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 4: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 4: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 4: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 4: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 4: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 4: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 4: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 5: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 5: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 5: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 5: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 5: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 5: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 5: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 5: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 5: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 6: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 6: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 6: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 6: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 6: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 6: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 6: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 6: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 6: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 7: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 7: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 7: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 7: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 7: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 7: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 7: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 7: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 7: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 8: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 8: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 8: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 8: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 8: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 8: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 8: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 8: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 8: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 9: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 9: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 9: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 9: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 9: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 9: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 9: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 9: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 9: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 10: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 10: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 10: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 10: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 10: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 10: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 10: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 10: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 10: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 11: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 11: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 11: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 11: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 11: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 11: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 11: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 11: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 11: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 12: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 12: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 12: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 12: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 12: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 12: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 12: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 12: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 12: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 13: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 13: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 13: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 13: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 13: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 13: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 13: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 13: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 13: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 14: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 14: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 14: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 14: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 14: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 14: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 14: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 14: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 14: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 15: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 15: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 15: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 15: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 15: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 15: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 15: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 15: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 15: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 16: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 16: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 16: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 16: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 16: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 16: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 16: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 16: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 16: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 17: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 17: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 17: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 17: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 17: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 17: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 17: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 17: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 17: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 18: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 18: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 18: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 18: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 18: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 18: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 18: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 18: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 18: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 19: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 19: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 19: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 19: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 19: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 19: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 19: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 19: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 19: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 20: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 20: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 20: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 20: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 20: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 20: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 20: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 20: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 20: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 21: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 21: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 21: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 21: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 21: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 21: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 21: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 21: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 21: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 22: card/pin/nav share the same identity and number",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 22: all story text remains with this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 22: original master anchor drives the rendered pin",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 22: focused scene fits the viewport",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 22: no horizontal text overflow",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 22: artwork pin opens its own card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 22: Next advances by location",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 22: right arrow agrees with Next",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px 22: left arrow returns to this scene",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "320px: all22 dot numbers progress from left to right",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "all 22 scenes have different sound clips",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for pagoda",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for shantang-arch",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for canal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for gate",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for signs",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for administration",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for tea",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for wannian",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for wharf",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for ruiguang",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for dye",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for theatre",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for lake-plots",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for bridge",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for garden",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for granary",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for wedding",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for temple",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for mudu-market",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for outing",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for cloth",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for school",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "closing a scene cancels its sound",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "sound toggle reflects and remembers mute choice",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "sound can be restored",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "ambient sound creates a single playback context",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Escape first closes the card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "leaving destroys image requests, controls and audio",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming creates thirteen fresh marks, no duplicates",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 1 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 2 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 3 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 4 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 5 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 6 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 7 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 8 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 9 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 10 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 11 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 12 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 13 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "old Gusu controller does not react to later interactions",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming also disposes on exit",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "About retains Why / Sources / Rights and includes both works",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Escape closes About",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "About credits new CC BY recordings with sources and edit notice",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "ALL INTERACTION CHECKS PASSED",
+    "pass": true,
+    "detail": ""
+  }
+]

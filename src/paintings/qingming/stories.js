@@ -1,62 +1,58 @@
-// Small stories hidden in the chosen stretch of 清明上河图.
-// box = [left, top, right, bottom] in master pixels of the Song scroll
-// (assets/paintings/qingming/master). An optional `spot` shapes the spotlight:
-// { angle } in degrees (clockwise on screen), { rx, ry } radii in master px.
-// An optional `sound` plays while the moment is looked at: { file } names a
-// clip in assets/sound/, mode 'once' (plays through) or 'loop' (until closed).
-// Readings that scholars dispute are phrased as readings, not facts.
+// User-approved copy, 2026-10-26; earlier claim audit recorded below.
+// Per-claim evidence and original wording: research/qingming-audit/AUDIT.md.
+// box = [left, top, right, bottom] in pixels of the unaltered Song-scroll master.
+// Optional spot shapes the spotlight; sound names a modern interpretive audio clip.
+// Visual observations, historical context and attributed readings are kept distinct.
 export const stories = [
   {
     id: 'taxi',
-    title: 'A Song-Dynasty \u201cTaxi\u201d?',
+    title: 'One Wheel, Quite a Load',
     box: [7960, 1050, 9060, 1320],
     sound: { file: 'taxi', mode: 'once', gain: 0.8 },
     text: [
-      'A young woman in a veiled hat rides out of the city while a heavily loaded chuanche travels ahead of her.',
-      'One interpretation suggests these hired carts worked near the docks, carrying travelers\u2019 luggage \u2014 a little like an early urban transport service.',
+      'One wheel, one donkey, and two people working together to move a very heavy load!',
+      'This is a *chuanche* (串车), a type of single-wheeled cart used in Song-era China. And here\'s a little detail: can you spot the large handwritten characters on its cover?',
     ],
   },
   {
     id: 'relay',
-    title: 'Waiting for the Next Dispatch?',
+    title: 'Taking a Break on Official Business?',
     box: [11330, 300, 11980, 720],
     sound: { file: 'relay', mode: 'once', gain: 0.8 },
     text: [
-      'Outside this official compound, nine uniformed men wait with spears nearby \u2014 and several appear to have fallen asleep.',
-      'One interpretation identifies the site as a relay station, part of the Song government\u2019s system for carrying official messages by foot and horse.',
+      'These men are lounging beside boxes and weapons. Not exactly a picture of urgency, is it?',
+      'Art historian Yu Hui interprets this as a government relay post, where official documents were passed along. If he\'s right, the paperwork seems to be moving rather slowly.',
     ],
   },
   {
     id: 'farewell',
-    title: 'Seeing a Friend Off',
+    title: 'A Long Goodbye?',
     box: [13230, 820, 13660, 1050],
     sound: { file: 'donkey', mode: 'once' },
     text: [
-      'Outside a shop near the edge of town, a saddled donkey waits while a group of men bow their goodbyes. One of them is about to mount and go.',
-      'Donkeys could be hired in Song Kaifeng much as taxis are today, so the scene reads as a farewell at the start of a journey.',
-      'It fits a scroll whose far end opens onto open country.',
+      'A saddled donkey is waiting, but the people beside it are still exchanging farewell-like gestures.',
+      'Could someone be leaving on a journey? The donkey seems ready to go. The humans, perhaps not quite yet.',
     ],
   },
   {
     id: 'ten-thousand',
-    title: 'The Ten-Thousand-Cash Tavern',
+    title: 'Poetry on a Wine Shop Sign?',
     box: [16980, 1420, 17230, 1745],
     sound: { file: 'ten-thousand', mode: 'once', gain: 0.7 },
     text: [
-      'The sign reads 十千脚店, “Ten Thousand Jiaodian”. It is not an address, and not a price.',
-      'A jiaodian was a licensed tavern that bought its wine from one of the capital’s great breweries, and “ten thousand cash” was a poet’s phrase for wine too fine to afford.',
-      'The tower of bamboo lattice over the door is a “welcoming gate”, the way a Kaifeng wine house announced itself from streets away.',
+      'Look for the characters 十千脚店 (*Shiqian Jiaodian*). The words *shiqian*, meaning "ten thousand," echo an old poetic expression for fine wine—not necessarily a price tag!',
+      'And that fancy entrance? It\'s a *huanmen*, a decorative gateway. Even Song-era wine shops knew how to catch your eye.',
     ],
   },
   {
     id: 'delivery',
-    title: 'A Song-Dynasty Delivery Runner?',
+    title: 'Takeout, Song-Style?',
     box: [17380, 1540, 17560, 1745],
     sound: { file: 'delivery', mode: 'once', gain: 0.8 },
     text: [
-      'Outside the tavern a waiter in an apron hurries off with two bowls balanced in one hand and a food box in the other.',
-      'Twelfth-century accounts of Kaifeng describe restaurants that would send dishes out to homes and offices on request.',
-      'Whether this man is on such an errand the painter does not say, but modern viewers have claimed him as the scroll’s delivery rider.',
+      'Small dishes in one hand, a container in the other. This man looks like he\'s on a mission!',
+      'Here\'s a fun fact: according to the *Dongjing Meng Hua Lu*, some Kaifeng residents regularly bought prepared meals instead of cooking at home.',
+      'Early takeout vibes? Perhaps. Where this man is heading, though, remains a mystery.',
     ],
   },
   {
@@ -66,29 +62,30 @@ export const stories = [
     sound: { file: 'right-of-way', mode: 'once', gain: 0.8 },
     spot: { angle: -31, rx: 470, ry: 170 },
     text: [
-      'At the crest of Rainbow Bridge, a rider and a sedan-chair party meet head-on. Their attendants appear to be arguing over who should give way.',
-      'One common interpretation identifies them as a military official on horseback and a civil official in the chair \u2014 turning a tiny traffic jam into one of the scroll’s liveliest confrontations.',
+      'A rider and a sedan-chair party meet on the busy bridge. Judging by the gestures, neither side seems eager to give way.',
+      'Art historian Yu Hui interprets this as a dispute between military and civil officials. Traffic drama, long before cars!',
     ],
   },
   {
     id: 'poles',
-    title: 'What Were These Bridge Poles For?',
+    title: 'A Bird with a Job?',
     box: [18960, 610, 19050, 970],
     sound: { file: 'poles', mode: 'once', gain: 0.7 },
     text: [
-      'At the ends of Rainbow Bridge stand tall poles topped with small bird-shaped ornaments.',
-      'Their purpose is still debated. They have often been interpreted as wind indicators for boatmen, while another interpretation suggests they were huabiao \u2014 architectural markers associated with the bridge. Their exact function remains uncertain.',
+      'See that bird perched on top of a tall pole?',
+      'Some researchers believe the structure helped boatmen read the wind. Others identify it as a *huabiao*, an architectural marker for the bridge.',
+      'One little bird, two very different job descriptions. Scholars are still debating which is right!',
     ],
   },
   {
     id: 'close-call',
-    title: 'Close Call Under the Bridge',
+    title: 'Mind the Mast!',
     box: [19520, 300, 20420, 640],
     sound: { file: 'close-call', mode: 'once', gain: 0.8 },
     text: [
-      'The scroll’s most dramatic moment is a traffic accident. A heavy barge has been caught by the current with its mast still raised.',
-      'Men on deck strain to lower it, a sailor leans out with a pole, and the crowd on the bridge shouts and throws down ropes.',
-      'Some historians read scenes like this as the painter’s quiet warning: a prosperous capital whose river traffic had outgrown its care.',
+      'A big boat, a low bridge, and one rather inconvenient mast.',
+      'The crew is lowering the mast to squeeze beneath Rainbow Bridge, while curious spectators lean over the railings to watch.',
+      'The mast can come down. The bridge? Not so much.',
     ],
   },
   {
@@ -97,51 +94,53 @@ export const stories = [
     box: [21750, 110, 22300, 360],
     sound: { file: 'towpath', mode: 'once', gain: 0.8 },
     text: [
-      'Upstream of the bridge five men lean into a long rope, hauling a loaded boat against the current from the towpath.',
-      'On the Bian River, which carried grain to the capital from the south, boats were towed for miles this way.',
-      'Each man is drawn with a few lines, yet you can feel the weight on the rope.',
+      'Did you know boats could be pulled from the riverbank?',
+      'These five men are hauling a *towline*, using their own strength to move a vessel through the water.',
+      'No engine, just a rope and some serious teamwork. Quite the workout!',
     ],
   },
   {
     id: 'rudder',
-    title: 'A Giant Oar at the Stern?',
+    title: 'A Rudder That Can Rise',
     box: [22290, 450, 22560, 630],
     sound: { file: 'rudder', mode: 'once', gain: 0.8 },
     text: [
-      'This long sweep at the stern was worked by a boatman to help maneuver the vessel.',
-      'The scroll records boat technology in remarkable detail \u2014 including both large stern sweeps like this and more compact rudders on other vessels.',
+      'Here\'s some clever Song-era engineering!',
+      'The boats in this scroll feature *balanced rudders*, designed to make steering easier. They could also be raised when the water became too shallow.',
+      'A handy way to avoid an unfortunate meeting with the riverbed!',
     ],
   },
   {
     id: 'oar',
-    title: 'Eight Men, One Oar',
+    title: 'Eight Men, One Giant Oar',
     box: [21970, 790, 22430, 975],
     sound: { file: 'oar', mode: 'once', gain: 0.8 },
     text: [
-      'A small boat at the bank carries eight men crowded onto a single great sweep oar.',
-      'Oars like this, worked by a team, steered and drove boats on stretches of river where sails were no use.',
-      'It is one of the scroll’s many group portraits: eight faces, eight postures, nobody standing still.',
+      'Count the men working around this enormous *sweep oar*. There are eight!',
+      'Large sweeps like this could require six to eight people to operate, helping propel a boat through the water.',
+      'Apparently, rowing wasn\'t always a solo activity. This was a group project.',
     ],
   },
   {
     id: 'table',
-    title: 'Dinner Above the River?',
+    title: 'A Table with a River View',
     box: [22840, 240, 23540, 600],
     sound: { file: 'table', mode: 'once', gain: 0.7 },
     text: [
-      'Near the river, this open-sided restaurant sits on a raised platform above the bank. Diners can be seen upstairs, looking out over the busy waterfront.',
-      'Riverside restaurants like this turned the riverfront into more than a transport hub — it was also a place to eat, rest, and watch the city go by.',
+      'A few tables, some seated guests, and boats passing just below.',
+      'This raised, open-sided building may have been a place to eat or drink beside the river.',
+      'If so, the waterfront view came with a little live entertainment: all that passing boat traffic!',
     ],
   },
   {
     id: 'life-aboard',
-    title: 'A Home on the River?',
+    title: 'A Little Downtime Afloat',
     box: [23780, 790, 24580, 1050],
     sound: { file: 'life-aboard', mode: 'once', gain: 0.7 },
     text: [
-      'On this moored boat, one person leans from the cabin while another sits above among baskets and bedding.',
-      'For crews traveling long distances along the Bian River, a boat could be more than transportation — it could also be a place to cook, rest, and sleep.',
-      'For some, life on the river was also life at home.',
+      'The Bian River was a major transportation route serving the Song capital. But not every moment aboard was about moving cargo.',
+      'Look closely: someone peers out from the cabin while others pause among baskets and bundles.',
+      'Even one of the busiest waterways had its quieter corners.',
     ],
   },
 ];

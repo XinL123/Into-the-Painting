@@ -1,0 +1,383 @@
+{
+  "width": 35311,
+  "height": 1010,
+  "rect": {
+    "left": 0,
+    "top": 0,
+    "right": 35311,
+    "bottom": 1010
+  },
+  "master_sha256": "1e56d64df733839ed8f05cb7d067ced84be6ee5b2a489d0440f6c26ef8546a80",
+  "preview": {
+    "file": "web/gusu-preview.webp",
+    "width": 6000,
+    "height": 172
+  },
+  "entrance": {
+    "file": "web/gusu-entrance.webp",
+    "width": 1800,
+    "height": 454,
+    "rect": [
+      23000,
+      0,
+      27000,
+      1010
+    ]
+  },
+  "tiles": [
+    {
+      "file": "tiles/00000.webp",
+      "width": 4532,
+      "height": 1010,
+      "rect": [
+        0,
+        0,
+        4532,
+        1010
+      ]
+    },
+    {
+      "file": "tiles/04500.webp",
+      "width": 4532,
+      "height": 1010,
+      "rect": [
+        4500,
+        0,
+        9032,
+        1010
+      ]
+    },
+    {
+      "file": "tiles/09000.webp",
+      "width": 4532,
+      "height": 1010,
+      "rect": [
+        9000,
+        0,
+        13532,
+        1010
+      ]
+    },
+    {
+      "file": "tiles/13500.webp",
+      "width": 4532,
+      "height": 1010,
+      "rect": [
+        13500,
+        0,
+        18032,
+        1010
+      ]
+    },
+    {
+      "file": "tiles/18000.webp",
+      "width": 4532,
+      "height": 1010,
+      "rect": [
+        18000,
+        0,
+        22532,
+        1010
+      ]
+    },
+    {
+      "file": "tiles/22500.webp",
+      "width": 4532,
+      "height": 1010,
+      "rect": [
+        22500,
+        0,
+        27032,
+        1010
+      ]
+    },
+    {
+      "file": "tiles/27000.webp",
+      "width": 4532,
+      "height": 1010,
+      "rect": [
+        27000,
+        0,
+        31532,
+        1010
+      ]
+    },
+    {
+      "file": "tiles/31500.webp",
+      "width": 3811,
+      "height": 1010,
+      "rect": [
+        31500,
+        0,
+        35311,
+        1010
+      ]
+    }
+  ],
+  "details": {
+    "school": {
+      "file": "details/school.webp",
+      "width": 590,
+      "height": 277,
+      "rect": [
+        33450,
+        724,
+        34040,
+        1001
+      ],
+      "thumb": "thumbs/school.webp"
+    },
+    "cloth": {
+      "file": "details/cloth.webp",
+      "width": 1064,
+      "height": 567,
+      "rect": [
+        32288,
+        443,
+        33352,
+        1010
+      ],
+      "thumb": "thumbs/cloth.webp"
+    },
+    "outing": {
+      "file": "details/outing.webp",
+      "width": 1198,
+      "height": 368,
+      "rect": [
+        30706,
+        642,
+        31904,
+        1010
+      ],
+      "thumb": "thumbs/outing.webp"
+    },
+    "mudu-market": {
+      "file": "details/mudu-market.webp",
+      "width": 1426,
+      "height": 677,
+      "rect": [
+        28782,
+        333,
+        30208,
+        1010
+      ],
+      "thumb": "thumbs/mudu-market.webp"
+    },
+    "temple": {
+      "file": "details/temple.webp",
+      "width": 1178,
+      "height": 476,
+      "rect": [
+        28571,
+        167,
+        29749,
+        643
+      ],
+      "thumb": "thumbs/temple.webp"
+    },
+    "wedding": {
+      "file": "details/wedding.webp",
+      "width": 1122,
+      "height": 400,
+      "rect": [
+        26714,
+        505,
+        27836,
+        905
+      ],
+      "thumb": "thumbs/wedding.webp"
+    },
+    "granary": {
+      "file": "details/granary.webp",
+      "width": 1900,
+      "height": 649,
+      "rect": [
+        24200,
+        0,
+        26100,
+        649
+      ],
+      "thumb": "thumbs/granary.webp"
+    },
+    "garden": {
+      "file": "details/garden.webp",
+      "width": 666,
+      "height": 380,
+      "rect": [
+        24572,
+        560,
+        25238,
+        940
+      ],
+      "thumb": "thumbs/garden.webp"
+    },
+    "bridge": {
+      "file": "details/bridge.webp",
+      "width": 608,
+      "height": 295,
+      "rect": [
+        21596,
+        165,
+        22204,
+        460
+      ],
+      "thumb": "thumbs/bridge.webp"
+    },
+    "lake-plots": {
+      "file": "details/lake-plots.webp",
+      "width": 1046,
+      "height": 532,
+      "rect": [
+        20202,
+        279,
+        21248,
+        811
+      ],
+      "thumb": "thumbs/lake-plots.webp"
+    },
+    "theatre": {
+      "file": "details/theatre.webp",
+      "width": 1178,
+      "height": 594,
+      "rect": [
+        18671,
+        416,
+        19849,
+        1010
+      ],
+      "thumb": "thumbs/theatre.webp"
+    },
+    "dye": {
+      "file": "details/dye.webp",
+      "width": 514,
+      "height": 413,
+      "rect": [
+        17428,
+        597,
+        17942,
+        1010
+      ],
+      "thumb": "thumbs/dye.webp"
+    },
+    "ruiguang": {
+      "file": "details/ruiguang.webp",
+      "width": 2052,
+      "height": 487,
+      "rect": [
+        15214,
+        0,
+        17266,
+        487
+      ],
+      "thumb": "thumbs/ruiguang.webp"
+    },
+    "wharf": {
+      "file": "details/wharf.webp",
+      "width": 1464,
+      "height": 798,
+      "rect": [
+        14253,
+        171,
+        15717,
+        969
+      ],
+      "thumb": "thumbs/wharf.webp"
+    },
+    "wannian": {
+      "file": "details/wannian.webp",
+      "width": 2204,
+      "height": 638,
+      "rect": [
+        12198,
+        372,
+        14402,
+        1010
+      ],
+      "thumb": "thumbs/wannian.webp"
+    },
+    "tea": {
+      "file": "details/tea.webp",
+      "width": 798,
+      "height": 254,
+      "rect": [
+        10991,
+        756,
+        11789,
+        1010
+      ],
+      "thumb": "thumbs/tea.webp"
+    },
+    "administration": {
+      "file": "details/administration.webp",
+      "width": 950,
+      "height": 798,
+      "rect": [
+        10255,
+        181,
+        11205,
+        979
+      ],
+      "thumb": "thumbs/administration.webp"
+    },
+    "signs": {
+      "file": "details/signs.webp",
+      "width": 950,
+      "height": 333,
+      "rect": [
+        7275,
+        221,
+        8225,
+        554
+      ],
+      "thumb": "thumbs/signs.webp"
+    },
+    "gate": {
+      "file": "details/gate.webp",
+      "width": 1426,
+      "height": 586,
+      "rect": [
+        6562,
+        424,
+        7988,
+        1010
+      ],
+      "thumb": "thumbs/gate.webp"
+    },
+    "canal": {
+      "file": "details/canal.webp",
+      "width": 1426,
+      "height": 722,
+      "rect": [
+        4512,
+        249,
+        5938,
+        971
+      ],
+      "thumb": "thumbs/canal.webp"
+    },
+    "shantang-arch": {
+      "file": "details/shantang-arch.webp",
+      "width": 722,
+      "height": 798,
+      "rect": [
+        3609,
+        212,
+        4331,
+        1010
+      ],
+      "thumb": "thumbs/shantang-arch.webp"
+    },
+    "pagoda": {
+      "file": "details/pagoda.webp",
+      "width": 856,
+      "height": 566,
+      "rect": [
+        297,
+        0,
+        1153,
+        566
+      ],
+      "thumb": "thumbs/pagoda.webp"
+    }
+  }
+}

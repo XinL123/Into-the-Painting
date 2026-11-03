@@ -1,0 +1,2 @@
+Inactive cover opacity is overridden by inline opacity:1 left behind on leave. CSS also fades inactive covers over 0.9s, producing cross-painting overlap even on first entry. Remove inline opacity; immediately hide inactive openings during entrance/inside.
+Cover initial lay-y animation also restarted when is-travelling was removed; visited covers now skip only their initial reveal, leaving the overall entrance design intact. Old Gusu mono loudness spanned -54.59 to -29.85 LUFS versus Qingming median -22.92; balanced Ogg spans -24.97 to -24.44 including .8 playback.

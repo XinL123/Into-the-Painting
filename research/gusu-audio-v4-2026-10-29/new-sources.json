@@ -1,0 +1,22 @@
+[
+  {
+    "key": "guqin",
+    "author": "xserra",
+    "id": 161905,
+    "url": "https://freesound.org/people/xserra/sounds/161905/",
+    "preview": "https://cdn.freesound.org/previews/161/161905_43-hq.mp3",
+    "file": "161905_43-hq.mp3",
+    "license": "CC BY 4.0",
+    "sha256": "e68460cceb09a41842b141f8305edc99e7771d4ad750756ded3e38c72a6204f3"
+  },
+  {
+    "key": "ensemble",
+    "author": "xserra",
+    "id": 162035,
+    "url": "https://freesound.org/people/xserra/sounds/162035/",
+    "preview": "https://cdn.freesound.org/previews/162/162035_43-hq.mp3",
+    "file": "162035_43-hq.mp3",
+    "license": "CC BY 4.0",
+    "sha256": "988d891a7e05afc3e75e39f10cc55cf1e7f7d48d86c24b33560a9ce506a9cbaa"
+  }
+]

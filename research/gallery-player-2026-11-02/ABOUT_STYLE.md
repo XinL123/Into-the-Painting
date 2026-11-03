@@ -1,0 +1,1 @@
+Shared About/music CSS surface and typography: rgba(239,232,216,.85) background, ink rgb(43,39,35), inherited serif13.5px/400, padding7px12px7px10px, radius2px, computed height32.5px for both. No red-dot pseudo-element on music. Thin1.2 SVG strokes; hover verifiedrgb(168,56,43) with color .2s transition. Desktop/mobile visually checked; build and diff check pass.

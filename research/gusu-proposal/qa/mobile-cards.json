@@ -1,0 +1,327 @@
+[
+  {
+    "card": {
+      "bottom": 787.7196044921875,
+      "height": 287.5937194824219,
+      "left": 24,
+      "right": 366,
+      "top": 500.1258850097656,
+      "width": 342,
+      "x": 24,
+      "y": 500.1258850097656
+    },
+    "count": "1 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "School, Scroll-Style"
+  },
+  {
+    "card": {
+      "bottom": 786.1822509765625,
+      "height": 332.5937805175781,
+      "left": 24,
+      "right": 366,
+      "top": 453.5884704589844,
+      "width": 342,
+      "x": 24,
+      "y": 453.5884704589844
+    },
+    "count": "2 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "Cloth Starts at Home"
+  },
+  {
+    "card": {
+      "bottom": 787.0066528320312,
+      "height": 332.59375,
+      "left": 24,
+      "right": 366,
+      "top": 454.4129028320313,
+      "width": 342,
+      "x": 24,
+      "y": 454.4129028320313
+    },
+    "count": "3 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "A Mountain Day Out"
+  },
+  {
+    "card": {
+      "bottom": 784.8709716796875,
+      "height": 310.09375,
+      "left": 24,
+      "right": 366,
+      "top": 474.7772216796875,
+      "width": 342,
+      "x": 24,
+      "y": 474.7772216796875
+    },
+    "count": "4 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "Wedding Traffic, On Water?"
+  },
+  {
+    "card": {
+      "bottom": 789.2904052734375,
+      "height": 332.59375,
+      "left": 24,
+      "right": 366,
+      "top": 456.6966552734375,
+      "width": 342,
+      "x": 24,
+      "y": 456.6966552734375
+    },
+    "count": "5 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "A Garden Party, Qing-Style"
+  },
+  {
+    "card": {
+      "bottom": 788.5051879882812,
+      "height": 332.59375,
+      "left": 24,
+      "right": 366,
+      "top": 455.9114379882813,
+      "width": 342,
+      "x": 24,
+      "y": 455.9114379882813
+    },
+    "count": "6 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "A Bridge with Nine Arches"
+  },
+  {
+    "card": {
+      "bottom": 789.266357421875,
+      "height": 332.5937194824219,
+      "left": 24,
+      "right": 366,
+      "top": 456.6726379394531,
+      "width": 342,
+      "x": 24,
+      "y": 456.6726379394531
+    },
+    "count": "7 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "Showtime in Old Suzhou"
+  },
+  {
+    "card": {
+      "bottom": 786.185791015625,
+      "height": 310.0937805175781,
+      "left": 24,
+      "right": 366,
+      "top": 476.0920104980469,
+      "width": 342,
+      "x": 24,
+      "y": 476.0920104980469
+    },
+    "count": "8 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "A City in Full Color"
+  },
+  {
+    "card": {
+      "bottom": 785.4747314453125,
+      "height": 332.5937194824219,
+      "left": 24,
+      "right": 366,
+      "top": 452.8810119628906,
+      "width": 342,
+      "x": 24,
+      "y": 452.8810119628906
+    },
+    "count": "9 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "Tea with a Name"
+  },
+  {
+    "card": {
+      "bottom": 788.5029296875,
+      "height": 332.5937194824219,
+      "left": 24,
+      "right": 366,
+      "top": 455.9092102050781,
+      "width": 342,
+      "x": 24,
+      "y": 455.9092102050781
+    },
+    "count": "10 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "Signs, Signs Everywhere!"
+  },
+  {
+    "card": {
+      "bottom": 787.7200927734375,
+      "height": 310.0937194824219,
+      "left": 24,
+      "right": 366,
+      "top": 477.6263732910156,
+      "width": 342,
+      "x": 24,
+      "y": 477.6263732910156
+    },
+    "count": "11 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "A City Gate with a Crowd"
+  },
+  {
+    "card": {
+      "bottom": 786.9135131835938,
+      "height": 337.6875,
+      "left": 24,
+      "right": 366,
+      "top": 449.22601318359375,
+      "width": 342,
+      "x": 24,
+      "y": 449.22601318359375
+    },
+    "count": "12 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "A City with Two Kinds of Streets"
+  },
+  {
+    "card": {
+      "bottom": 787.6996459960938,
+      "height": 310.09375,
+      "left": 24,
+      "right": 366,
+      "top": 477.60589599609375,
+      "width": 342,
+      "x": 24,
+      "y": 477.60589599609375
+    },
+    "count": "13 of 13",
+    "progress": {
+      "bottom": 836,
+      "height": 28,
+      "left": 29.9375,
+      "right": 360.0625,
+      "top": 808,
+      "width": 330.125,
+      "x": 29.9375,
+      "y": 808
+    },
+    "side": "bottom",
+    "title": "A Tower at the Finish Line"
+  }
+]

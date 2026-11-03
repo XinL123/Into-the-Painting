@@ -1,0 +1,106 @@
+
+> painting@0.1.0 build
+> vite build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 115 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/assets/wedding-CHoe4vAm.webp                    5.62 kB
+dist/assets/bridge-Ct-IX64y.webp                     5.63 kB
+dist/index.html                                      7.41 kB │ gzip:  2.59 kB
+dist/assets/outing-p937J1gP.webp                     7.63 kB
+dist/assets/signs-_UjwnZJc.webp                      8.30 kB
+dist/assets/gate-CDb9w2o7.webp                       8.46 kB
+dist/assets/tea-gL5-aG6t.webp                        9.14 kB
+dist/assets/school-DNKaDJ6F.webp                    10.48 kB
+dist/assets/canal-BJa5vqVK.webp                     10.53 kB
+dist/assets/cloth-BAghZ7vD.webp                     12.91 kB
+dist/assets/theatre-O8PE_U-J.webp                   12.94 kB
+dist/assets/garden-BZC0usgO.webp                    13.31 kB
+dist/assets/pagoda-B5UV4Lp6.webp                    14.61 kB
+dist/assets/brush-qingming-CflDzimh.webp            20.36 kB
+dist/assets/dye-Dcv-U7fE.webp                       20.42 kB
+dist/assets/brush-birds-BscePowt.webp               21.22 kB
+dist/assets/brush-juran-Dmb6O7Hn.webp               22.68 kB
+dist/assets/brush-cloudy-B5rJZPCO.webp              30.06 kB
+dist/assets/brush-dragon-DUt9zaBM.webp              31.89 kB
+dist/assets/donkey-CvxNo1XE.m4a                     31.98 kB
+dist/assets/donkey-ButOdRZE.ogg                     37.37 kB
+dist/assets/table-DIc4Lbdf.m4a                      42.83 kB
+dist/assets/delivery-wN_m2nh-.m4a                   45.97 kB
+dist/assets/delivery-B8hSa3HB.webp                  47.05 kB
+dist/assets/poles-LpnmKhzp.webp                     48.96 kB
+dist/assets/ten-thousand-BDhjlSvS.m4a               50.60 kB
+dist/assets/poles-MzOIQGAJ.m4a                      51.70 kB
+dist/assets/right-of-way-BBkdqssp.m4a               52.34 kB
+dist/assets/table-CXedndkc.ogg                      52.37 kB
+dist/assets/taxi-CGt6fTsF.m4a                       53.59 kB
+dist/assets/muqi-dragon-C-DR568z.webp               57.68 kB
+dist/assets/close-call-DK1SSI6x.m4a                 58.26 kB
+dist/assets/relay-De1HOLS4.m4a                      60.24 kB
+dist/assets/life-aboard-CdNCHBMG.m4a                61.78 kB
+dist/assets/rudder-CJDvkwJZ.m4a                     61.83 kB
+dist/assets/oar-o-PiEueF.m4a                        62.63 kB
+dist/assets/delivery-DEviwXpw.ogg                   63.48 kB
+dist/assets/right-of-way-BheGy8vq.ogg               64.85 kB
+dist/assets/towpath-patY9Z3e.m4a                    64.95 kB
+dist/assets/ten-thousand-D-s51kBU.ogg               66.39 kB
+dist/assets/juran-retreat-CJoQPA9T.webp             67.40 kB
+dist/assets/poles-Cx8bPMCs.ogg                      68.18 kB
+dist/assets/bridge-C1q5Z2SQ.webp                    68.56 kB
+dist/assets/rudder--XJ8Ryjd.webp                    69.17 kB
+dist/assets/relay-DXxQEpbe.ogg                      70.14 kB
+dist/assets/taxi-BmBMDatT.ogg                       74.44 kB
+dist/assets/close-call-BG1cV60c.ogg                 76.76 kB
+dist/assets/oar-pmjsqyLW.ogg                        79.58 kB
+dist/assets/life-aboard-BL-FjHF1.ogg                84.26 kB
+dist/assets/rudder-BJoREtx0.ogg                     92.80 kB
+dist/assets/school-BbiCwnRF.webp                    96.39 kB
+dist/assets/towpath-UCW3cb-q.ogg                    96.73 kB
+dist/assets/gusu-birds-Bi3Sk95k.ogg                105.54 kB
+dist/assets/ten-thousand-CEycSN6-.webp             105.94 kB
+dist/assets/tea-BbnUGKNZ.webp                      107.87 kB
+dist/assets/oar-hIoDisON.webp                      120.97 kB
+dist/assets/dye-CAXvpb54.webp                      123.37 kB
+dist/assets/gusu-water-CvptzQmV.ogg                135.72 kB
+dist/assets/farewell-DAvFgtbl.webp                 139.53 kB
+dist/assets/garden-ChFBoOm_.webp                   159.88 kB
+dist/assets/signs-BY9Eo7uF.webp                    167.02 kB
+dist/assets/cloudy-mountains-B8r2aWon.webp         193.53 kB
+dist/assets/towpath-DpOKcxeX.webp                  194.18 kB
+dist/assets/wedding-D6BfJhvz.webp                  216.44 kB
+dist/assets/pagoda-CwjcX1rI.webp                   231.64 kB
+dist/assets/outing-CYhTGk-a.webp                   257.12 kB
+dist/assets/gusu-birds-B2CLqSA8.wav                264.64 kB
+dist/assets/gusu-water-Do_ZwM1A.wav                264.64 kB
+dist/assets/gusu-preview-CGylI-on.webp             272.92 kB
+dist/assets/life-aboard-Bw3ylZDR.webp              320.62 kB
+dist/assets/gusu-entrance-D-06OGO6.webp            365.13 kB
+dist/assets/table-CfSP2pjE.webp                    376.40 kB
+dist/assets/cloth-CwBVZiR7.webp                    381.76 kB
+dist/assets/theatre-BOsnJjuj.webp                  386.16 kB
+dist/assets/right-of-way-BFj1-2jN.webp             391.84 kB
+dist/assets/relay-BK9lGm2V.webp                    404.15 kB
+dist/assets/gate-kvTu74SG.webp                     407.44 kB
+dist/assets/taxi-UU20N1g5.webp                     435.43 kB
+dist/assets/close-call-BYKdIQcP.webp               464.54 kB
+dist/assets/qingming-stretch-4500-Dr2cD30l.webp    591.01 kB
+dist/assets/canal-wta8x20w.webp                    595.25 kB
+dist/assets/peach-birds-f_BSOMsq.webp              779.63 kB
+dist/assets/shuangmian-yanxun-VilKWfeX.m4a         901.42 kB
+dist/assets/18000-CaIcjnHB.webp                  1,702.70 kB
+dist/assets/31500-IUFUyH6x.webp                  1,774.65 kB
+dist/assets/04500-g1LHhQDU.webp                  1,904.24 kB
+dist/assets/00000-BA_WVc1M.webp                  1,921.37 kB
+dist/assets/13500-BCgWOh9V.webp                  2,123.53 kB
+dist/assets/27000-mgpBeZOc.webp                  2,124.00 kB
+dist/assets/09000-CXFWBJC9.webp                  2,126.56 kB
+dist/assets/22500-pXxhBQJL.webp                  2,188.24 kB
+dist/assets/suzhou-tingyu-CQ_bKjgc.m4a           2,567.51 kB
+dist/assets/qingming-stretch-9000-ClmGCUeU.webp  2,689.06 kB
+dist/assets/pipa-yu-CWfISWWz.m4a                 3,143.09 kB
+dist/assets/index-zO90z90F.css                      18.45 kB │ gzip:  4.56 kB
+dist/assets/index-1dlizYR4.js                      121.94 kB │ gzip: 47.14 kB
+✓ built in 445ms

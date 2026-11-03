@@ -1,0 +1,92 @@
+[
+  {
+    "scene": 6,
+    "file": "gusu-wedding-ensemble-v4",
+    "duration": 7.8,
+    "peak_dbfs": -13,
+    "layers": [
+      {
+        "label": "natural-suona-percussion",
+        "at": 0,
+        "gain_db": 0
+      }
+    ]
+  },
+  {
+    "scene": 1,
+    "file": "gusu-school-guqin-v4",
+    "duration": 8,
+    "peak_dbfs": -19,
+    "layers": [
+      {
+        "label": "soft-pages-and-air",
+        "at": 0,
+        "gain_db": 0
+      },
+      {
+        "label": "independent-guqin-phrase",
+        "at": 0.1,
+        "gain_db": 0
+      }
+    ]
+  },
+  {
+    "scene": 17,
+    "file": "gusu-official-courtyard-v4",
+    "duration": 7.8,
+    "peak_dbfs": -20,
+    "layers": [
+      {
+        "label": "courtyard-breeze",
+        "at": 0,
+        "gain_db": 0
+      },
+      {
+        "label": "distant-courtyard-steps",
+        "at": 3.3,
+        "gain_db": 0
+      }
+    ]
+  },
+  {
+    "scene": 20,
+    "file": "gusu-canal-clear-paddle-v4",
+    "duration": 7.8,
+    "peak_dbfs": -8,
+    "layers": [
+      {
+        "label": "clear-paddle-strokes",
+        "at": 0,
+        "gain_db": 0
+      }
+    ]
+  },
+  {
+    "scene": 21,
+    "file": "gusu-bridge-boats-ambience-v4",
+    "duration": 7.8,
+    "peak_dbfs": -12,
+    "layers": [
+      {
+        "label": "boat-rope",
+        "at": 0.25,
+        "gain_db": 0
+      },
+      {
+        "label": "quiet-water-under-arch",
+        "at": 0,
+        "gain_db": 0
+      },
+      {
+        "label": "distant-bridge-passers-0",
+        "at": 0,
+        "gain_db": 0
+      },
+      {
+        "label": "distant-bridge-passers-1",
+        "at": 0,
+        "gain_db": -3
+      }
+    ]
+  }
+]

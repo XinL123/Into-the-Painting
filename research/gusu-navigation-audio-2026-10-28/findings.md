@@ -1,0 +1,2 @@
+Gusu route descends in master x; progress previously appended in route order, visually reversed. Keep marks/stories in authored order, sort only progress DOM by anchor x. Mobile uses pairs in columns so nearby landmarks stay near each other. Arrow keys follow spatial order; Next keeps route.
+Ten sound assignments reused only two files. Trial uses eight distinct clips and silence elsewhere. All sources already locally available CC0 with provenance in assets/sound/SOURCE.md. Qingming unchanged.

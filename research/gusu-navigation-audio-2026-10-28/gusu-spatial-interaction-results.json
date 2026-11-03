@@ -1,0 +1,352 @@
+[
+  {
+    "name": "gallery has two live entries and three original locked entries",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu has exactly twenty-two marks and progress dots",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "spatial navigation starts at leftmost Tiger Hill and ends at rightmost school",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "mobile columns proceed left-to-right in artwork order",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "reduced motion removes the breathing animation",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "one-finger touch pans the artwork",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "two-finger pinch changes scale",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "wheel pans the artwork",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "ctrl-wheel zoom remains capped at native scan limit",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 1: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 2: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 3: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 4: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 5: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 6: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 7: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 8: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 9: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 10: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 11: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 12: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 13: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 14: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 15: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 16: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 17: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 18: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 19: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 20: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 21: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Gusu story 22: correct count and card visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "new story resets reading scroll position",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "final station clearly labels its wrap action",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "floating preview stays hidden while reading",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Next wraps last story to first",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "left arrow follows artwork left from story 01 to 02",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "all eight sounding scenes use different clips",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for outing",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for mudu-market",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for temple",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for bridge",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for wharf",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for tea",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for canal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "audio starts for pagoda",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "quiet scenes cancel the preceding sound",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "sound toggle reflects and remembers mute choice",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "sound can be restored",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "ambient sound creates a single playback context",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Escape first closes the card",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "leaving destroys image requests, controls and audio",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming creates thirteen fresh marks, no duplicates",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 1 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 2 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 3 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 4 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 5 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 6 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 7 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 8 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 9 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 10 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 11 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 12 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming story 13 opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "old Gusu controller does not react to later interactions",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Qingming also disposes on exit",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "About retains Why / Sources / Rights and includes both works",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Escape closes About",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "ALL INTERACTION CHECKS PASSED",
+    "pass": true,
+    "detail": ""
+  }
+]

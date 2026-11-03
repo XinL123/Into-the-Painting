@@ -12,3 +12,19 @@ assets/sound/raw/
 .venv/
 # The user's own music videos stay local; assets/music/*.m4a is their audio, extracted by scripts/prep-music.sh.
 /music/
+
+# Research prose, coordinates and tests are versioned; source scans, archives,
+# screenshots, local review pages and copied implementation snapshots stay local.
+/research/**
+!/research/**/
+!/research/**/*.md
+!/research/**/*.json
+!/research/**/*.mjs
+!/research/**/*.py
+!/research/**/*.sh
+!/research/**/*.txt
+/research/**/implementation-baseline/
+
+# Editor launch settings and archived local screenshots are not deployment input.
+/.claude/
+/previews/

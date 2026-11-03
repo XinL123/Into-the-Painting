@@ -1,0 +1,1 @@
+User requests nine specific audio refinements; historical copy, all coordinates, visual UI and remaining13 Gusu audio clips must be preserved. Softer school, temple identity, multi-gong wedding, bulk grains, natural garden cups, gate and dock voices, bridge water, layered tight theatre percussion. Modern interpretive sound; no historical performance claims.

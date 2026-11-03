@@ -1,0 +1,9 @@
+Complete locally; no push/deploy.
+- Canonical current route is actual approved master x ascending:01TigerHill,02Shantangarch,03canal,04Changmen,05signs,06administration,07tea,08Wannian,09wharf,10Ruiguang,11dye,12theatre,13lakeplots,14Xingchun,15garden,16granary,17wedding,18temple,19Mudu,20outing,21cloth,22school.
+- All22 IDs retain identical original coords, frameBoxes, sources and approved sounds/gains. Numbered mark/nav hover+accessible labels align with cards. Restart moves to true22; Next and arrows follow same route.
+- Only route-dependent text changes: school opening no longer says before entering city, TigerHill no longer titled FinishLine or framed as journey end. Other20 texts exact. Historical claims unchanged.
+- Current sound audition aliases and last-five sound comparisons renumbered by objectID, including Chinese labels; audio bytes unchanged. History/registers remain in original research numbering, with explicit old→new table in number-map.md/json.
+-682 live-browser checks passed: for each of22 scenes at1440×900,390×844 and320×568, verified card+nav+pin identity/number, complete text, rendered pin transform from native anchor, viewport focus fit, horizontal text fit, pin click, Next, ArrowRight and ArrowLeft; all22 actual audio source starts and full lifecycle plus13Qingming cards/attribution also pass.
+-8 Node/core checks and build pass, git diff --check clean. Every prior asset hash, including original art/audio/Qingming, unchanged. Only current src changes are Gusu story route and exploration labels.
+- Actual normal-animation main page verified first01 and last22 with Restart. Final screenshots use reduced motion to avoid mid-fade paper transparency.
+- Original user tab ID changed between turns, so current source was verified in temporary main-page tabs, then those temporary tabs closed.

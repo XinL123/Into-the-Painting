@@ -1,0 +1,321 @@
+{
+  "g": [
+    {
+      "id": "pagoda",
+      "file": "gusu-bamboo",
+      "gain": 0.5,
+      "lufs": -37.55,
+      "peak": -24.45,
+      "rms": -38.81,
+      "duration": 6.0
+    },
+    {
+      "id": "shantang-arch",
+      "file": "gusu-bridge-boats-ambience-v4",
+      "gain": 0.6,
+      "lufs": -38.26,
+      "peak": -17.14,
+      "rms": -40.1,
+      "duration": 7.8
+    },
+    {
+      "id": "canal",
+      "file": "gusu-canal-clear-paddle-v4",
+      "gain": 0.8,
+      "lufs": -37.32,
+      "peak": -13.22,
+      "rms": -40.88,
+      "duration": 7.8
+    },
+    {
+      "id": "gate",
+      "file": "gusu-city-gate-v3",
+      "gain": 0.55,
+      "lufs": -34.92,
+      "peak": -17.16,
+      "rms": -36.04,
+      "duration": 7.8
+    },
+    {
+      "id": "signs",
+      "file": "gusu-signs-market",
+      "gain": 0.55,
+      "lufs": -39.06,
+      "peak": -25.45,
+      "rms": -38.36,
+      "duration": 6.0
+    },
+    {
+      "id": "administration",
+      "file": "gusu-official-courtyard-v4",
+      "gain": 0.55,
+      "lufs": -41.84,
+      "peak": -28.11,
+      "rms": -42.62,
+      "duration": 7.8
+    },
+    {
+      "id": "tea",
+      "file": "gusu-tea-pour",
+      "gain": 0.65,
+      "lufs": -39.65,
+      "peak": -13.33,
+      "rms": -43.2,
+      "duration": 4.8
+    },
+    {
+      "id": "wannian",
+      "file": "gusu-bridge-water-v2",
+      "gain": 0.6,
+      "lufs": -44.31,
+      "peak": -16.46,
+      "rms": -45.44,
+      "duration": 8.0
+    },
+    {
+      "id": "wharf",
+      "file": "gusu-wharf-crowd-v3",
+      "gain": 0.65,
+      "lufs": -32.27,
+      "peak": -15.71,
+      "rms": -32.47,
+      "duration": 7.8
+    },
+    {
+      "id": "ruiguang",
+      "file": "gusu-ruiguang-bell",
+      "gain": 0.55,
+      "lufs": -29.85,
+      "peak": -19.23,
+      "rms": -29.99,
+      "duration": 7.0
+    },
+    {
+      "id": "dye",
+      "file": "gusu-dye-fabric",
+      "gain": 0.6,
+      "lufs": -54.59,
+      "peak": -15.79,
+      "rms": -58.17,
+      "duration": 6.0
+    },
+    {
+      "id": "theatre",
+      "file": "gusu-theatre-short-v3",
+      "gain": 0.55,
+      "lufs": -35.87,
+      "peak": -19.93,
+      "rms": -35.3,
+      "duration": 7.8
+    },
+    {
+      "id": "lake-plots",
+      "file": "gusu-pond-frogs",
+      "gain": 0.5,
+      "lufs": -36.68,
+      "peak": -21.88,
+      "rms": -39.27,
+      "duration": 6.0
+    },
+    {
+      "id": "bridge",
+      "file": "gusu-water",
+      "gain": 0.55,
+      "lufs": -33.59,
+      "peak": -12.53,
+      "rms": -35.5,
+      "duration": 6.0
+    },
+    {
+      "id": "garden",
+      "file": "gusu-garden-guzheng-v3",
+      "gain": 0.6,
+      "lufs": -46.96,
+      "peak": -22.15,
+      "rms": -47.54,
+      "duration": 7.8
+    },
+    {
+      "id": "granary",
+      "file": "gusu-granary-dry-rice-v3",
+      "gain": 0.65,
+      "lufs": -37.14,
+      "peak": -14.31,
+      "rms": -42.13,
+      "duration": 7.5
+    },
+    {
+      "id": "wedding",
+      "file": "gusu-wedding-ensemble-v4",
+      "gain": 0.55,
+      "lufs": -36.9,
+      "peak": -19.73,
+      "rms": -39.26,
+      "duration": 7.8
+    },
+    {
+      "id": "temple",
+      "file": "gusu-temple-courtyard-v3",
+      "gain": 0.55,
+      "lufs": -41.7,
+      "peak": -20.29,
+      "rms": -42.86,
+      "duration": 7.8
+    },
+    {
+      "id": "mudu-market",
+      "file": "gusu-market-steps",
+      "gain": 0.7,
+      "lufs": -39.77,
+      "peak": -11.62,
+      "rms": -41.07,
+      "duration": 5.0
+    },
+    {
+      "id": "outing",
+      "file": "gusu-birds",
+      "gain": 0.65,
+      "lufs": -30.13,
+      "peak": -12.6,
+      "rms": -35.25,
+      "duration": 6.0
+    },
+    {
+      "id": "cloth",
+      "file": "gusu-cloth-loom",
+      "gain": 0.6,
+      "lufs": -32.05,
+      "peak": -14.61,
+      "rms": -34.23,
+      "duration": 6.0
+    },
+    {
+      "id": "school",
+      "file": "gusu-school-guqin-v4",
+      "gain": 0.65,
+      "lufs": -45.91,
+      "peak": -22.81,
+      "rms": -46.52,
+      "duration": 8.0
+    }
+  ],
+  "q": [
+    {
+      "id": "taxi",
+      "file": "taxi",
+      "gain": 0.8,
+      "lufs": -20.53,
+      "peak": -4.95,
+      "rms": -20.84,
+      "duration": 6.0
+    },
+    {
+      "id": "relay",
+      "file": "relay",
+      "gain": 0.8,
+      "lufs": -28.4,
+      "peak": -5.05,
+      "rms": -29.15,
+      "duration": 7.0
+    },
+    {
+      "id": "farewell",
+      "file": "donkey",
+      "gain": 1,
+      "lufs": -24.4,
+      "peak": -7.58,
+      "rms": -24.79,
+      "duration": 3.5
+    },
+    {
+      "id": "ten-thousand",
+      "file": "ten-thousand",
+      "gain": 0.7,
+      "lufs": -20.98,
+      "peak": -5.83,
+      "rms": -21.81,
+      "duration": 6.0
+    },
+    {
+      "id": "delivery",
+      "file": "delivery",
+      "gain": 0.8,
+      "lufs": -28.11,
+      "peak": -5.25,
+      "rms": -29.27,
+      "duration": 5.0
+    },
+    {
+      "id": "right-of-way",
+      "file": "right-of-way",
+      "gain": 0.8,
+      "lufs": -21.01,
+      "peak": -5.16,
+      "rms": -21.59,
+      "duration": 6.0
+    },
+    {
+      "id": "poles",
+      "file": "poles",
+      "gain": 0.7,
+      "lufs": -26.12,
+      "peak": -6.27,
+      "rms": -23.51,
+      "duration": 6.0
+    },
+    {
+      "id": "close-call",
+      "file": "close-call",
+      "gain": 0.8,
+      "lufs": -18.67,
+      "peak": -4.01,
+      "rms": -19.25,
+      "duration": 7.0
+    },
+    {
+      "id": "towpath",
+      "file": "towpath",
+      "gain": 0.8,
+      "lufs": -23.64,
+      "peak": -4.97,
+      "rms": -24.55,
+      "duration": 7.5
+    },
+    {
+      "id": "rudder",
+      "file": "rudder",
+      "gain": 0.8,
+      "lufs": -22.92,
+      "peak": -5.25,
+      "rms": -24.0,
+      "duration": 7.0
+    },
+    {
+      "id": "oar",
+      "file": "oar",
+      "gain": 0.8,
+      "lufs": -21.68,
+      "peak": -3.73,
+      "rms": -21.9,
+      "duration": 7.5
+    },
+    {
+      "id": "table",
+      "file": "table",
+      "gain": 0.7,
+      "lufs": -19.66,
+      "peak": -5.99,
+      "rms": -19.19,
+      "duration": 5.0
+    },
+    {
+      "id": "life-aboard",
+      "file": "life-aboard",
+      "gain": 0.7,
+      "lufs": -26.85,
+      "peak": -6.38,
+      "rms": -29.24,
+      "duration": 7.0
+    }
+  ]
+}

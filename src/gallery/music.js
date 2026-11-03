@@ -1,24 +1,26 @@
-// Music for the gallery, and only the gallery: three pieces played in order,
-// round and round, behind the paintings. The speaker in the top right turns it
-// on and off (the user's choice is remembered); entering the painting fades it
-// out, leaving brings it back if it was on. Plain <audio>, as the Mercury
+// Three pieces stream in the gallery. Exploration suspends background music
+// while its scene foley remains available with an independent mute preference.
+// Plain <audio>, as the Mercury
 // playground does it: long tracks stream rather than decode in one piece.
-const KEY = 'painting.music';
 const FADE_MS = 700;
 
-export function createMusic(root, tracks, { toggle }) {
+export function createMusic(root, tracks, { toggle, onEnabledChange, onChange, controls = false, autoplay = true }) {
   const audio = new Audio();
   audio.preload = 'none';
   let i = 0;
-  let on = false;                 // the user wants music
+  let on = autoplay;              // the direct gallery controls start paused
   let suspended = false;          // inside the painting
   let fade = 0;
-  try { on = localStorage.getItem(KEY) === 'on'; } catch {}
+  let level = 1;
+  let blocked = false;
+  let volume = 1;
+  let request = 0;
 
   function reflect() {
-    toggle.classList.toggle('is-muted', !on);
-    toggle.setAttribute('aria-pressed', String(on));
-    toggle.setAttribute('aria-label', on ? 'Music on' : 'Music off');
+    toggle?.classList.toggle('is-muted', !on || blocked || volume === 0);
+    if (!controls) toggle?.setAttribute('aria-pressed', String(on));
+    toggle?.setAttribute('aria-label', controls ? 'Music player' : on ? (blocked ? 'Play music' : 'Music on') : 'Music off');
+    onChange?.();
   }
 
   function ramp(to, done) {
@@ -39,10 +41,19 @@ export function createMusic(root, tracks, { toggle }) {
 
   // start (or continue) the current track; false if the browser refused
   async function start() {
+    if (!on || suspended || !tracks.length) return false;
+    const turn = ++request;
     if (!audio.src) load(i);
-    audio.volume = 0;
-    try { await audio.play(); } catch { return false; }
-    ramp(1);
+    // Request audible playback. Starting at zero can be treated as muted
+    // autoplay and then paused by the browser when the fade becomes audible.
+    if (audio.paused) audio.volume = Math.min(0.08, level * volume);
+    try { await audio.play(); } catch { if (turn === request) { blocked = true; reflect(); } return false; }
+    if (turn !== request) return false;
+    // A pending play can resolve after the visitor muted or entered a painting.
+    if (!on || suspended) { audio.pause(); return false; }
+    blocked = false;
+    reflect();
+    ramp(level * volume);
     return true;
   }
 
@@ -50,27 +61,70 @@ export function createMusic(root, tracks, { toggle }) {
     ramp(0, () => audio.pause());
   }
 
-  audio.addEventListener('ended', () => { load(i + 1); if (on && !suspended) start(); });
-
-  toggle.addEventListener('click', async (e) => {
-    e.stopPropagation();
-    on = !on;
-    if (on && !suspended) on = await start();
-    else if (!on) stop();
-    try { localStorage.setItem(KEY, on ? 'on' : 'off'); } catch {}
+  function select(n, { play = on } = {}) {
+    if (!tracks.length || !Number.isInteger(n)) return;
+    request++;
+    clearInterval(fade);
+    audio.pause();
+    load(n);
+    try { audio.currentTime = 0; } catch {}
+    on = play;
+    blocked = false;
     reflect();
+    if (on && !suspended) start();
+  }
+  audio.addEventListener('ended', () => select(i + 1));
+
+  function setEnabled(value) {
+    if (on === value) return;
+    on = value;
+    reflect();
+    if (on && !suspended) start();
+    else if (!on) stop();
+    onEnabledChange?.(on);
+  }
+
+  toggle?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (controls) return; // the popup owns this button in the gallery UI
+    // A refused autoplay request is not a visitor mute. The first speaker
+    // click should play the music, rather than turn an inaudible track off.
+    if (on && blocked) { start(); return; }
+    setEnabled(!on);
   });
 
-  // a remembered "on" can only sound after a gesture; try, and show the truth
+  // Autoplay permission is separate from the visitor's sound preference.
+  // Retry after a gesture without changing the switch or storing a false mute.
+  const unlock = (e) => {
+    // Speakers own their click, so pointerdown cannot unlock and then have the
+    // same click immediately mute again. Other gallery gestures unlock early.
+    if (e.target?.closest?.('.sound-toggle, .music-player')) return;
+    if (on && !suspended && audio.paused) start();
+  };
+  const gestures = root.ownerDocument ?? root;
+  for (const name of ['pointerdown', 'click', 'touchend', 'keydown']) gestures.addEventListener(name, unlock, { capture: true });
   reflect();
-  if (on) start().then((ok) => { if (!ok) { on = false; reflect(); } });
+  if (on) start();
 
   return {
+    setEnabled,
+    play() { if (!on) setEnabled(true); else start(); },
+    pause() { setEnabled(false); },
+    select,
+    next() { select(i + 1); },
+    previous() { select(i - 1); },
+    setVolume(value) {
+      if (!Number.isFinite(value)) return;
+      volume = Math.max(0, Math.min(1, value));
+      if (on && !suspended) ramp(level * volume);
+      reflect();
+    },
+    setLevel(value) { level = Math.max(0, Math.min(1, value)); if (on && !suspended) start(); },
     suspend() { suspended = true; if (on) stop(); },
     resume() { suspended = false; if (on) start(); },
     get on() { return on; },
     // dev: what is sounding, and the element itself
     audio,
-    state() { return { on, suspended, track: tracks[i]?.split('/').pop(), paused: audio.paused, volume: audio.volume, time: audio.currentTime }; },
+    state() { return { on, blocked, suspended, index: i, count: tracks.length, volumeLevel: volume, track: tracks[i]?.split('/').pop(), paused: audio.paused, volume: audio.volume, time: audio.currentTime }; },
   };
 }

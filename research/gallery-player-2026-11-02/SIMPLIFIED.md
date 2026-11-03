@@ -1,0 +1,2 @@
+User revision: preserve the current page design and expose only Previous, Pause/Continue, Next. Removed titles/selector/status/volume/header/close; retained the existing corner trigger, small paper strip, thin icons, outside/Escape dismissal and project-entry closure.
+Native browser controls verified: Next, Previous, Pause, Play. Desktop1280x720 and mobile390x844 screenshots inspected. Eleven audio/playlist checks and Vite build859ms passed;git diff --check clean.

@@ -1,0 +1,12 @@
+{
+  "music": {
+    "on": true,
+    "blocked": false,
+    "suspended": false,
+    "track": "pipa-yu.m4a",
+    "paused": false,
+    "volume": 1,
+    "time": 6.014815
+  },
+  "inside": false
+}

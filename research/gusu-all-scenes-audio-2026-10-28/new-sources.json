@@ -1,0 +1,92 @@
+[
+  {
+    "key": "paper",
+    "author": "sokworks",
+    "id": 860360,
+    "url": "https://freesound.org/people/sokworks/sounds/860360/",
+    "preview": "https://cdn.freesound.org/previews/860/860360_19004943-hq.mp3",
+    "file": "860360_19004943-hq.mp3",
+    "license": "CC0 1.0",
+    "sha256": "c7d0de63f8dda95102e54212696d083813f63ae266a19194f605a4a8588382df"
+  },
+  {
+    "key": "loom",
+    "author": "snapcam",
+    "id": 582994,
+    "url": "https://freesound.org/people/snapcam/sounds/582994/",
+    "preview": "https://cdn.freesound.org/previews/582/582994_8373484-hq.mp3",
+    "file": "582994_8373484-hq.mp3",
+    "license": "CC0 1.0",
+    "sha256": "d07b72491150556c098d3cc758c3f8a2bba4b21a44189fdc4f276473c34fdff1"
+  },
+  {
+    "key": "grain",
+    "author": "juanforeromusic",
+    "id": 464005,
+    "url": "https://freesound.org/people/juanforeromusic/sounds/464005/",
+    "preview": "https://cdn.freesound.org/previews/464/464005_2018914-hq.mp3",
+    "file": "464005_2018914-hq.mp3",
+    "license": "CC0 1.0",
+    "sha256": "5d66d92758661dc33255598ed672804dc58e46fcfbdbbc7841b3b3e469c5adb2"
+  },
+  {
+    "key": "fabric",
+    "author": "ValentinPetiteau",
+    "id": 624477,
+    "url": "https://freesound.org/people/ValentinPetiteau/sounds/624477/",
+    "preview": "https://cdn.freesound.org/previews/624/624477_10443988-hq.mp3",
+    "file": "624477_10443988-hq.mp3",
+    "license": "CC0 1.0",
+    "sha256": "c30f989ad1127e0fe2dfe87a83a537198f76a511a3ed2f13721af0c9e3f75ce7"
+  },
+  {
+    "key": "bell",
+    "author": "tec_studio",
+    "id": 668647,
+    "url": "https://freesound.org/people/tec_studio/sounds/668647/",
+    "preview": "https://cdn.freesound.org/previews/668/668647_1431924-hq.mp3",
+    "file": "668647_1431924-hq.mp3",
+    "license": "CC0 1.0",
+    "sha256": "0e392073380356e730443539fa562a78793a5ff361c3b7467cd542321572c57d"
+  },
+  {
+    "key": "gong",
+    "author": "airtaxi",
+    "id": 76886,
+    "url": "https://freesound.org/people/airtaxi/sounds/76886/",
+    "preview": "https://cdn.freesound.org/previews/76/76886_1051883-hq.mp3",
+    "file": "76886_1051883-hq.mp3",
+    "license": "CC0 1.0",
+    "sha256": "72693b455f107624bd06dfc38977cad0f1a3d2729571423a61554a51de7b06d0"
+  },
+  {
+    "key": "drum",
+    "author": "sazanami12",
+    "id": 856550,
+    "url": "https://freesound.org/people/sazanami12/sounds/856550/",
+    "preview": "https://cdn.freesound.org/previews/856/856550_17110092-hq.mp3",
+    "file": "856550_17110092-hq.mp3",
+    "license": "CC0 1.0",
+    "sha256": "8ebd58992edd53840a05b4f91dd901e24b81330ed737fd47d3a1855152436115"
+  },
+  {
+    "key": "stone",
+    "author": "SecureSubset",
+    "id": 813622,
+    "url": "https://freesound.org/people/SecureSubset/sounds/813622/",
+    "preview": "https://cdn.freesound.org/previews/813/813622_16752880-hq.mp3",
+    "file": "813622_16752880-hq.mp3",
+    "license": "CC0 1.0",
+    "sha256": "096ad8bc9a4cd8b7f1cdd2526f5dc6aa49a90d996f3332a43ae58219cc5f3b30"
+  },
+  {
+    "key": "frogs",
+    "author": "sokworks",
+    "id": 868875,
+    "url": "https://freesound.org/people/sokworks/sounds/868875/",
+    "preview": "https://cdn.freesound.org/previews/868/868875_19004943-hq.mp3",
+    "file": "868875_19004943-hq.mp3",
+    "license": "CC0 1.0",
+    "sha256": "d9ff4567f6ba7c7776655b80f8c6d1bd8a3e54c19c0c40a5efd6f45538729e5c"
+  }
+]

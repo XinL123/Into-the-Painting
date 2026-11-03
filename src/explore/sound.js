@@ -7,20 +7,22 @@
 // click, so the browser's autoplay rule is satisfied.
 const FADE_IN = 0.4;
 const FADE_OUT = 0.6;
-const MUTE_KEY = 'painting.sound';
+// Shared across scene controllers for this visit; reset on a full page reload.
+let pageMuted = false;
 
 // the first format this browser plays; files ship as m4a (Safari) and ogg
 const probe = document.createElement('audio');
-const FORMAT = ['m4a', 'ogg'].find((f) =>
-  probe.canPlayType(f === 'm4a' ? 'audio/mp4; codecs="mp4a.40.2"' : 'audio/ogg; codecs="vorbis"') !== '') ?? 'ogg';
+const MIME = { m4a: 'audio/mp4; codecs="mp4a.40.2"', ogg: 'audio/ogg; codecs="vorbis"', wav: 'audio/wav' };
+const FORMATS = Object.keys(MIME).filter((f) => probe.canPlayType(MIME[f]) !== '');
 
 export function createSound(files, { onMuteChange } = {}) {
-  let ctx = null, master = null;
+  let ctx = null, master = null, disposed = false;
+  const requests = new AbortController();
+  const format = (id) => FORMATS.find((f) => files[id]?.[f]);
   let current = null;                       // { id, source, gain }
   const buffers = {};                       // id -> AudioBuffer (decoded on first use)
   const bytes = {};                         // id -> Promise<ArrayBuffer> (fetched early)
-  let muted = false;
-  try { muted = localStorage.getItem(MUTE_KEY) === 'off'; } catch {}
+  let muted = pageMuted;
 
   function context() {
     if (ctx) return ctx;
@@ -33,15 +35,15 @@ export function createSound(files, { onMuteChange } = {}) {
 
   // start fetching the bytes in the background; decoding waits for the context
   function preload(id) {
-    const url = files[id]?.[FORMAT];
-    if (!url || bytes[id]) return;
-    bytes[id] = fetch(url).then((r) => r.arrayBuffer()).catch(() => null);
+    const url = files[id]?.[format(id)];
+    if (disposed || !url || bytes[id]) return;
+    bytes[id] = fetch(url, { signal: requests.signal }).then((r) => r.ok ? r.arrayBuffer() : null).catch(() => null);
   }
   async function buffer(id) {
     if (buffers[id]) return buffers[id];
     preload(id);
     const data = await bytes[id];
-    if (!data) return null;
+    if (!data || disposed) return null;
     buffers[id] = await context().decodeAudioData(data.slice(0));
     return buffers[id];
   }
@@ -50,6 +52,7 @@ export function createSound(files, { onMuteChange } = {}) {
     if (!current) return;
     const { source, gain } = current;
     current = null;
+    if (!source || !gain || !ctx || ctx.state === 'closed') return;
     const now = ctx.currentTime;
     gain.gain.cancelScheduledValues(now);
     gain.gain.setValueAtTime(gain.gain.value, now);
@@ -60,13 +63,15 @@ export function createSound(files, { onMuteChange } = {}) {
   // play a story's sound: { file, mode: 'once' | 'loop', gain? }
   async function play(sound, delay = 0) {
     stop();
-    if (!sound || !files[sound.file]) return;
+    if (disposed || !sound || !files[sound.file]) return;
     const token = { id: sound.file };
     current = token;
     const ac = context();
-    if (ac.state === 'suspended') ac.resume();
-    const buf = await buffer(sound.file);
-    if (current !== token || !buf) return;        // another story came, or the file failed
+    if (ac.state === 'suspended') ac.resume().catch(() => {});
+    let buf;
+    try { buf = await buffer(sound.file); } catch { if (current === token) current = null; return; }
+    if (!buf && current === token) current = null;
+    if (disposed || current !== token || !buf) return;        // another story came, or the file failed
     const source = ac.createBufferSource();
     source.buffer = buf;
     source.loop = sound.mode === 'loop';
@@ -76,13 +81,13 @@ export function createSound(files, { onMuteChange } = {}) {
     gain.gain.linearRampToValueAtTime(sound.gain ?? 1, at + FADE_IN);
     source.connect(gain).connect(master);
     source.start(at);
-    source.onended = () => { if (current === token) current = null; };
+    source.onended = () => { source.disconnect(); gain.disconnect(); if (current === token) current = null; };
     Object.assign(token, { source, gain });
   }
 
   function setMuted(v) {
     muted = v;
-    try { localStorage.setItem(MUTE_KEY, v ? 'off' : 'on'); } catch {}
+    pageMuted = v;
     if (master) {
       const now = ctx.currentTime;
       master.gain.cancelScheduledValues(now);
@@ -93,17 +98,24 @@ export function createSound(files, { onMuteChange } = {}) {
   }
 
   // quiet while the tab is away
-  document.addEventListener('visibilitychange', () => {
+  const onVisibility = () => {
     if (!ctx) return;
     if (document.hidden) ctx.suspend(); else if (current) ctx.resume();
-  });
+  };
+  document.addEventListener('visibilitychange', onVisibility);
 
   return {
+    destroy() {
+      disposed = true; stop(0); requests.abort();
+      document.removeEventListener('visibilitychange', onVisibility);
+      if (ctx && ctx.state !== 'closed') ctx.close().catch(() => {});
+      for (const id of Object.keys(buffers)) delete buffers[id];
+    },
     play, stop, preload,
     get muted() { return muted; },
     setMuted,
     toggle() { setMuted(!muted); },
     // dev: what is sounding right now
-    state() { return { playing: current?.id ?? null, context: ctx?.state ?? 'none', master: master?.gain.value ?? null, format: FORMAT }; },
+    state() { return { playing: current?.id ?? null, context: ctx?.state ?? 'none', master: master?.gain.value ?? null, format: current ? format(current.id) : FORMATS[0], disposed }; },
   };
 }

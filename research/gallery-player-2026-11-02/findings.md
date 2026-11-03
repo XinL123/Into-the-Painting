@@ -1,0 +1,1 @@
+Gallery uses three existing96kbpsAAC streams, not a newly loaded audio playlist. SOURCE.md supplies track names, including 双面燕询 as authored in the uploaded filename. Player stays scoped to gallery; no artist/rights assumptions introduced.

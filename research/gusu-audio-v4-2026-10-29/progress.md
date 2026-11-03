@@ -1,0 +1,11 @@
+Completed locally, no commit/push/deploy.
+- Five scene assignments only:01/06/17/20/21; all17 others unchanged. New versioned clips preserve every previous asset.
+- Wedding now continuous natural suona/percussion performance excerpt from xserra162035 (CC BY4.0), not filtered/pitched chopped cymbal pulses. This is editorial festive atmosphere, not a claim of a recorded wedding or historical reconstruction.
+- School mixes independent xserra161905 guqin phrase at low level beneath pages; distinct instrument/source from garden08 guzheng.
+- Administration replaces heavy flutter with courtyard air and distant steps.
+- Canal uses clarified paddle recording; playback RMS +4.7dB relative to prior version, with headroom.
+- Bridge adds low water and very distant crowd beneath rope.
+- All22 clips remain unique, nonzero, unclipped and<=8s.
+- New CC BY4.0 titles, author, source/licence links and edits credited in About/Sources and audition/compare. Index change is exactly the source-credit replacement, verified against baseline. All historical copy/anchors/paintings and Qingming assets unchanged.
+-85 real-browser interaction/playback/lifecycle/attribution checks passed;5 core checks/build/diff check passed. Five-scene queue verified advanced01→06→17→20, with one native audio playing at a time; Stop paused all.
+- Audition markers label exactly five updated scenes. Subjective musical preference remains for user review.

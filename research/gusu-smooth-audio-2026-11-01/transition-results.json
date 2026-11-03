@@ -1,0 +1,455 @@
+[
+  {
+    "name": "gusu activated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu rejects simultaneous entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu fresh controls",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu story opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu disposed after complete entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu clears lifecycle classes",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu no inline visibility residue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu does not replay initial ink reveal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming activated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming rejects simultaneous entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming fresh controls",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming story opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming disposed after complete entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming clears lifecycle classes",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming no inline visibility residue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming does not replay initial ink reveal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu activated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu rejects simultaneous entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu fresh controls",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu story opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu disposed after complete entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu clears lifecycle classes",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu no inline visibility residue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu does not replay initial ink reveal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming activated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming rejects simultaneous entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming fresh controls",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming story opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming disposed after complete entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming clears lifecycle classes",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming no inline visibility residue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming does not replay initial ink reveal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu activated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu rejects simultaneous entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu disposed after interrupted entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu clears lifecycle classes",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu no inline visibility residue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu does not replay initial ink reveal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming activated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming rejects simultaneous entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming disposed after interrupted entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming clears lifecycle classes",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming no inline visibility residue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming does not replay initial ink reveal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu activated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu rejects simultaneous entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu fresh controls",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu story opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu disposed after complete entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu clears lifecycle classes",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu no inline visibility residue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu does not replay initial ink reveal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming activated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming rejects simultaneous entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming fresh controls",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming story opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming disposed after complete entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming clears lifecycle classes",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming no inline visibility residue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming does not replay initial ink reveal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu activated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu rejects simultaneous entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu fresh controls",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu story opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu disposed after complete entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu clears lifecycle classes",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu no inline visibility residue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu does not replay initial ink reveal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming activated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming rejects simultaneous entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming fresh controls",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming story opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming disposed after complete entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming clears lifecycle classes",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming no inline visibility residue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming does not replay initial ink reveal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu activated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu rejects simultaneous entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu disposed after interrupted entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu clears lifecycle classes",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu no inline visibility residue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "gusu does not replay initial ink reveal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming activated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming rejects simultaneous entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming disposed after interrupted entry",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming clears lifecycle classes",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming no inline visibility residue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "qingming does not replay initial ink reveal",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "No other painting visible on any entrance/inside frame",
+    "pass": true,
+    "detail": {
+      "sampledFrames": 2350,
+      "bad": []
+    }
+  },
+  {
+    "name": "ALL TRANSITION CHECKS PASSED",
+    "pass": true,
+    "detail": ""
+  }
+]

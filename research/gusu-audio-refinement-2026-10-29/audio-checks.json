@@ -1,0 +1,196 @@
+{
+  "clips": [
+    {
+      "scene": 1,
+      "file": "gusu-school-study-v2",
+      "duration": 8.0,
+      "peak": 0.087371826171875,
+      "rms": 0.0041132056281774874,
+      "sha256": "585c4535186489b559be54a420384ffbf1008c5aafd80b299986b98e9a3bb8be"
+    },
+    {
+      "scene": 2,
+      "file": "gusu-cloth-loom",
+      "duration": 6.0,
+      "peak": 0.28594970703125,
+      "rms": 0.03314527144779809,
+      "sha256": "c0f099538df30d7a98e7a45c9380544135f2311918c7e84ed31af459e222f8c7"
+    },
+    {
+      "scene": 3,
+      "file": "gusu-birds",
+      "duration": 6.0,
+      "peak": 0.313140869140625,
+      "rms": 0.027728374591379102,
+      "sha256": "0925b6e18294ab1d2e4625d780d892943231e2d366d721b7165369b62ae40df0"
+    },
+    {
+      "scene": 4,
+      "file": "gusu-market-steps",
+      "duration": 5.0,
+      "peak": 0.389190673828125,
+      "rms": 0.012743390902135259,
+      "sha256": "c362632f99a943796c47ea7b429cc566729d45e21b401ea44d43143df1cca244"
+    },
+    {
+      "scene": 5,
+      "file": "gusu-temple-courtyard-v2",
+      "duration": 8.5,
+      "peak": 0.177520751953125,
+      "rms": 0.012529543306344917,
+      "sha256": "d1de4ca052c0e0af702901d712498513d34e84dea07fdb7b2f92416c2b47f85a"
+    },
+    {
+      "scene": 6,
+      "file": "gusu-wedding-procession-v2",
+      "duration": 10.0,
+      "peak": 0.245819091796875,
+      "rms": 0.05875146584837278,
+      "sha256": "1f14bda13466e4ec2979df920a7846a6e56299c3a4ba09d93a763a9375ff8dfb"
+    },
+    {
+      "scene": 7,
+      "file": "gusu-granary-pour-v2",
+      "duration": 9.0,
+      "peak": 0.182403564453125,
+      "rms": 0.033437052641309764,
+      "sha256": "947be12deaaaba31a8153276051869ee648b63dbb9e5d2f10c6f509c871dd82c"
+    },
+    {
+      "scene": 8,
+      "file": "gusu-garden-gathering-v2",
+      "duration": 8.5,
+      "peak": 0.12939453125,
+      "rms": 0.004529415430459181,
+      "sha256": "9de6ce0c6cad0b293e074da2c0d9002c4d9cdadaf3836c45c7676737e63aeca9"
+    },
+    {
+      "scene": 9,
+      "file": "gusu-water",
+      "duration": 6.0,
+      "peak": 0.46734619140625,
+      "rms": 0.03060574064891668,
+      "sha256": "c6e38049643f86c500a35ffbfef6934ce67a50841589184eb03e93164f952bb8"
+    },
+    {
+      "scene": 10,
+      "file": "gusu-pond-frogs",
+      "duration": 6.0,
+      "peak": 0.159393310546875,
+      "rms": 0.022678961732166675,
+      "sha256": "36abe4c16bd1b0f53ec37a4ab6fd55e5428d31fa7935c3631d69a6ff9dde2654"
+    },
+    {
+      "scene": 11,
+      "file": "gusu-theatre-ensemble-v2",
+      "duration": 10.0,
+      "peak": 0.187408447265625,
+      "rms": 0.02916604103006988,
+      "sha256": "e4273f4ecd5e6ae5db1c727d3daf225ffefc7619aa9687f4c3c70041c07d9e41"
+    },
+    {
+      "scene": 12,
+      "file": "gusu-dye-fabric",
+      "duration": 6.0,
+      "peak": 0.2484130859375,
+      "rms": 0.0021408477040559867,
+      "sha256": "a12ff3c409135e905b940146715af4bd4f66f61734a92586877b751773fa8e0f"
+    },
+    {
+      "scene": 13,
+      "file": "gusu-ruiguang-bell",
+      "duration": 7.0,
+      "peak": 0.199249267578125,
+      "rms": 0.05726401930891745,
+      "sha256": "5e38866e91e1c05fdd6d84715a313c09ea591e0708c62ecead0f9335bba92f0a"
+    },
+    {
+      "scene": 14,
+      "file": "gusu-wharf-crowd-v2",
+      "duration": 9.0,
+      "peak": 0.250244140625,
+      "rms": 0.035287166453141346,
+      "sha256": "b0c97e95ea2fe50a4bc6e547465392d6e5ff81ecd5ba1019d07fd4ab5d5ad196"
+    },
+    {
+      "scene": 15,
+      "file": "gusu-bridge-water-v2",
+      "duration": 8.0,
+      "peak": 0.248382568359375,
+      "rms": 0.009042498294957752,
+      "sha256": "24a5345fd364e72b324c3830c16042c4f55b938ae0a5ad03077c128bb829e5a0"
+    },
+    {
+      "scene": 16,
+      "file": "gusu-tea-pour",
+      "duration": 4.8,
+      "peak": 0.340667724609375,
+      "rms": 0.009995257199505066,
+      "sha256": "69376da080184e91812dfef1867e0ef25a38d5d7ffe2786507aa50408b0f1874"
+    },
+    {
+      "scene": 17,
+      "file": "gusu-official-flags",
+      "duration": 6.0,
+      "peak": 0.251129150390625,
+      "rms": 0.012696926601653767,
+      "sha256": "720fc22e0e4505ccf3148cb7ac93e58377bbd7c188b9e12f8a40ca20ccd56948"
+    },
+    {
+      "scene": 18,
+      "file": "gusu-signs-market",
+      "duration": 6.0,
+      "peak": 0.098236083984375,
+      "rms": 0.02214877710985304,
+      "sha256": "006ae3793ec47855480043b7494f1776ca0b92484316ec3b345cd26f24a532cd"
+    },
+    {
+      "scene": 19,
+      "file": "gusu-city-gate-v2",
+      "duration": 9.0,
+      "peak": 0.244720458984375,
+      "rms": 0.028257492595866466,
+      "sha256": "9d732956bb479b12f612e26128eb1ce83a88fc90a9ee6b60ca143a337eeba2ea"
+    },
+    {
+      "scene": 20,
+      "file": "gusu-paddle",
+      "duration": 6.0,
+      "peak": 0.15643310546875,
+      "rms": 0.008725636089050859,
+      "sha256": "073f2cd3c3ae71037ecd603b2e6c0bd4db6caf9aca5a0e44741f15ab96cf85e8"
+    },
+    {
+      "scene": 21,
+      "file": "gusu-shantang-rope",
+      "duration": 6.0,
+      "peak": 0.110565185546875,
+      "rms": 0.007831082270591164,
+      "sha256": "2fc2df9e3ac8ec31a36c8ff12fd33e613246dfa2747d8b91aea3759181dd9388"
+    },
+    {
+      "scene": 22,
+      "file": "gusu-bamboo",
+      "duration": 6.0,
+      "peak": 0.122711181640625,
+      "rms": 0.023302559412870943,
+      "sha256": "1b76cdab7f3dce407f25012a21e2d52bf4512b122323aa7950f770b55f20af2b"
+    }
+  ],
+  "protected_changes": [
+    "assets/sound/SOURCE.md",
+    "src/paintings/gusu/stories.js"
+  ],
+  "school_before": {
+    "duration": 5.0,
+    "peak": 0.260467529296875,
+    "rms": 0.010116189622684901,
+    "sha256": "4ea10d4150ed56185dddd0561251c8288001f26e154f9ae1638c66c1f7d3e993"
+  },
+  "grain_before": {
+    "duration": 6.0,
+    "peak": 0.285369873046875,
+    "rms": 0.020176137796486814,
+    "sha256": "41b9b4fae47461d39bc2624ef031f1b44154cc56e8522c22b15260ba57933bdc"
+  }
+}

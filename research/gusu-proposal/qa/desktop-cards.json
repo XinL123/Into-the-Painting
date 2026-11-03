@@ -1,0 +1,223 @@
+[
+  {
+    "card": {
+      "bottom": 604.5175170898438,
+      "height": 293.59375,
+      "left": 72,
+      "right": 432,
+      "top": 310.92376708984375,
+      "width": 360,
+      "x": 72,
+      "y": 310.92376708984375
+    },
+    "count": "1 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "left",
+    "title": "School, Scroll-Style"
+  },
+  {
+    "card": {
+      "bottom": 624.7891845703125,
+      "height": 338.59375,
+      "left": 72,
+      "right": 432,
+      "top": 286.1954345703125,
+      "width": 360,
+      "x": 72,
+      "y": 286.1954345703125
+    },
+    "count": "2 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "left",
+    "title": "Cloth Starts at Home"
+  },
+  {
+    "card": {
+      "bottom": 605.2994384765625,
+      "height": 293.59375,
+      "left": 72,
+      "right": 432,
+      "top": 311.7056884765625,
+      "width": 360,
+      "x": 72,
+      "y": 311.7056884765625
+    },
+    "count": "3 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "left",
+    "title": "A Mountain Day Out"
+  },
+  {
+    "card": {
+      "bottom": 613.521484375,
+      "height": 316.0937194824219,
+      "left": 72,
+      "right": 432,
+      "top": 297.4277648925781,
+      "width": 360,
+      "x": 72,
+      "y": 297.4277648925781
+    },
+    "count": "4 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "left",
+    "title": "Wedding Traffic, On Water?"
+  },
+  {
+    "card": {
+      "bottom": 629.296875,
+      "height": 338.59375,
+      "left": 72,
+      "right": 432,
+      "top": 290.703125,
+      "width": 360,
+      "x": 72,
+      "y": 290.703125
+    },
+    "count": "5 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "left",
+    "title": "A Garden Party, Qing-Style"
+  },
+  {
+    "card": {
+      "bottom": 624.8096923828125,
+      "height": 338.5937805175781,
+      "left": 1008,
+      "right": 1368,
+      "top": 286.2159118652344,
+      "width": 360,
+      "x": 1008,
+      "y": 286.2159118652344
+    },
+    "count": "6 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "right",
+    "title": "A Bridge with Nine Arches"
+  },
+  {
+    "card": {
+      "bottom": 628.5632934570312,
+      "height": 338.59375,
+      "left": 1008,
+      "right": 1368,
+      "top": 289.96954345703125,
+      "width": 360,
+      "x": 1008,
+      "y": 289.96954345703125
+    },
+    "count": "7 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "right",
+    "title": "Showtime in Old Suzhou"
+  },
+  {
+    "card": {
+      "bottom": 614.2589111328125,
+      "height": 316.09375,
+      "left": 1008,
+      "right": 1368,
+      "top": 298.1651611328125,
+      "width": 360,
+      "x": 1008,
+      "y": 298.1651611328125
+    },
+    "count": "8 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "right",
+    "title": "A City in Full Color"
+  },
+  {
+    "card": {
+      "bottom": 627.802734375,
+      "height": 338.59375,
+      "left": 1008,
+      "right": 1368,
+      "top": 289.208984375,
+      "width": 360,
+      "x": 1008,
+      "y": 289.208984375
+    },
+    "count": "9 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "right",
+    "title": "Tea with a Name"
+  },
+  {
+    "card": {
+      "bottom": 614.229736328125,
+      "height": 316.0937194824219,
+      "left": 1008,
+      "right": 1368,
+      "top": 298.1360168457031,
+      "width": 360,
+      "x": 1008,
+      "y": 298.1360168457031
+    },
+    "count": "10 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "right",
+    "title": "Signs, Signs Everywhere!"
+  },
+  {
+    "card": {
+      "bottom": 618.046875,
+      "height": 316.09375,
+      "left": 1008,
+      "right": 1368,
+      "top": 301.953125,
+      "width": 360,
+      "x": 1008,
+      "y": 301.953125
+    },
+    "count": "11 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "right",
+    "title": "A City Gate with a Crowd"
+  },
+  {
+    "card": {
+      "bottom": 628.7814331054688,
+      "height": 343.6875,
+      "left": 1008,
+      "right": 1368,
+      "top": 285.09393310546875,
+      "width": 360,
+      "x": 1008,
+      "y": 285.09393310546875
+    },
+    "count": "12 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "right",
+    "title": "A City with Two Kinds of Streets"
+  },
+  {
+    "card": {
+      "bottom": 614.9888916015625,
+      "height": 316.09375,
+      "left": 1008,
+      "right": 1368,
+      "top": 298.8951416015625,
+      "width": 360,
+      "x": 1008,
+      "y": 298.8951416015625
+    },
+    "count": "13 of 13",
+    "dots": 13,
+    "marks": 13,
+    "side": "right",
+    "title": "A Tower at the Finish Line"
+  }
+]
