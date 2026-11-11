@@ -1,0 +1,439 @@
+{
+  "width": 52680,
+  "height": 2683,
+  "rect": {
+    "left": 0,
+    "top": 0,
+    "right": 52680,
+    "bottom": 2683
+  },
+  "master_sha256": "556575e5ec4326bdd03efa6c7cb1545845c6511ff2333826605c5c475f33c07a",
+  "preview": {
+    "file": "web/han-palace-preview.webp",
+    "width": 6000,
+    "height": 306
+  },
+  "entrance": {
+    "file": "web/han-palace-entrance.webp",
+    "width": 2600,
+    "height": 1134,
+    "rect": [
+      19650,
+      0,
+      25800,
+      2683
+    ]
+  },
+  "tiles": [
+    {
+      "file": "tiles/00000.webp",
+      "width": 3172,
+      "height": 1878,
+      "rect": [
+        0,
+        0,
+        4532,
+        2683
+      ]
+    },
+    {
+      "file": "tiles/04500.webp",
+      "width": 3172,
+      "height": 1878,
+      "rect": [
+        4500,
+        0,
+        9032,
+        2683
+      ]
+    },
+    {
+      "file": "tiles/09000.webp",
+      "width": 3172,
+      "height": 1878,
+      "rect": [
+        9000,
+        0,
+        13532,
+        2683
+      ]
+    },
+    {
+      "file": "tiles/13500.webp",
+      "width": 3172,
+      "height": 1878,
+      "rect": [
+        13500,
+        0,
+        18032,
+        2683
+      ]
+    },
+    {
+      "file": "tiles/18000.webp",
+      "width": 3172,
+      "height": 1878,
+      "rect": [
+        18000,
+        0,
+        22532,
+        2683
+      ]
+    },
+    {
+      "file": "tiles/22500.webp",
+      "width": 3172,
+      "height": 1878,
+      "rect": [
+        22500,
+        0,
+        27032,
+        2683
+      ]
+    },
+    {
+      "file": "tiles/27000.webp",
+      "width": 3172,
+      "height": 1878,
+      "rect": [
+        27000,
+        0,
+        31532,
+        2683
+      ]
+    },
+    {
+      "file": "tiles/31500.webp",
+      "width": 3172,
+      "height": 1878,
+      "rect": [
+        31500,
+        0,
+        36032,
+        2683
+      ]
+    },
+    {
+      "file": "tiles/36000.webp",
+      "width": 3172,
+      "height": 1878,
+      "rect": [
+        36000,
+        0,
+        40532,
+        2683
+      ]
+    },
+    {
+      "file": "tiles/40500.webp",
+      "width": 3172,
+      "height": 1878,
+      "rect": [
+        40500,
+        0,
+        45032,
+        2683
+      ]
+    },
+    {
+      "file": "tiles/45000.webp",
+      "width": 3172,
+      "height": 1878,
+      "rect": [
+        45000,
+        0,
+        49532,
+        2683
+      ]
+    },
+    {
+      "file": "tiles/49500.webp",
+      "width": 2226,
+      "height": 1878,
+      "rect": [
+        49500,
+        0,
+        52680,
+        2683
+      ]
+    }
+  ],
+  "details": {
+    "shelf-mark": {
+      "file": "details/shelf-mark.webp",
+      "width": 722,
+      "height": 618,
+      "rect": [
+        50229,
+        2065,
+        50951,
+        2683
+      ],
+      "thumb": "thumbs/shelf-mark.webp"
+    },
+    "swing": {
+      "file": "details/swing.webp",
+      "width": 1330,
+      "height": 2189,
+      "rect": [
+        47785,
+        0,
+        49115,
+        2189
+      ],
+      "thumb": "thumbs/swing.webp"
+    },
+    "rock": {
+      "file": "details/rock.webp",
+      "width": 2090,
+      "height": 2159,
+      "rect": [
+        42805,
+        524,
+        44895,
+        2683
+      ],
+      "thumb": "thumbs/rock.webp"
+    },
+    "gate": {
+      "file": "details/gate.webp",
+      "width": 2400,
+      "height": 2421,
+      "rect": [
+        41020,
+        0,
+        43680,
+        2683
+      ],
+      "thumb": "thumbs/gate.webp"
+    },
+    "mandarin-duck": {
+      "file": "details/mandarin-duck.webp",
+      "width": 608,
+      "height": 608,
+      "rect": [
+        40036,
+        1696,
+        40644,
+        2304
+      ],
+      "thumb": "thumbs/mandarin-duck.webp"
+    },
+    "peacocks": {
+      "file": "details/peacocks.webp",
+      "width": 2400,
+      "height": 1813,
+      "rect": [
+        34715,
+        243,
+        37945,
+        2683
+      ],
+      "thumb": "thumbs/peacocks.webp"
+    },
+    "watering": {
+      "file": "details/watering.webp",
+      "width": 3900,
+      "height": 1873,
+      "rect": [
+        28097,
+        0,
+        33683,
+        2683
+      ],
+      "thumb": "thumbs/watering.webp"
+    },
+    "flowers": {
+      "file": "details/flowers.webp",
+      "width": 1254,
+      "height": 1786,
+      "rect": [
+        28303,
+        857,
+        29557,
+        2643
+      ],
+      "thumb": "thumbs/flowers.webp"
+    },
+    "toilette": {
+      "file": "details/toilette.webp",
+      "width": 1672,
+      "height": 1068,
+      "rect": [
+        25684,
+        0,
+        27356,
+        1068
+      ],
+      "thumb": "thumbs/toilette.webp"
+    },
+    "dance": {
+      "file": "details/dance.webp",
+      "width": 1520,
+      "height": 1558,
+      "rect": [
+        24320,
+        431,
+        25840,
+        1989
+      ],
+      "thumb": "thumbs/dance.webp"
+    },
+    "ensemble": {
+      "file": "details/ensemble.webp",
+      "width": 1862,
+      "height": 2052,
+      "rect": [
+        22539,
+        74,
+        24401,
+        2126
+      ],
+      "thumb": "thumbs/ensemble.webp"
+    },
+    "cat": {
+      "file": "details/cat.webp",
+      "width": 590,
+      "height": 514,
+      "rect": [
+        22910,
+        108,
+        23500,
+        622
+      ],
+      "thumb": "thumbs/cat.webp"
+    },
+    "qin": {
+      "file": "details/qin.webp",
+      "width": 1368,
+      "height": 1520,
+      "rect": [
+        21606,
+        340,
+        22974,
+        1860
+      ],
+      "thumb": "thumbs/qin.webp"
+    },
+    "doucao": {
+      "file": "details/doucao.webp",
+      "width": 1730,
+      "height": 1639,
+      "rect": [
+        18710,
+        1044,
+        20440,
+        2683
+      ],
+      "thumb": "thumbs/doucao.webp"
+    },
+    "reading": {
+      "file": "details/reading.webp",
+      "width": 1900,
+      "height": 874,
+      "rect": [
+        18530,
+        153,
+        20430,
+        1027
+      ],
+      "thumb": "thumbs/reading.webp"
+    },
+    "parrot": {
+      "file": "details/parrot.webp",
+      "width": 1502,
+      "height": 1368,
+      "rect": [
+        17184,
+        636,
+        18686,
+        2004
+      ],
+      "thumb": "thumbs/parrot.webp"
+    },
+    "go": {
+      "file": "details/go.webp",
+      "width": 1768,
+      "height": 1464,
+      "rect": [
+        15631,
+        733,
+        17399,
+        2197
+      ],
+      "thumb": "thumbs/go.webp"
+    },
+    "infants": {
+      "file": "details/infants.webp",
+      "width": 2204,
+      "height": 1102,
+      "rect": [
+        14958,
+        19,
+        17162,
+        1121
+      ],
+      "thumb": "thumbs/infants.webp"
+    },
+    "embroidery": {
+      "file": "details/embroidery.webp",
+      "width": 1672,
+      "height": 1205,
+      "rect": [
+        13934,
+        0,
+        15606,
+        1205
+      ],
+      "thumb": "thumbs/embroidery.webp"
+    },
+    "ironing": {
+      "file": "details/ironing.webp",
+      "width": 1558,
+      "height": 1292,
+      "rect": [
+        13951,
+        654,
+        15509,
+        1946
+      ],
+      "thumb": "thumbs/ironing.webp"
+    },
+    "harp": {
+      "file": "details/harp.webp",
+      "width": 1958,
+      "height": 1171,
+      "rect": [
+        11276,
+        0,
+        13234,
+        1171
+      ],
+      "thumb": "thumbs/harp.webp"
+    },
+    "portrait": {
+      "file": "details/portrait.webp",
+      "width": 2356,
+      "height": 2065,
+      "rect": [
+        8692,
+        0,
+        11048,
+        2065
+      ],
+      "thumb": "thumbs/portrait.webp"
+    },
+    "fan-chase": {
+      "file": "details/fan-chase.webp",
+      "width": 894,
+      "height": 1336,
+      "rect": [
+        6838,
+        1347,
+        7732,
+        2683
+      ],
+      "thumb": "thumbs/fan-chase.webp"
+    }
+  }
+}

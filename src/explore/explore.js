@@ -8,7 +8,7 @@ import { reducedMotion } from '../motion.js';
 // the browser never has to hold a 16,000-pixel-wide layer.
 import gsap from 'gsap';
 import { createSound } from './sound.js';
-import { createImageCache, loadImage } from './images.js';
+import { createImageCache, loadImage, loadBitmap } from './images.js';
 import { sceneFrame } from './framing.js';
 
 const BAND = 0.86;            // the scroll's height as a share of the window at rest
@@ -35,7 +35,7 @@ export function createExplore(root, scene, stories, { onStoryChange, onMuteChang
   const card = root.querySelector('.story');
   const progress = root.querySelector('.progress');
   root.querySelector('.explore-hint span:last-child').textContent =
-    root.dataset.painting === 'gusu' ? 'Look for the small golden marks' : 'Look for the small red marks';
+    `Look for the small ${{ gusu: 'golden', 'han-palace': 'blue' }[root.dataset.painting] ?? 'red'} marks`;
   const soundToggles = [root.querySelector('.explore .sound-toggle')];   // independent from gallery music
 
   const t = { x: 0, y: 0, s: 1 };          // picture -> screen: sx = x + px * s
@@ -46,18 +46,22 @@ export function createExplore(root, scene, stories, { onStoryChange, onMuteChang
   const requests = new AbortController();
   const listen = (node, name, fn, options = {}) => node.addEventListener(name, fn, { ...options, signal: events.signal });
   const maxZoom = scene.maxZoom ?? MAX_ZOOM;
+  // Numbered discoveries whose progress row follows the scroll from left to right.
+  const numbered = root.dataset.painting === 'gusu' || Boolean(scene.numbered);
   const status = el('div', 'image-status');
   status.hidden = true; status.setAttribute('role', 'status');
   const statusText = el('span', null, 'Some image detail could not load.');
   const retry = el('button', null, 'Retry'); retry.type = 'button';
   status.append(statusText, retry); view.append(status);
   const detailCache = createImageCache({ limit: 3, onChange: schedule });
-  const tileCache = createImageCache({ limit: 4, onChange: schedule });
+  const tileCache = createImageCache({ limit: 4, load: loadBitmap, onChange: schedule });
   let open = null;                         // index of the story being looked at
-  // A few small, explicitly framed details permit a modest extra enlargement.
+  // Small, explicitly framed details permit extra enlargement (story.maxZoom), so
+  // a little scene is not left tiny in the window. 1.8 is the ceiling: beyond it
+  // the 1,010 px Suzhou scan turns visibly soft.
   // Ordinary Gusu navigation and all Qingming zoom limits remain unchanged.
   const zoomLimit = (i = open) => scene.edgeAware && stories[i]?.maxZoom
-    ? Math.min(1.5, Math.max(maxZoom, stories[i].maxZoom)) : maxZoom;
+    ? Math.min(1.8, Math.max(maxZoom, stories[i].maxZoom)) : maxZoom;
   let drag = null;
   let tween = null;
   let picture = null, baseFailed = false;
@@ -86,7 +90,7 @@ export function createExplore(root, scene, stories, { onStoryChange, onMuteChang
   // ---- marks and progress ----
   const marks = stories.map((story, i) => {
     const [x0, y0, x1, y1] = story.box;
-    const label = root.dataset.painting === 'gusu' ? `${String(i + 1).padStart(2, '0')} · ${story.title}` : story.title;
+    const label = numbered ? `${String(i + 1).padStart(2, '0')} · ${story.title}` : story.title;
     const m = el('button', 'mark');
     m.dataset.storyId = story.id;
     m.dataset.storyIndex = i;
@@ -128,7 +132,7 @@ export function createExplore(root, scene, stories, { onStoryChange, onMuteChang
 
   // Gusu story data, marker numbering and navigation share the same left-to-right order.
   // Stable story IDs keep artwork, sound and copy attached to the same scene.
-  const spatialMarks = root.dataset.painting === 'gusu'
+  const spatialMarks = numbered
     ? [...marks].sort((a, b) => a.px - b.px || a.py - b.py)
     : marks;
   progress.replaceChildren(...spatialMarks.map((m) => m.dot));
@@ -175,7 +179,8 @@ export function createExplore(root, scene, stories, { onStoryChange, onMuteChang
         const [a,b,c,d] = tile.rect;
         const x0 = Math.max(a, left), x1 = Math.min(c, right);
         const y0 = clamp(-t.y/t.s, b, d), y1 = clamp((vh-t.y)/t.s, b, d);
-        if (x1>x0 && y1>y0) ctx.drawImage(img, x0-a, y0-b, x1-x0, y1-y0,
+        const k = (img.naturalWidth ?? img.width) / (c - a);      // 1 for native tiles; less for downsampled ones
+        if (x1>x0 && y1>y0) ctx.drawImage(img, (x0-a)*k, (y0-b)*k, (x1-x0)*k, (y1-y0)*k,
           t.x+x0*t.s, t.y+y0*t.s, (x1-x0)*t.s, (y1-y0)*t.s);
       }
     }
@@ -278,7 +283,7 @@ export function createExplore(root, scene, stories, { onStoryChange, onMuteChang
   function frame(i, duration = 1.4) {
     if (scene.edgeAware) {
       if (vw <= 800) card.dataset.side='bottom';
-      const { side, x, y, s } = sceneFrame({ box: stories[i].frameBox ?? stories[i].box, width: W, height: H, vw, vh, rest, cardHeight: card.offsetHeight, cardBottom: stories.length > 13 ? 88 : 64, maxZoom: zoomLimit(i) });
+      const { side, x, y, s } = sceneFrame({ box: stories[i].frameBox ?? stories[i].box, width: W, height: H, vw, vh, rest, cardHeight: card.offsetHeight, cardBottom: stories.length > 13 ? 88 : 64, maxZoom: zoomLimit(i), share: stories[i].frameShare ?? scene.frameShare });
       card.dataset.side = side;
       tween?.kill();
       tween = gsap.to(t, { x, y, s, duration: reducedMotion ? 0.01 : duration, ease: 'power2.inOut', onUpdate: schedule });
@@ -477,6 +482,12 @@ export function createExplore(root, scene, stories, { onStoryChange, onMuteChang
   const ready = scene.tiles || entranceImage?.naturalWidth ? Promise.resolve() : base;
 
   measure();
+  // Fetch and decode the segments under the resting view while the gallery
+  // opening is still travelling, so the hand-over to the canvas has nothing to wait for.
+  if (scene.tiles) {
+    const left = clamp(-rest.x / rest.s, 0, W), right = clamp((vw - rest.x) / rest.s, 0, W);
+    for (const tile of scene.tiles) if (tile.rect[2] >= left && tile.rect[0] <= right) tileCache.request(tile.file, tile.url);
+  }
 
   return {
     ready, measure, restRect,

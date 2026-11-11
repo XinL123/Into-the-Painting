@@ -4,6 +4,8 @@ import stretch from '../../assets/paintings/qingming/stretch/stretch.json';
 import { stories } from './qingming/stories.js';
 import gusuManifest from '../../assets/paintings/gusu/scene.json';
 import { stories as gusuStories } from './gusu/stories.js';
+import hanManifest from '../../assets/paintings/han-palace/scene.json';
+import { stories as hanStories } from './han-palace/stories.js';
 
 const stretchFiles = import.meta.glob('../../assets/paintings/qingming/stretch/{web,details}/*.webp', {
   eager: true, query: '?url', import: 'default',
@@ -12,6 +14,10 @@ const stretchUrl = (rel) => stretchFiles[`../../assets/paintings/qingming/stretc
 
 const gusuFiles = import.meta.glob('../../assets/paintings/gusu/{web,tiles,details,thumbs}/*.webp', { eager: true, query: '?url', import: 'default' });
 const gusuUrl = (rel) => gusuFiles[`../../assets/paintings/gusu/${rel}`];
+
+const hanFiles = import.meta.glob('../../assets/paintings/han-palace/{web,tiles,details,thumbs}/*.webp', { eager: true, query: '?url', import: 'default' });
+const hanUrl = (rel) => hanFiles[`../../assets/paintings/han-palace/${rel}`];
+const hanCoverX = 23310; // master x of the pipa and zheng players, the gallery cover
 
 const gallery = import.meta.glob('../../assets/paintings/*/web/*.webp', {
   eager: true, query: '?url', import: 'default',
@@ -76,6 +82,8 @@ export const paintings = [
       details: Object.fromEntries(Object.entries(gusuManifest.details).map(([id, d]) => [id, { ...d, url: gusuUrl(d.file), thumb: gusuUrl(d.thumb) }])),
       maxZoom: 1.25,
       edgeAware: true,
+      // an opened scene may take half the window's width (the default is 43%)
+      frameShare: 0.5,
       detailFilter: 'none',
       stories: gusuStories,
       sounds,
@@ -105,16 +113,33 @@ export const paintings = [
     },
   },
   {
-    id: 'cloudy-mountains',
-    title: { en: 'Cloudy Mountains', zh: '云山图' },
-    artist: { en: 'Mi Youren', zh: '米友仁' },
-    period: { en: 'Southern Song, 1130', zh: '南宋' },
-    collection: { en: CMA },
-    credit: 'CC0',
-    image: galleryUrl('cloudy-mountains'),
+    id: 'han-palace',
+    live: true,
+    title: { en: 'Spring Dawn in the Han Palace', zh: '汉宫春晓图' },
+    artist: { en: 'Qiu Ying', zh: '仇英' },
+    period: { en: 'Ming dynasty, c. 1542', zh: '明' },
+    collection: { en: 'National Palace Museum, Taipei' },
+    credit: 'Image: Wikimedia Commons, public domain reproduction',
+    // Reversible replacement: the complete original artwork remains exported below.
+    replaces: 'cloudy-mountains',
     brush: brushUrl('brush-cloudy'),
     place: { x: 60.2, y: 22.5, w: 11.2, h: 54, rotate: -1.4 },
-    position: '37% 50%',
+    scene: {
+      ...hanManifest,
+      focus: { x: hanCoverX / hanManifest.width, y: 0.5 },
+      // the gallery cover comes in on the pipa and zheng players
+      cover: { zoom: 1.4, y: 0.45 },
+      flat: [{ url: hanUrl(hanManifest.preview.file), width: hanManifest.preview.width }],
+      entrance: { ...hanManifest.entrance, url: hanUrl(hanManifest.entrance.file) },
+      tiles: hanManifest.tiles.map((tile) => ({ ...tile, url: hanUrl(tile.file) })),
+      details: Object.fromEntries(Object.entries(hanManifest.details).map(([id, d]) => [id, { ...d, url: hanUrl(d.file), thumb: hanUrl(d.thumb) }])),
+      maxZoom: 1,            // the scan's print screen shows above native size
+      edgeAware: true,
+      numbered: true,        // route order is right to left; dots mirror the scroll
+      detailFilter: 'none',  // colour is already matched to the museum's photographs
+      stories: hanStories,
+      sounds,
+    },
   },
   {
     id: 'peach-birds',
@@ -147,5 +172,17 @@ export const archivedPaintings = [
     brush: brushUrl('brush-juran'),
     place: { x: 28.2, y: 21, w: 11.4, h: 56, rotate: 1 },
     position: '50% 30%',
+  },
+  {
+    id: 'cloudy-mountains',
+    title: { en: 'Cloudy Mountains', zh: '云山图' },
+    artist: { en: 'Mi Youren', zh: '米友仁' },
+    period: { en: 'Southern Song, 1130', zh: '南宋' },
+    collection: { en: CMA },
+    credit: 'CC0',
+    image: galleryUrl('cloudy-mountains'),
+    brush: brushUrl('brush-cloudy'),
+    place: { x: 60.2, y: 22.5, w: 11.2, h: 54, rotate: -1.4 },
+    position: '37% 50%',
   }
 ];

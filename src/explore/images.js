@@ -17,12 +17,32 @@ export function loadImage(url, signal) {
   });
 }
 
+// The same, handed over already decoded. Drawing a freshly loaded <img> to a
+// canvas decodes it on the main thread (a 6-megapixel tile costs ~100 ms and
+// shows as a hitch); an ImageBitmap is decoded off it.
+export async function loadBitmap(url, signal) {
+  const img = await loadImage(url, signal);
+  if (typeof createImageBitmap !== 'function') return img;
+  try {
+    const bitmap = await createImageBitmap(img);
+    if (signal?.aborted) { bitmap.close(); throw new DOMException('Aborted', 'AbortError'); }
+    return bitmap;
+  } catch (error) {
+    if (error?.name === 'AbortError') throw error;
+    return img;
+  }
+}
+
 export function createImageCache({ limit = 6, concurrency = 2, load = loadImage, onChange = () => {}, onError = () => {} } = {}) {
   const entries = new Map();
   const pending = new Map();
   let queue = [], disposed = false;
   function trim() {
-    while (entries.size > limit) entries.delete(entries.keys().next().value);
+    while (entries.size > limit) {
+      const key = entries.keys().next().value;
+      entries.get(key)?.close?.();
+      entries.delete(key);
+    }
   }
   function pump() {
     if (disposed) return;
@@ -58,7 +78,7 @@ export function createImageCache({ limit = 6, concurrency = 2, load = loadImage,
       for (const [key, controller] of pending) if (!wanted.has(key)) controller.abort();
     },
     retry() { for (const [key, img] of entries) if (!img) entries.delete(key); },
-    destroy() { disposed = true; queue = []; for (const c of pending.values()) c.abort(); pending.clear(); entries.clear(); },
+    destroy() { disposed = true; queue = []; for (const c of pending.values()) c.abort(); pending.clear(); for (const v of entries.values()) v?.close?.(); entries.clear(); },
     state() { return { cached: entries.size, pending: pending.size, queued: queue.length, disposed }; },
   };
 }

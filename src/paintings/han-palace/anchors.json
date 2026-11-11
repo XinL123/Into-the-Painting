@@ -1,0 +1,329 @@
+[
+  {
+    "id": "shelf-mark",
+    "title": "A Collector's Shelf Mark?",
+    "box": [
+      50400,
+      2250,
+      50780,
+      2660
+    ],
+    "anchor": [
+      50660,
+      2555
+    ],
+    "maxZoom": 1.3
+  },
+  {
+    "id": "swing",
+    "title": "A Swing with Nobody on It?",
+    "box": [
+      48100,
+      420,
+      48800,
+      1640
+    ],
+    "anchor": [
+      48450,
+      1050
+    ]
+  },
+  {
+    "id": "rock",
+    "title": "A Rock Worth Admiring?",
+    "box": [
+      43300,
+      1150,
+      44400,
+      2540
+    ],
+    "anchor": [
+      43850,
+      1850
+    ]
+  },
+  {
+    "id": "gate",
+    "title": "Through the Palace Gate",
+    "box": [
+      41650,
+      520,
+      43050,
+      2683
+    ],
+    "anchor": [
+      42250,
+      1500
+    ]
+  },
+  {
+    "id": "mandarin-duck",
+    "title": "A Duck on the Railing?",
+    "box": [
+      40180,
+      1840,
+      40500,
+      2160
+    ],
+    "anchor": [
+      40330,
+      2010
+    ],
+    "maxZoom": 1.3
+  },
+  {
+    "id": "peacocks",
+    "title": "A Peacock in the Palace?",
+    "box": [
+      35480,
+      950,
+      37180,
+      2520
+    ],
+    "anchor": [
+      36600,
+      2200
+    ]
+  },
+  {
+    "id": "watering",
+    "title": "The Palace Garden Had Work to Do",
+    "box": [
+      29420,
+      720,
+      32360,
+      2540
+    ],
+    "anchor": [
+      31180,
+      2050
+    ],
+    "detailWidth": 3900,
+    "frameShare": 0.62
+  },
+  {
+    "id": "flowers",
+    "title": "Spring Is in the Details",
+    "box": [
+      28600,
+      1280,
+      29260,
+      2220
+    ],
+    "anchor": [
+      28950,
+      1700
+    ]
+  },
+  {
+    "id": "toilette",
+    "title": "Getting Ready for the Day",
+    "box": [
+      26080,
+      140,
+      26960,
+      780
+    ],
+    "anchor": [
+      26500,
+      450
+    ]
+  },
+  {
+    "id": "dance",
+    "title": "A Dance Before the Music Ends?",
+    "box": [
+      24680,
+      800,
+      25480,
+      1620
+    ],
+    "anchor": [
+      25080,
+      1200
+    ]
+  },
+  {
+    "id": "ensemble",
+    "title": "Pipa or Zheng?",
+    "box": [
+      22980,
+      560,
+      23960,
+      1640
+    ],
+    "anchor": [
+      23450,
+      1150
+    ]
+  },
+  {
+    "id": "cat",
+    "title": "Who Is Napping Up There?",
+    "box": [
+      23050,
+      230,
+      23360,
+      500
+    ],
+    "anchor": [
+      23190,
+      340
+    ],
+    "maxZoom": 1.3
+  },
+  {
+    "id": "qin",
+    "title": "Unwrapping the Qin",
+    "box": [
+      21930,
+      700,
+      22650,
+      1500
+    ],
+    "anchor": [
+      22250,
+      1050
+    ]
+  },
+  {
+    "id": "doucao",
+    "title": "A Game with Grass?",
+    "box": [
+      19120,
+      1440,
+      20030,
+      2320
+    ],
+    "anchor": [
+      19600,
+      1850
+    ]
+  },
+  {
+    "id": "reading",
+    "title": "A Quiet Corner for Reading",
+    "box": [
+      18980,
+      360,
+      19980,
+      820
+    ],
+    "anchor": [
+      19450,
+      600
+    ]
+  },
+  {
+    "id": "parrot",
+    "title": "A Parrot Among the Courtiers?",
+    "box": [
+      17540,
+      960,
+      18330,
+      1680
+    ],
+    "anchor": [
+      18180,
+      1450
+    ]
+  },
+  {
+    "id": "go",
+    "title": "A Move on the Go Board",
+    "box": [
+      16050,
+      1080,
+      16980,
+      1850
+    ],
+    "anchor": [
+      16550,
+      1400
+    ]
+  },
+  {
+    "id": "infants",
+    "title": "Children in a Palace Painting?",
+    "box": [
+      15480,
+      280,
+      16640,
+      860
+    ],
+    "anchor": [
+      15800,
+      560
+    ]
+  },
+  {
+    "id": "embroidery",
+    "title": "Threads, Needles, and Patience",
+    "box": [
+      14330,
+      190,
+      15210,
+      890
+    ],
+    "anchor": [
+      14780,
+      560
+    ]
+  },
+  {
+    "id": "ironing",
+    "title": "Ironing, Palace Style",
+    "box": [
+      14320,
+      960,
+      15140,
+      1640
+    ],
+    "anchor": [
+      14750,
+      1280
+    ]
+  },
+  {
+    "id": "harp",
+    "title": "A Harp in a Chinese Palace?",
+    "box": [
+      11740,
+      170,
+      12770,
+      860
+    ],
+    "anchor": [
+      12050,
+      480
+    ]
+  },
+  {
+    "id": "portrait",
+    "title": "Who Is Painting Whom?",
+    "box": [
+      9250,
+      470,
+      10490,
+      1570
+    ],
+    "anchor": [
+      10050,
+      1050
+    ]
+  },
+  {
+    "id": "fan-chase",
+    "title": "A Fan Raised High",
+    "box": [
+      7050,
+      1680,
+      7520,
+      2420
+    ],
+    "anchor": [
+      7280,
+      2000
+    ]
+  }
+]

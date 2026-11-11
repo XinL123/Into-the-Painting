@@ -60,7 +60,12 @@ export function createGallery(root, paintings, { onEnter }) {
     if (p.live) {
       const live = { opening, ink, img, painting: p };
       lives.set(p.id, live);
-      opening.addEventListener('click', () => onEnter(live));
+      opening.addEventListener('click', () => { opening.classList.remove('is-hover'); onEnter(live); });
+      // The name and lift follow the pointer directly as well as :hover, so a
+      // cover answers at once wherever on the stroke the pointer arrives.
+      const over = (on) => () => opening.classList.toggle('is-hover', on);
+      for (const name of ['pointerenter', 'pointermove']) opening.addEventListener(name, over(true), { passive: true });
+      for (const name of ['pointerleave', 'pointercancel', 'blur']) opening.addEventListener(name, over(false));
     }
   });
 
@@ -75,11 +80,12 @@ export function createGallery(root, paintings, { onEnter }) {
       const focus = { x: (scene.focus.x * scene.width - r[0]) / W };
       const bw = ink.clientWidth;
       const bh = ink.clientHeight;
-      const s = Math.max(bw / W, bh / H) * 1.04;
+      // A cover may come closer than the full height of the scroll (scene.cover).
+      const s = Math.max(bw / W, bh / H) * 1.04 * (scene.cover?.zoom ?? 1);
       const w = W * s;
       const h = H * s;
       const left = Math.min(0, Math.max(bw - w, bw / 2 - focus.x * w));
-      const top = Math.min(0, Math.max(bh - h, (bh - h) / 2));
+      const top = Math.min(0, Math.max(bh - h, bh / 2 - (scene.cover?.y ?? 0.5) * h));
       Object.assign(img.style, { left: `${left}px`, top: `${top}px`, width: `${w}px`, height: `${h}px` });
     }
   }

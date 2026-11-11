@@ -19,7 +19,8 @@
     "anchor": [
       5605,
       665
-    ]
+    ],
+    "maxZoom": 1.45
   },
   "gate": {
     "frameBox": [
@@ -37,7 +38,8 @@
       "ry": 135,
       "angle": 8,
       "inner": 0.6
-    }
+    },
+    "maxZoom": 1.5
   },
   "signs": {
     "frameBox": [
@@ -59,7 +61,8 @@
     "anchor": [
       7820,
       350
-    ]
+    ],
+    "maxZoom": 1.7
   },
   "lake-plots": {
     "frameBox": [
@@ -99,7 +102,9 @@
       "ry": 160,
       "angle": 6,
       "inner": 0.6
-    }
+    },
+    "maxZoom": 1.8,
+    "frameShare": 0.6
   },
   "wannian": {
     "frameBox": [
@@ -117,7 +122,8 @@
       "ry": 165,
       "angle": 31,
       "inner": 0.6
-    }
+    },
+    "maxZoom": 1.45
   },
   "ruiguang": {
     "frameBox": [
@@ -135,7 +141,8 @@
       "ry": 115,
       "angle": 0,
       "inner": 0.6
-    }
+    },
+    "maxZoom": 1.8
   },
   "tea": {
     "frameBox": [
@@ -154,7 +161,7 @@
       "angle": -8,
       "inner": 0.6
     },
-    "maxZoom": 1.45
+    "maxZoom": 1.7
   },
   "granary": {
     "frameBox": [
@@ -177,6 +184,42 @@
       "angle": -5,
       "inner": 0.6
     },
+    "maxZoom": 1.7
+  },
+  "bridge": {
+    "maxZoom": 1.75
+  },
+  "school": {
+    "maxZoom": 1.75
+  },
+  "garden": {
+    "maxZoom": 1.7
+  },
+  "shantang-arch": {
+    "maxZoom": 1.55
+  },
+  "pagoda": {
+    "maxZoom": 1.55
+  },
+  "administration": {
+    "maxZoom": 1.5
+  },
+  "cloth": {
+    "maxZoom": 1.45
+  },
+  "wharf": {
+    "maxZoom": 1.45
+  },
+  "theatre": {
+    "maxZoom": 1.45
+  },
+  "temple": {
+    "maxZoom": 1.45
+  },
+  "mudu-market": {
+    "maxZoom": 1.45
+  },
+  "outing": {
     "maxZoom": 1.45
   }
 }

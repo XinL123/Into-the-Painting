@@ -155,3 +155,68 @@ All 22 current Gusu files use the `gusu-balanced-<stable-scene-id>-v5` prefix, w
 Loudness uses 48 kHz mono BS.1770 K weighting, 400 ms windows / 100 ms hops, -70 LUFS absolute and -10 LU relative gates. Values are mono estimates, including the 0.8 playback gain, not stereo programme certification. Target approximately -24.5 LUFS, near the existing Qingming median (-22.92). Selective transient compression preserves headroom; final Ogg measurements in `research/gusu-smooth-audio-2026-11-01/after-levels.json`. Reproducible script: `scripts/prep-gusu-balanced-v5.py`.
 
 School: same licensed xserra Guqin-4.wav (161905, CC BY 4.0), 18–25.8s, brought forward against the existing soft-page mix. Credit and licence links above and in About remain applicable. Administration: existing courtyard breeze/steps plus a different, indistinct crowd passage, 66–73.8s, from SamuelGremaud's CC0 market recording 545756 (https://freesound.org/people/SamuelGremaud/sounds/545756/). Filtered, faded and mixed to suggest quiet activity, not intelligible invented dialogue. All other scenes retain their approved source mixes, with loudness/dynamics adjustments only.
+
+
+## 2026-11-10 — Spring Dawn in the Han Palace (third take, after two rounds of the user's notes; not yet approved by ear)
+
+23 clips `han-<story id>` (.ogg + .m4a), 5.2–7.8 s, played once at gain 0.8, balanced to about -24.5 LUFS like the Suzhou set. Recipes (source, start, length, level, offset): `scripts/prep-han-sound.py`; measured levels: `research/han-palace-proposal/SOUND_LEVELS.json`. Modern recordings used as illustration, not evidence of how a Ming or Han palace sounded.
+
+User direction 2026-11-10: no recording shared between two scenes (the script refuses to build otherwise). The one exception is the zheng piece 546978, heard in three different passages (dance, ensemble, reading).
+
+Sources in use (Freesound HQ player previews):
+
+- [337087, Anthousai](https://freesound.org/people/Anthousai/sounds/337087/) — shelf-mark (3–4.5 s); shelf-mark (5.5–6.9 s); shelf-mark (7.4–9 s); *writing - pen - wide 01.wav*; CC0; `raw/337087_5923045-hq.ogg` sha256 `2828018c61967fb8…`
+- [862995, Valerie-Vivegnis](https://freesound.org/people/Valerie-Vivegnis/sounds/862995/) — swing (3–10.5 s); *26.07.04- Creaky Playground Swing - Rope Friction 1*; CC0; `raw/862995_15375955-hq.ogg` sha256 `1b89f25959372ed4…`
+- 628949 (sparrows, listed earlier in this file) — swing (2–9.5 s)
+- [858679, moreliketrees](https://freesound.org/people/moreliketrees/sounds/858679/) — rock (116–123.5 s); *Outside gentle wind in trees*; CC0; `raw/858679_3736657-hq.ogg` sha256 `80679c3d575b88c6…`
+- [456763, WavJunction.com](https://freesound.org/people/WavJunction.com/sounds/456763/) — gate (0.2–5.2 s); *Gate door drawbridge wooden creaky opens closes hinge.wav*; CC0; `raw/456763_9514571-hq.ogg` sha256 `3231fc8060463ca1…`
+- [263104, pillonoise](https://freesound.org/people/pillonoise/sounds/263104/) — mandarin-duck (40–47 s); *mallard and mandarin ducks (with take off)*; CC0; `raw/263104_2120176-hq.ogg` sha256 `c65196a6d7c004fe…`
+- 318064 (lapping water, listed earlier in this file) — mandarin-duck (31–38 s)
+- [683402, Joker313](https://freesound.org/people/Joker313/sounds/683402/) — mandarin-duck (0.25–6.25 s); *wren2.wav*; CC0; `raw/683402_14868065-hq.ogg` sha256 `4e28994017ac1f23…`
+- [810711, richwise](https://freesound.org/people/richwise/sounds/810711/) — peacocks (1–7.2 s); *Peacock call*; CC0; `raw/810711_1481531-hq.ogg` sha256 `13fcbafcddb0b59e…`
+- [532890, Bricklover](https://freesound.org/people/Bricklover/sounds/532890/) — watering (4–11 s); *Watering with a Watering Can.mp3*; CC0; `raw/532890_8919922-hq.ogg` sha256 `de7b1246cbf7505c…`
+- [402395, tomattka](https://freesound.org/people/tomattka/sounds/402395/) — watering (0–3 s); *Girl's Laugh*; CC0; `raw/402395_6351775-hq.ogg` sha256 `544d8a8a0e4e303b…`
+- [377742, BlueSiren](https://freesound.org/people/BlueSiren/sounds/377742/) — watering (0.5–2.1 s); *Girl Chuckle.wav*; CC0; `raw/377742_6769439-hq.ogg` sha256 `51f539dac4ee8ca7…`
+- [452109, kyles](https://freesound.org/people/kyles/sounds/452109/) — flowers (0–2.8 s); *branch break snap crunch nice.wav*; CC0; `raw/452109_612689-hq.ogg` sha256 `e74affc8f121955b…`
+- [181251, mario1298](https://freesound.org/people/mario1298/sounds/181251/) — flowers (8–13.6 s); *a gentle breeze, wind 2*; CC0; `raw/181251_499617-hq.ogg` sha256 `54a0c89db4c47e8b…`
+- [452534, bwarpus99](https://freesound.org/people/bwarpus99/sounds/452534/) — toilette (1–8 s); *Hair being brushed*; CC0; `raw/452534_9034957-hq.ogg` sha256 `7a243f56374b8477…`
+- [349361, MaGs_007](https://freesound.org/people/MaGs_007/sounds/349361/) — toilette (2.6–4.8 s); *Jewelry-001.wav*; CC0; `raw/349361_3935168-hq.ogg` sha256 `102c07189bf41dea…`
+- [737205, Sadiquecat](https://freesound.org/people/Sadiquecat/sounds/737205/) — toilette (19–26.5 s); *Eurasian golden oriole - bird*; CC0; `raw/737205_5287430-hq.ogg` sha256 `93db2bea6d184f66…`
+- [546978, mmiron](https://freesound.org/people/mmiron/sounds/546978/) — dance (39.5–47.3 s); ensemble (5.6–13.4 s); reading (19.5–27.3 s); *chinese_music_guzheng02.wav*; **CC BY 4.0**; `raw/546978_1565498-hq.ogg` sha256 `c716347d681f7607…`
+- [530105, tdumoulin](https://freesound.org/people/tdumoulin/sounds/530105/) — dance (0.6–8.4 s); *Dancing in dress.wav*; CC0; `raw/530105_8194884-hq.ogg` sha256 `87f5988a10475856…`
+- [546977, mmiron](https://freesound.org/people/mmiron/sounds/546977/) — ensemble (37–44.8 s); *chinese_music_pipa_voice.wav*; **CC BY 4.0**; `raw/546977_1565498-hq.ogg` sha256 `4fedac9987a5a947…`
+- [463790, shyguy014](https://freesound.org/people/shyguy014/sounds/463790/) — cat (6.5–14.1 s); *Cat Purr.wav*; CC0; `raw/463790_7805928-hq.ogg` sha256 `02300423f4cad6cc…`
+- [418160, 14FPanskaZummer_Jakub](https://freesound.org/people/14FPanskaZummer_Jakub/sounds/418160/) — cat (2–4.2 s); *Cat meowing and purr.wav*; CC0; `raw/418160_8165240-hq.ogg` sha256 `e36fb68a7a18833a…`
+- 161905 (guqin, CC BY 4.0, listed earlier in this file) — qin (18–23.2 s)
+- 624477 (cloth, listed earlier in this file) — qin (2–5 s)
+- [342838, tuhinpaul](https://freesound.org/people/tuhinpaul/sounds/342838/) — doucao (0.5–8 s); *young girls giggling and laughing.wav*; CC0; `raw/342838_1313542-hq.ogg` sha256 `65244c059f53a227…`
+- [636945, instinctual777](https://freesound.org/people/instinctual777/sounds/636945/) — doucao (10–17.5 s); *grass rustling.wav*; CC0; `raw/636945_12365112-hq.ogg` sha256 `bf390e927f5fdc28…`
+- [594510, werrie.f_](https://freesound.org/people/werrie.f_/sounds/594510/) — doucao (0.5–5.5 s); *Hands running through grass 21100214.wav*; CC0; `raw/594510_13390922-hq.ogg` sha256 `8432b405a0e56bcf…`
+- [365542, Caitlin_100](https://freesound.org/people/Caitlin_100/sounds/365542/) — reading (1.1–2.2 s); reading (4.2–5.2 s); reading (5.5–6.5 s); *Turning pages.mp3*; CC0; `raw/365542_5407590-hq.ogg` sha256 `54c524ad2d906fc0…`
+- [187928, castle81](https://freesound.org/people/castle81/sounds/187928/) — parrot (0.25–5.75 s); *Parrots.wav*; CC0; `raw/187928_3488149-hq.ogg` sha256 `70cf9abed7b43086…`
+- [588317, billhails2](https://freesound.org/people/billhails2/sounds/588317/) — go (0–0.9 s); go (2.7–3.5 s); go (5.95–6.85 s); *GoStoneSounds.ogg*; CC0; `raw/588317_12616419-hq.ogg` sha256 `e1190b59d1a42751…`
+- [482822, craigsmith](https://freesound.org/people/craigsmith/sounds/482822/) — go (38–45.8 s); *R28-50-Young Women Speak Mandarin and Giggle.wav*; CC0; `raw/482822_2524442-hq.ogg` sha256 `f3f71f6afd877797…`
+- [461789, viktorullri](https://freesound.org/people/viktorullri/sounds/461789/) — infants (0.25–6.25 s); *2-4 baby laugh.wav*; CC0; `raw/461789_9676877-hq.ogg` sha256 `9a66adb91efa33ac…`
+- [456772, WavJunction.com](https://freesound.org/people/WavJunction.com/sounds/456772/) — embroidery (1–8 s); *Sewing Pin Through Fabric.wav*; CC0; `raw/456772_9514571-hq.ogg` sha256 `0211f5d31d723654…`
+- [218308, SpliceSound](https://freesound.org/people/SpliceSound/sounds/218308/) — embroidery (0–7 s); *Girl, female, laughing, giggling.wav*; CC0; `raw/218308_1480854-hq.ogg` sha256 `494ec725ca9930d9…`
+- [471161, AuDRoger](https://freesound.org/people/AuDRoger/sounds/471161/) — ironing (0–5.8 s); *embers 1.wav*; CC0; `raw/471161_9938764-hq.ogg` sha256 `f3a96bc530b0c39d…`
+- [844390, Maraboop](https://freesound.org/people/Maraboop/sounds/844390/) — ironing (0–6.4 s); *Cloth flaps*; CC0; `raw/844390_12265799-hq.ogg` sha256 `7875bbcb5c2312f9…`
+- [415476, luckylittleraven](https://freesound.org/people/luckylittleraven/sounds/415476/) — harp (0–5.5 s); *Harp Short 5.wav*; CC0; `raw/415476_2112203-hq.ogg` sha256 `e51c13635d1b11c0…`
+- [222145, ajaysm](https://freesound.org/people/ajaysm/sounds/222145/) — harp (0–0.31 s); *bangu_15*; **CC BY 4.0**; `raw/222145_2385996-hq.ogg` sha256 `fa7654114ce8b04a…`
+- [729108, digital.arts.MA](https://freesound.org/people/digital.arts.MA/sounds/729108/) — portrait (4.5–6.3 s); portrait (9.5–11.3 s); *brush painting sounds*; CC0; `raw/729108_13854561-hq.ogg` sha256 `ac2ba5983bd01c39…`
+- [675805, craigsmith](https://freesound.org/people/craigsmith/sounds/675805/) — portrait (20–27.5 s); *S11-01 Group of girls talking; laughing; giggling; interior; dull; might work for bg.wav*; CC0; `raw/675805_2524442-hq.ogg` sha256 `8cfd05d0aab74ccd…`
+- [399931, moxobna](https://freesound.org/people/moxobna/sounds/399931/) — portrait (4–10 s); *Woman Laughing*; CC0; `raw/399931_43834-hq.ogg` sha256 `0599211c04b932d1…`
+- [751473, Borgory](https://freesound.org/people/Borgory/sounds/751473/) — fan-chase (38–45.5 s); *Soft Wind in the Trees - Leaves rustle*; CC0; `raw/751473_801011-hq.ogg` sha256 `d95bbd9135e592ac…`
+
+Downloaded but not used in the current take (kept in raw/): 784653, 179346, 196255, 767470, 625686, 508673, 397333, 582364, 147013, 194905. Downloaded and deleted unused: 396868, 530112, 334985, 480756.
+
+Third pass 2026-11-10 (user notes): watering laughter replaced by two soft single laughs; shelf-mark quill (heard as snoring) replaced by a ballpoint pen, high-passed at 500 Hz; portrait chatter raised and one woman's quiet laughter added; doucao gains two grass-rustle recordings; the cat's meow is heard twice.
+
+Limits and things to check by ear:
+- ensemble / dance / reading: pipa 546977 and zheng 546978 are live recordings from Suzhou. Passages were chosen from spectrograms to avoid the singer and the applause (pipa applause at 84–88 s, zheng at 65 s+); unverified by ear.
+- go: the murmur is a 1940s-era film-library recording of two young women speaking Mandarin, low-passed at 2.4 kHz and kept low so that words are not intelligible.
+- portrait, watering, embroidery, doucao: four different recordings of girls or young women laughing or talking; none is Chinese speech, all are band-limited and low.
+- harp: no konghou recording was found; the harp is a swarmandal (an Indian plucked harp-zither), the clapper a single Beijing-opera ban stroke repeated three times.
+- cat: a real cat's meow and purr, at the user's request; the card text still leaves cat-or-lapdog open.
+- shelf-mark: a modern pen on paper stands in for writing; a Chinese brush is close to silent.
+- mandarin-duck: a mixed mallard and mandarin flock; the wren is a European recording.
